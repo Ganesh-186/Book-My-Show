@@ -1,0 +1,335 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "District Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - button "Periamet Kannappar Thidal, Chennai" [ref=e21] [cursor=pointer]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: Periamet
+            - generic [ref=e26]: Kannappar Thidal, Chennai
+        - generic [ref=e29]:
+          - button "Open search" [ref=e30] [cursor=pointer]:
+            - generic [ref=e31]:
+              - button "All" [ref=e32]
+              - generic [ref=e37]: Search for events, movies, restaurants...
+          - button "Login" [ref=e43] [cursor=pointer]
+      - navigation "Primary" [ref=e48]:
+        - link "For you" [ref=e49] [cursor=pointer]:
+          - /url: /
+        - link "Dining" [ref=e56] [cursor=pointer]:
+          - /url: /dining/
+        - link "Movies" [ref=e59] [cursor=pointer]:
+          - /url: /movies/
+        - link "Events" [ref=e62] [cursor=pointer]:
+          - /url: /events/
+        - link "Stores" [ref=e65] [cursor=pointer]:
+          - /url: /stores/
+        - link "Activities" [ref=e68] [cursor=pointer]:
+          - /url: /activities/
+        - link "Play" [ref=e71] [cursor=pointer]:
+          - /url: /play/
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: Top Tamil movies near you
+        - generic [ref=e82]:
+          - 'link "O.M: Operation Mole O.M: Operation Mole UA16+ | Tamil" [ref=e83] [cursor=pointer]':
+            - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-MV225928
+            - generic [ref=e85]:
+              - 'img "O.M: Operation Mole" [ref=e86]'
+              - generic [ref=e87]:
+                - 'heading "O.M: Operation Mole" [level=5] [ref=e88]'
+                - generic [ref=e89]: UA16+ | Tamil
+          - link "Ramayana Ramayana U | Tamil and 2 more" [ref=e90] [cursor=pointer]:
+            - /url: https://www.district.in/movies/ramayana-movie-tickets-MV176276
+            - generic [ref=e92]:
+              - img "Ramayana" [ref=e93]
+              - generic [ref=e94]:
+                - heading "Ramayana" [level=5] [ref=e95]
+                - generic [ref=e96]: U | Tamil and 2 more
+          - link "Scene Scene UA16+ | Tamil" [ref=e97] [cursor=pointer]:
+            - /url: https://www.district.in/movies/scene-movie-tickets-MV233181
+            - generic [ref=e99]:
+              - img "Scene" [ref=e100]
+              - generic [ref=e101]:
+                - heading "Scene" [level=5] [ref=e102]
+                - generic [ref=e103]: UA16+ | Tamil
+          - link "John Doe John Doe UA16+ | Tamil" [ref=e104] [cursor=pointer]:
+            - /url: https://www.district.in/movies/john-doe-movie-tickets-MV237453
+            - generic [ref=e106]:
+              - img "John Doe" [ref=e107]
+              - generic [ref=e108]:
+                - heading "John Doe" [level=5] [ref=e109]
+                - generic [ref=e110]: UA16+ | Tamil
+      - generic [ref=e111]:
+        - generic [ref=e112]: Events happening at venues near you
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - link "Koox | Novotel Chennai, Nandanam 9.2 km • Novotel Chennai, Nandanam Next Up Momiji Matsuri Fri, 20 Nov – Fri, 27 Nov, 12:30 PM" [ref=e118] [cursor=pointer]:
+              - /url: /events/koox-novotel-chennai-nandanam19196511/venue-guide
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - generic [ref=e123]: Koox | Novotel Chennai, Nandanam
+                  - generic [ref=e124]: 9.2 km • Novotel Chennai, Nandanam
+                - generic [ref=e125]:
+                  - generic [ref=e126]: Next Up
+                  - generic [ref=e127]: Momiji Matsuri
+                  - generic [ref=e128]: Fri, 20 Nov – Fri, 27 Nov, 12:30 PM
+            - link "Mirabilis Lounge - Bar & Kitchen | Akkarai, Chennai 26.3 km • Akkarai, Chennai Next Up Grand Theft Experience Sat, 21 Nov, 4:00 PM" [ref=e129] [cursor=pointer]:
+              - /url: /events/mirabilis-lounge-bar-kitchen-akkarai-chennai22648197/venue-guide
+              - generic [ref=e132]:
+                - generic [ref=e133]:
+                  - generic [ref=e134]: Mirabilis Lounge - Bar & Kitchen | Akkarai, Chennai
+                  - generic [ref=e135]: 26.3 km • Akkarai, Chennai
+                - generic [ref=e136]:
+                  - generic [ref=e137]: Next Up
+                  - generic [ref=e138]: Grand Theft Experience
+                  - generic [ref=e139]: Sat, 21 Nov, 4:00 PM
+            - link "Jekyll and Hyde | Porur, Chennai 17.7 km • Porur, Chennai Next Up Evergreen Tamizh Retro Raagam with MJ Sri Ram - Copy Sat, 28 Nov, 7:00 PM" [ref=e140] [cursor=pointer]:
+              - /url: /events/jekyll-and-hyde-porur-chennai22056643/venue-guide
+              - generic [ref=e143]:
+                - generic [ref=e144]:
+                  - generic [ref=e145]: Jekyll and Hyde | Porur, Chennai
+                  - generic [ref=e146]: 17.7 km • Porur, Chennai
+                - generic [ref=e147]:
+                  - generic [ref=e148]: Next Up
+                  - generic [ref=e149]: Evergreen Tamizh Retro Raagam with MJ Sri Ram - Copy
+                  - generic [ref=e150]: Sat, 28 Nov, 7:00 PM
+            - link "Secret Story | Nungambakkam, Chennai 6.5 km • Nungambakkam, Chennai Next Up Major Minor Live in Chennai Sat, 28 Nov, 8:00 PM" [ref=e151] [cursor=pointer]:
+              - /url: /events/secret-story-nungambakkam-chennai20420088/venue-guide
+              - generic [ref=e154]:
+                - generic [ref=e155]:
+                  - generic [ref=e156]: Secret Story | Nungambakkam, Chennai
+                  - generic [ref=e157]: 6.5 km • Nungambakkam, Chennai
+                - generic [ref=e158]:
+                  - generic [ref=e159]: Next Up
+                  - generic [ref=e160]: Major Minor Live in Chennai
+                  - generic [ref=e161]: Sat, 28 Nov, 8:00 PM
+            - link "Airtel Arena 290.1 km • Survey No - 147/15, Taluk, near Embassy Riding School, Jala Hobali, Yelahanka, Tharahunise, Bengaluru, Karnataka 562157, India Next Up Gorillaz The Mountain Tour 2027 | Bengaluru Sat, 23 Jan, 6:00 PM" [ref=e162] [cursor=pointer]:
+              - /url: /events/terraform-arena-yelahanka-bengaluru/venue-guide
+              - generic [ref=e165]:
+                - generic [ref=e166]:
+                  - generic [ref=e167]: Airtel Arena
+                  - generic [ref=e168]: 290.1 km • Survey No - 147/15, Taluk, near Embassy Riding School, Jala Hobali, Yelahanka, Tharahunise, Bengaluru, Karnataka 562157, India
+                - generic [ref=e169]:
+                  - generic [ref=e170]: Next Up
+                  - generic [ref=e171]: Gorillaz The Mountain Tour 2027 | Bengaluru
+                  - generic [ref=e172]: Sat, 23 Jan, 6:00 PM
+          - generic [ref=e173]:
+            - button [disabled] [ref=e174]
+            - generic [ref=e176]:
+              - generic "Page 1" [ref=e177]
+              - generic "Page 2" [ref=e178]
+            - button [ref=e179] [cursor=pointer]
+      - generic [ref=e181]:
+        - generic [ref=e182]: Explore music events near you
+        - generic [ref=e187]:
+          - generic [ref=e188]:
+            - 'link "Victoria Public Hall, Chennai Mira : Chapter 1 - Vaigai To Gangai : Kirtan By Swagatha S. Krishnan Sat, 28 Nov, 6:00 PM" [ref=e189] [cursor=pointer]':
+              - /url: https://www.district.in/events/mira-chapter-1-vaigai-to-ganagai-kirtan-by-swagatha-s-krishnan-nov28-2026-buy-tickets
+              - generic [ref=e194]:
+                - generic [ref=e195]: Victoria Public Hall, Chennai
+                - generic [ref=e200]: "Mira : Chapter 1 - Vaigai To Gangai : Kirtan By Swagatha S. Krishnan"
+                - generic [ref=e201]: Sat, 28 Nov, 6:00 PM
+            - link "Bay 146 - The Savera Hotel | The Savera Hotel, RK Salai (Cathedral Road), Chennai Groovejet Fri, 27 Nov, 8:45 PM" [ref=e202] [cursor=pointer]:
+              - /url: https://www.district.in/events/groovejet-nov27-2026-buy-tickets
+              - generic [ref=e207]:
+                - generic [ref=e208]: Bay 146 - The Savera Hotel | The Savera Hotel, RK Salai (Cathedral Road), Chennai
+                - generic [ref=e213]: Groovejet
+                - generic [ref=e214]: Fri, 27 Nov, 8:45 PM
+            - link "Teynampet, Chennai The Kaadhalist - An Intimate Musical Experience Sun, 29 Nov, 7:30 PM" [ref=e215] [cursor=pointer]:
+              - /url: https://www.district.in/events/the-kaadhalist-an-intimate-musical-experience-nov29-2026-buy-tickets
+              - generic [ref=e220]:
+                - generic [ref=e221]: Teynampet, Chennai
+                - generic [ref=e226]: The Kaadhalist - An Intimate Musical Experience
+                - generic [ref=e227]: Sun, 29 Nov, 7:30 PM
+            - link "Kreate by Kraft, Chennai Jam Podalam | Tamil Jamming Sat, 21 Nov, 8:00 PM" [ref=e228] [cursor=pointer]:
+              - /url: https://www.district.in/events/jam-podalam-tamil-jamming-sep26-2026-buy-tickets
+              - generic [ref=e233]:
+                - generic [ref=e234]: Kreate by Kraft, Chennai
+                - generic [ref=e239]: Jam Podalam | Tamil Jamming
+                - generic [ref=e240]: Sat, 21 Nov, 8:00 PM
+            - link "Medai - The Stage, Chennai Kadhal Oru Vambu Da | High on Music Sat, 05 Dec, 7:00 PM" [ref=e241] [cursor=pointer]:
+              - /url: https://www.district.in/events/kadhal-oru-vambu-da-high-on-music-dec5-2026-buy-tickets
+              - generic [ref=e246]:
+                - generic [ref=e247]: Medai - The Stage, Chennai
+                - generic [ref=e252]: Kadhal Oru Vambu Da | High on Music
+                - generic [ref=e253]: Sat, 05 Dec, 7:00 PM
+            - link "YMCA College Of Physical Education , Chennai Shreya Ghoshal - The Unstoppable India Tour | Chennai Sat, 20 Mar, 6:00 PM" [ref=e254] [cursor=pointer]:
+              - /url: https://www.district.in/events/shreya-ghoshal-the-unstoppable-india-tour-chennai-buy-tickets
+              - generic [ref=e259]:
+                - generic [ref=e260]: YMCA College Of Physical Education , Chennai
+                - generic [ref=e265]: Shreya Ghoshal - The Unstoppable India Tour | Chennai
+                - generic [ref=e266]: Sat, 20 Mar, 6:00 PM
+            - link "Copper Chimney, Chennai Copper Chimney Velachery, Live Music Sat, 21 Nov onwards, Multiple Dates" [ref=e267] [cursor=pointer]:
+              - /url: https://www.district.in/events/copper-chimney-velachery-live-music-jul3-2026-buy-tickets
+              - generic [ref=e272]:
+                - generic [ref=e273]: Copper Chimney, Chennai
+                - generic [ref=e278]: Copper Chimney Velachery, Live Music
+                - generic [ref=e279]: Sat, 21 Nov onwards, Multiple Dates
+            - link "Jekyll and Hyde | Porur, Chennai, Chennai Evergreen Tamizh Retro Raagam with MJ Sri Ram - Copy Sat, 28 Nov, 7:00 PM" [ref=e280] [cursor=pointer]:
+              - /url: https://www.district.in/events/evergreen-tamizh-retro-raagam-with-mj-sri-ram-copy-nov28-2026-buy-tickets
+              - generic [ref=e285]:
+                - generic [ref=e286]: Jekyll and Hyde | Porur, Chennai, Chennai
+                - generic [ref=e291]: Evergreen Tamizh Retro Raagam with MJ Sri Ram - Copy
+                - generic [ref=e292]: Sat, 28 Nov, 7:00 PM
+            - link "The Goat Pub & Dining | Porur, Chennai, Chennai Throwback Tamil Night with Playback Singer Satyan Sat, 28 Nov, 7:00 PM" [ref=e293] [cursor=pointer]:
+              - /url: https://www.district.in/events/throwback-tamil-night-with-playback-singer-satyan-nov28-2026-buy-tickets
+              - generic [ref=e298]:
+                - generic [ref=e299]: The Goat Pub & Dining | Porur, Chennai, Chennai
+                - generic [ref=e304]: Throwback Tamil Night with Playback Singer Satyan
+                - generic [ref=e305]: Sat, 28 Nov, 7:00 PM
+            - link "VGP Wonder World, Chennai Chennai's First Ever Night Theme Park Party - VGP Wonder World Every Sat, 6:00 PM to 11:00 PM" [ref=e306] [cursor=pointer]:
+              - /url: https://www.district.in/events/chennais-first-ever-night-theme-park-party-vgp-wonder-world-apr18-2026-buy-tickets
+              - generic [ref=e311]:
+                - generic [ref=e312]: VGP Wonder World, Chennai
+                - generic [ref=e317]: Chennai's First Ever Night Theme Park Party - VGP Wonder World
+                - generic [ref=e318]: Every Sat, 6:00 PM to 11:00 PM
+          - generic [ref=e319]:
+            - button [disabled] [ref=e320]
+            - generic [ref=e322]:
+              - generic "Page 1" [ref=e323]
+              - generic "Page 2" [ref=e324]
+              - generic "Page 3" [ref=e325]
+            - button [ref=e326] [cursor=pointer]
+      - generic [ref=e328]:
+        - generic [ref=e329]: Artists in your District
+        - generic [ref=e334]:
+          - link [ref=e335] [cursor=pointer]:
+            - /url: https://www.district.in/events/akaash-singh/artist
+            - heading "Akaash Singh" [level=5] [ref=e339]
+          - link [ref=e340] [cursor=pointer]:
+            - /url: https://www.district.in/events/shreya-ghoshal/artist
+            - heading "Shreya Ghoshal" [level=5] [ref=e344]
+          - link [ref=e345] [cursor=pointer]:
+            - /url: https://www.district.in/events/ashish-vidyarthi/artist
+            - heading "Ashish Vidyarthi" [level=5] [ref=e349]
+      - generic [ref=e350]:
+        - generic [ref=e351]: Laugh out loud
+        - generic [ref=e357]:
+          - 'link "Sir Mutha Venkatasubba Rao Concert Hall, Chennai Akaash Singh: Generational Triumph Tour | Chennai Fri, 22 Jan, 8:30 PM" [ref=e358] [cursor=pointer]':
+            - /url: https://www.district.in/events/akaash-singh-generational-triumph-tour-chennai-2027-buy-tickets
+            - generic [ref=e363]:
+              - generic [ref=e364]: Sir Mutha Venkatasubba Rao Concert Hall, Chennai
+              - generic [ref=e369]: "Akaash Singh: Generational Triumph Tour | Chennai"
+              - generic [ref=e370]: Fri, 22 Jan, 8:30 PM
+          - link "Skygarden, Chennai Vikkals - Standup Comedy Fri, 20 Nov – Sun, 22 Nov, Multiple slots" [ref=e371] [cursor=pointer]:
+            - /url: https://www.district.in/events/vikkals-standup-comedy-jun26-2026-buy-tickets
+            - generic [ref=e376]:
+              - generic [ref=e377]: Skygarden, Chennai
+              - generic [ref=e382]: Vikkals - Standup Comedy
+              - generic [ref=e383]: Fri, 20 Nov – Sun, 22 Nov, Multiple slots
+          - link "Trinity Studio, Kodambakkam 10 Mani Doctor - Dark & Adult Standup Comedy show Sat, 21 Nov, 9:00 PM" [ref=e384] [cursor=pointer]:
+            - /url: https://www.district.in/events/10-mani-doctor-dark-adult-standup-comedy-show-jan3-2026-buy-tickets
+            - generic [ref=e389]:
+              - generic [ref=e390]: Trinity Studio, Kodambakkam
+              - generic [ref=e395]: 10 Mani Doctor - Dark & Adult Standup Comedy show
+              - generic [ref=e396]: Sat, 21 Nov, 9:00 PM
+          - link "Black Box at DBICA, Chennai Happily Unmarried Sat, 21 Nov, 6:00 PM" [ref=e397] [cursor=pointer]:
+            - /url: https://www.district.in/events/happily-unmarried-nov21-2026-buy-tickets
+            - generic [ref=e402]:
+              - generic [ref=e403]: Black Box at DBICA, Chennai
+              - generic [ref=e408]: Happily Unmarried
+              - generic [ref=e409]: Sat, 21 Nov, 6:00 PM
+      - generic [ref=e410]:
+        - generic [ref=e411]: Shop by Categories
+        - generic [ref=e415]:
+          - link [ref=e416] [cursor=pointer]:
+            - /url: https://www.district.in/stores/all-stores-stores-in-chennai
+          - link [ref=e419] [cursor=pointer]:
+            - /url: https://www.district.in/stores/footwear-stores-in-chennai
+          - link [ref=e422] [cursor=pointer]:
+            - /url: https://www.district.in/stores/apparel-stores-in-chennai
+          - link [ref=e425] [cursor=pointer]:
+            - /url: https://www.district.in/stores/accessories-stores-in-chennai
+          - link [ref=e428] [cursor=pointer]:
+            - /url: https://www.district.in/stores/salon-wellness-stores-in-chennai
+          - link [ref=e431] [cursor=pointer]:
+            - /url: https://www.district.in/stores/jewellery-stores-in-chennai
+          - link [ref=e434] [cursor=pointer]:
+            - /url: https://www.district.in/stores/home-furniture-stores-in-chennai
+          - link [ref=e437] [cursor=pointer]:
+            - /url: https://www.district.in/stores/beauty-stores-in-chennai
+    - generic [ref=e441]:
+      - generic [ref=e442]:
+        - generic [ref=e443]:
+          - link "District Home" [ref=e444] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e457]:
+            - link "Facebook" [ref=e458] [cursor=pointer]:
+              - /url: https://www.facebook.com/districtupdates
+            - link "Instagram" [ref=e461] [cursor=pointer]:
+              - /url: https://www.instagram.com/districtupdates/
+            - link "Twitter / X" [ref=e466] [cursor=pointer]:
+              - /url: https://x.com/district_india
+            - link "YouTube" [ref=e469] [cursor=pointer]:
+              - /url: https://www.youtube.com/@district.culture
+        - generic [ref=e472]:
+          - generic [ref=e473]: Help
+          - navigation "Help" [ref=e474]:
+            - link "Contact Us" [ref=e475] [cursor=pointer]:
+              - /url: /contact?utm_source=district
+            - link "Corporate Announcements" [ref=e476] [cursor=pointer]:
+              - /url: /corporate-announcements?utm_source=district
+        - generic [ref=e477]:
+          - generic [ref=e478]: Quick Links
+          - navigation "Quick Links" [ref=e479]:
+            - link "List your events" [ref=e480] [cursor=pointer]:
+              - /url: /events/list-your-event?utm_source=district
+            - link "List your restaurant" [ref=e481] [cursor=pointer]:
+              - /url: https://www.zomato.com/partner-with-us/new/?utm_source=district
+        - generic [ref=e482]:
+          - generic [ref=e483]: Useful Links
+          - navigation "Useful Links" [ref=e484]:
+            - link "Zomato" [ref=e485] [cursor=pointer]:
+              - /url: https://www.zomato.com/?utm_source=district
+            - link "Blinkit" [ref=e486] [cursor=pointer]:
+              - /url: https://blinkit.com/?utm_source=district
+            - link "Feeding India" [ref=e487] [cursor=pointer]:
+              - /url: https://www.feedingindia.org?utm_source=district
+            - link "Hyperpure" [ref=e488] [cursor=pointer]:
+              - /url: https://www.hyperpure.com/?utm_source=district
+            - link "District MCP" [ref=e489] [cursor=pointer]:
+              - /url: https://studio.district.in/mcp
+            - link "Eternal SBI Credit Card" [ref=e490] [cursor=pointer]:
+              - /url: https://www.eternal.com/credit-card/?utm_source=district_web
+        - generic [ref=e491]:
+          - generic [ref=e492]: Download App
+          - link [ref=e493] [cursor=pointer]:
+            - /url: https://link.district.in/DSTRKT/appicons
+            - img "QR code to download the District app" [ref=e494]
+            - generic [ref=e495]:
+              - paragraph [ref=e496]: Scan to Download
+              - paragraph [ref=e497]: Available on iOS & Android
+      - generic [ref=e499]:
+        - paragraph [ref=e500]: © 2026 District. All rights reserved.
+        - navigation "Footer legal links" [ref=e502]:
+          - link "Terms & Conditions" [ref=e503] [cursor=pointer]:
+            - /url: /policies/terms-of-service
+          - link "Privacy Policy" [ref=e504] [cursor=pointer]:
+            - /url: /policies/privacy
+      - paragraph [ref=e505]: By accessing this page, you confirm that you have read, understood, and agreed to our Terms of Service, Cookie Policy, Privacy Policy, and Content Guidelines.
+  - alert [ref=e506]
+  - dialog "Log in or sign up" [ref=e509]:
+    - generic [ref=e510]:
+      - generic [ref=e511]:
+        - paragraph [ref=e512]: Log in or sign up
+        - button "Close" [ref=e513] [cursor=pointer]
+      - generic [ref=e517]:
+        - generic [ref=e518]:
+          - button "+91" [ref=e519] [cursor=pointer]
+          - textbox "Enter mobile number" [active] [ref=e524]
+        - generic [ref=e525]:
+          - paragraph [ref=e526]: Send OTP via
+          - generic [ref=e527]:
+            - button "SMS" [ref=e528] [cursor=pointer]
+            - button "WhatsApp" [ref=e531] [cursor=pointer]
+        - paragraph [ref=e534]
+        - button "Continue" [disabled] [ref=e535]
+      - paragraph [ref=e537]:
+        - text: By continuing, you agree to our
+        - link "Terms of Service" [ref=e538] [cursor=pointer]:
+          - /url: /policies/terms-of-service
+        - text: "&"
+        - link "Privacy Policy" [ref=e539] [cursor=pointer]:
+          - /url: /policies/privacy

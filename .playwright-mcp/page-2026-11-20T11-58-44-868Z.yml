@@ -1,0 +1,905 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - main [ref=f1e3]:
+      - generic [ref=f1e7]:
+        - generic [ref=f1e8]:
+          - link "District Home" [ref=f1e9] [cursor=pointer]:
+            - /url: /
+          - button "Periamet Kannappar Thidal, Chennai" [ref=f1e23] [cursor=pointer]:
+            - generic [ref=f1e26]:
+              - generic [ref=f1e27]: Periamet
+              - generic [ref=f1e28]: Kannappar Thidal, Chennai
+          - generic [ref=f1e31]:
+            - button "Open search" [ref=f1e32]:
+              - generic [ref=f1e33]:
+                - button "Movies" [ref=f1e34] [cursor=pointer]
+                - generic [ref=f1e39]:
+                  - generic [ref=f1e40] [cursor=pointer]
+                  - generic [ref=f1e43]: Search for events, movies, restaurants...
+            - button "Login" [ref=f1e45] [cursor=pointer]
+        - navigation "Primary" [ref=f1e50]:
+          - link "For you" [ref=f1e51] [cursor=pointer]:
+            - /url: /
+          - link "Dining" [ref=f1e57] [cursor=pointer]:
+            - /url: /dining/
+          - link "Movies" [ref=f1e60] [cursor=pointer]:
+            - /url: /movies/
+          - link "Events" [ref=f1e64] [cursor=pointer]:
+            - /url: /events/
+          - link "Stores" [ref=f1e67] [cursor=pointer]:
+            - /url: /stores/
+          - link "Activities" [ref=f1e70] [cursor=pointer]:
+            - /url: /activities/
+          - link "Play" [ref=f1e73] [cursor=pointer]:
+            - /url: /play/
+      - article [ref=f1e77]:
+        - generic [ref=f1e78]:
+          - img "Ramayana movie banner" [ref=f1e81]
+          - generic [ref=f1e82]:
+            - generic [ref=f1e83]:
+              - heading "Ramayana" [level=1] [ref=f1e84]
+              - paragraph [ref=f1e85]: U | Hindi +5 more | 3h 15m
+              - paragraph [ref=f1e86]: When Rakshasa emperor Ravana, invincible to all but man, conquers the three worlds, Lord Vishnu descends as noble prince Rama. Bound by his father's vow, Rama enters perilous exile with virtuous Sita and devoted Lakshmana. When Ravana abducts Sita, God in human form rises to fight the greatest war ever. Accessibility through Audio Description (AD) & Closed Captions (CC) is available for this movie on the 'CineDubs' app.
+              - generic [ref=f1e87]:
+                - generic [ref=f1e88]: Epic
+                - generic [ref=f1e89]: Mythological
+              - time [ref=f1e90]: Released 5 November 2026
+              - button "Book Tickets" [ref=f1e91] [cursor=pointer]
+            - generic [ref=f1e92] [cursor=pointer]:
+              - img "Ramayana poster" [ref=f1e93]
+              - button "Watch Ramayana trailer" [ref=f1e94]
+        - generic [ref=f1e97]:
+          - heading "Cast & Crew" [level=2] [ref=f1e98]
+          - generic [ref=f1e99]:
+            - generic [ref=f1e100]:
+              - generic [ref=f1e101]:
+                - img "Ranbir Kapoor" [ref=f1e102]
+                - generic [ref=f1e103]: Ranbir Kapoor
+              - generic [ref=f1e105]:
+                - img "Yash" [ref=f1e106]
+                - generic [ref=f1e107]:
+                  - generic [ref=f1e108]: Yash
+                  - generic [ref=f1e109]: Actor/Producer
+              - generic [ref=f1e110]:
+                - img "Sai Pallavi" [ref=f1e111]
+                - generic [ref=f1e112]: Sai Pallavi
+              - generic [ref=f1e114]:
+                - img "Ravie Dubey" [ref=f1e115]
+                - generic [ref=f1e116]: Ravie Dubey
+              - generic [ref=f1e118]:
+                - img "Sunny Deol" [ref=f1e119]
+                - generic [ref=f1e120]: Sunny Deol
+              - generic [ref=f1e122]:
+                - img "Arun Govil" [ref=f1e123]
+                - generic [ref=f1e124]: Arun Govil
+              - generic [ref=f1e126]:
+                - img "Lara Dutta" [ref=f1e127]
+                - generic [ref=f1e128]: Lara Dutta
+              - generic [ref=f1e130]:
+                - img "Rakul Preet Singh" [ref=f1e131]
+                - generic [ref=f1e132]: Rakul Preet Singh
+              - generic [ref=f1e134]:
+                - img "Kajal Aggarwal" [ref=f1e135]
+                - generic [ref=f1e136]: Kajal Aggarwal
+              - generic [ref=f1e138]:
+                - img "Sheeba Chaddha" [ref=f1e139]
+                - generic [ref=f1e140]: Sheeba Chaddha
+              - generic [ref=f1e142]:
+                - img "Vivek Oberoi" [ref=f1e143]
+                - generic [ref=f1e144]: Vivek Oberoi
+              - generic [ref=f1e146]:
+                - img "Kunal Kapoor" [ref=f1e147]
+                - generic [ref=f1e148]: Kunal Kapoor
+              - generic [ref=f1e150]:
+                - img "Anupam Kher" [ref=f1e151]
+                - generic [ref=f1e152]: Anupam Kher
+              - generic [ref=f1e154]:
+                - img "Addinath M Kothare" [ref=f1e155]
+                - generic [ref=f1e156]: Addinath M Kothare
+              - generic [ref=f1e158]:
+                - img "Saurabh Sachdeva" [ref=f1e159]
+                - generic [ref=f1e160]: Saurabh Sachdeva
+              - generic [ref=f1e162]:
+                - img "Ajinkya Deo" [ref=f1e163]
+                - generic [ref=f1e164]: Ajinkya Deo
+              - generic [ref=f1e166]:
+                - img "Mukesh Tiwari" [ref=f1e167]
+                - generic [ref=f1e168]: Mukesh Tiwari
+              - generic [ref=f1e170]:
+                - img "Shishir Sharma" [ref=f1e171]
+                - generic [ref=f1e172]: Shishir Sharma
+              - generic [ref=f1e174]:
+                - img "Shobana" [ref=f1e175]
+                - generic [ref=f1e176]: Shobana
+              - generic [ref=f1e178]:
+                - img "Indira Krishnan" [ref=f1e179]
+                - generic [ref=f1e180]: Indira Krishnan
+              - generic [ref=f1e182]:
+                - img "Namit Malhotra" [ref=f1e183]
+                - generic [ref=f1e184]:
+                  - generic [ref=f1e185]: Namit Malhotra
+                  - generic [ref=f1e186]: Producer
+              - generic [ref=f1e187]:
+                - img "Nitesh Tiwari" [ref=f1e188]
+                - generic [ref=f1e189]:
+                  - generic [ref=f1e190]: Nitesh Tiwari
+                  - generic [ref=f1e191]: Director
+              - generic [ref=f1e192]:
+                - img "A. R. Rahman" [ref=f1e193]
+                - generic [ref=f1e194]:
+                  - generic [ref=f1e195]: A. R. Rahman
+                  - generic [ref=f1e196]: Music Composer
+              - generic [ref=f1e197]:
+                - img "Hans Zimmer" [ref=f1e198]
+                - generic [ref=f1e199]:
+                  - generic [ref=f1e200]: Hans Zimmer
+                  - generic [ref=f1e201]: Music Composer
+            - button "Scroll right" [ref=f1e202] [cursor=pointer]
+        - generic [ref=f1e205]:
+          - heading "Ratings & Reviews" [level=2] [ref=f1e206]
+          - generic [ref=f1e207]:
+            - generic [ref=f1e208]:
+              - img "The Times of India rating" [ref=f1e209]
+              - generic [ref=f1e210]:
+                - generic [ref=f1e211]: "4.5"
+                - generic [ref=f1e212]: The Times of India
+            - generic [ref=f1e213]:
+              - img "India Today rating" [ref=f1e214]
+              - generic [ref=f1e215]:
+                - generic [ref=f1e216]: "4.0"
+                - generic [ref=f1e217]: India Today
+            - generic [ref=f1e218]:
+              - img "The Indian Express rating" [ref=f1e219]
+              - generic [ref=f1e220]:
+                - generic [ref=f1e221]: "3.0"
+                - generic [ref=f1e222]: The Indian Express
+            - generic [ref=f1e223]:
+              - img "NDTV rating" [ref=f1e224]
+              - generic [ref=f1e225]:
+                - generic [ref=f1e226]: "3.0"
+                - generic [ref=f1e227]: NDTV
+            - generic [ref=f1e228]:
+              - img "News18 rating" [ref=f1e229]
+              - generic [ref=f1e230]:
+                - generic [ref=f1e231]: "3.0"
+                - generic [ref=f1e232]: News18
+            - generic [ref=f1e233]:
+              - img "Taran Adarsh rating" [ref=f1e234]
+              - generic [ref=f1e235]:
+                - generic [ref=f1e236]: "5.0"
+                - generic [ref=f1e237]: Taran Adarsh
+            - generic [ref=f1e238]:
+              - img "Pinkvilla rating" [ref=f1e239]
+              - generic [ref=f1e240]:
+                - generic [ref=f1e241]: "4.0"
+                - generic [ref=f1e242]: Pinkvilla
+          - generic [ref=f1e243]:
+            - generic [ref=f1e244]:
+              - button "The Times of India Renuka Vyavahare I walked into Ramayana with modest expectations, particularly given its rather unusual promotional campaign. The ambition to position it as a global historical-mythological epic is understandable. How... Read more" [ref=f1e245] [cursor=pointer]:
+                - generic [ref=f1e246]:
+                  - img "The Times of India" [ref=f1e247]
+                  - generic [ref=f1e248]: Renuka Vyavahare
+                - paragraph [ref=f1e250]: I walked into Ramayana with modest expectations, particularly given its rather unusual promotional campaign. The ambition to position it as a global historical-mythological epic is understandable. How...
+                - generic [ref=f1e251]: Read more
+              - button "India Today Vineeta Kumar Nitesh Tiwari retells the Ramayana with Ranbir Kapoor, Sai Pallavi and Yash on a vast cinematic canvas. The spectacle succeeds through emotional depth and stirring music, despite uneven artificial ima... Read more" [ref=f1e252] [cursor=pointer]:
+                - generic [ref=f1e253]:
+                  - img "India Today" [ref=f1e254]
+                  - generic [ref=f1e255]: Vineeta Kumar
+                - paragraph [ref=f1e257]: Nitesh Tiwari retells the Ramayana with Ranbir Kapoor, Sai Pallavi and Yash on a vast cinematic canvas. The spectacle succeeds through emotional depth and stirring music, despite uneven artificial ima...
+                - generic [ref=f1e258]: Read more
+              - button "The Indian Express Shubhra Gupta Can Namit Malhotra, whose clear ownership of this latest cinematic re-telling of Ramayana been a constant talking point, have conjured up just the right version of the beloved epic for this age of Kal... Read more" [ref=f1e259] [cursor=pointer]:
+                - generic [ref=f1e260]:
+                  - img "The Indian Express" [ref=f1e261]
+                  - generic [ref=f1e262]: Shubhra Gupta
+                - paragraph [ref=f1e264]: Can Namit Malhotra, whose clear ownership of this latest cinematic re-telling of Ramayana been a constant talking point, have conjured up just the right version of the beloved epic for this age of Kal...
+                - generic [ref=f1e265]: Read more
+              - button "NDTV Saibal Chatterjee On the surface, its veneer of sophistication is impressively consistent but spectacle frequently overshadows substance in Ramayana. The film's gargantuan scale is the first thing that strikes the audi... Read more" [ref=f1e266] [cursor=pointer]:
+                - generic [ref=f1e267]:
+                  - img "NDTV" [ref=f1e268]
+                  - generic [ref=f1e269]: Saibal Chatterjee
+                - paragraph [ref=f1e271]: On the surface, its veneer of sophistication is impressively consistent but spectacle frequently overshadows substance in Ramayana. The film's gargantuan scale is the first thing that strikes the audi...
+                - generic [ref=f1e272]: Read more
+              - button "News18 Chirag Sehgal Namit Malhotra and Nitesh Tiwari’s ambitious retelling of the Hindu mythological epic Ramayana has finally arrived on the big screen, bringing together an ensemble cast led by Ranbir Kapoor, Sai Palla... Read more" [ref=f1e273] [cursor=pointer]:
+                - generic [ref=f1e274]:
+                  - img "News18" [ref=f1e275]
+                  - generic [ref=f1e276]: Chirag Sehgal
+                - paragraph [ref=f1e278]: Namit Malhotra and Nitesh Tiwari’s ambitious retelling of the Hindu mythological epic Ramayana has finally arrived on the big screen, bringing together an ensemble cast led by Ranbir Kapoor, Sai Palla...
+                - generic [ref=f1e279]: Read more
+              - 'button "Taran Adarsh Taran Adarsh #JaiShriRam... You haven''t witnessed anything as MAGNIFICENT on the #Indian screen before... Scale. Visuals. Emotions. And SOUL – #Ramayana has it all... A truly STUNNING cinematic experience. #Ramay... Read more" [ref=f1e280] [cursor=pointer]':
+                - generic [ref=f1e281]:
+                  - img "Taran Adarsh" [ref=f1e282]
+                  - generic [ref=f1e283]: Taran Adarsh
+                - paragraph [ref=f1e285]: "#JaiShriRam... You haven't witnessed anything as MAGNIFICENT on the #Indian screen before... Scale. Visuals. Emotions. And SOUL – #Ramayana has it all... A truly STUNNING cinematic experience. #Ramay..."
+                - generic [ref=f1e286]: Read more
+              - 'button "Pinkvilla Goutham S Ramayana: Part 1, starring Ranbir Kapoor, Yash and Sai Pallavi in the lead roles, was released in theatres on November 5, 2026. Directed by Nitesh Tiwari, the film is produced by Namit Malhotra and Ya... Read more" [ref=f1e287] [cursor=pointer]':
+                - generic [ref=f1e288]:
+                  - img "Pinkvilla" [ref=f1e289]
+                  - generic [ref=f1e290]: Goutham S
+                - paragraph [ref=f1e292]: "Ramayana: Part 1, starring Ranbir Kapoor, Yash and Sai Pallavi in the lead roles, was released in theatres on November 5, 2026. Directed by Nitesh Tiwari, the film is produced by Namit Malhotra and Ya..."
+                - generic [ref=f1e293]: Read more
+            - button "Scroll right" [ref=f1e294] [cursor=pointer]
+        - generic [ref=f1e297]:
+          - heading "Trailers & Videos" [level=2] [ref=f1e298]
+          - generic [ref=f1e299]:
+            - generic [ref=f1e300]:
+              - 'button "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN HINDI 2:23 RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN HINDI" [ref=f1e301] [cursor=pointer]':
+                - generic [ref=f1e302]:
+                  - 'img "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN HINDI" [ref=f1e303]'
+                  - generic [ref=f1e304]: 2:23
+                - generic [ref=f1e305]: "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN HINDI"
+              - 'button "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN TAMIL 2:23 RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN TAMIL" [ref=f1e306] [cursor=pointer]':
+                - generic [ref=f1e307]:
+                  - 'img "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN TAMIL" [ref=f1e308]'
+                  - generic [ref=f1e309]: 2:23
+                - generic [ref=f1e310]: "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN TAMIL"
+              - 'button "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN TELUGU 2:23 RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN TELUGU" [ref=f1e311] [cursor=pointer]':
+                - generic [ref=f1e312]:
+                  - 'img "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN TELUGU" [ref=f1e313]'
+                  - generic [ref=f1e314]: 2:23
+                - generic [ref=f1e315]: "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN TELUGU"
+              - 'button "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN KANNADA 2:23 RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN KANNADA" [ref=f1e316] [cursor=pointer]':
+                - generic [ref=f1e317]:
+                  - 'img "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN KANNADA" [ref=f1e318]'
+                  - generic [ref=f1e319]: 2:23
+                - generic [ref=f1e320]: "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN KANNADA"
+              - 'button "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN MALAYALAM 2:23 RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN MALAYALAM" [ref=f1e321] [cursor=pointer]':
+                - generic [ref=f1e322]:
+                  - 'img "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN MALAYALAM" [ref=f1e323]'
+                  - generic [ref=f1e324]: 2:23
+                - generic [ref=f1e325]: "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN MALAYALAM"
+              - 'button "RAMAYANA: RISE OF A LEGEND - NEW TRAILER 2:36 RAMAYANA: RISE OF A LEGEND - NEW TRAILER" [ref=f1e326] [cursor=pointer]':
+                - generic [ref=f1e327]:
+                  - 'img "RAMAYANA: RISE OF A LEGEND - NEW TRAILER" [ref=f1e328]'
+                  - generic [ref=f1e329]: 2:36
+                - generic [ref=f1e330]: "RAMAYANA: RISE OF A LEGEND - NEW TRAILER"
+              - button "Rama | Namit Malhotra’s Ramayana | Nitesh Tiwari | Ranbir, Yash, Hans Zimmer & A.R. Rahman 2:38 Rama | Namit Malhotra’s Ramayana | Nitesh Tiwari | Ranbir, Yash, Hans Zimmer & A.R. Rahman" [ref=f1e331] [cursor=pointer]:
+                - generic [ref=f1e332]:
+                  - img "Rama | Namit Malhotra’s Ramayana | Nitesh Tiwari | Ranbir, Yash, Hans Zimmer & A.R. Rahman" [ref=f1e333]
+                  - generic [ref=f1e334]: 2:38
+                - generic [ref=f1e335]: Rama | Namit Malhotra’s Ramayana | Nitesh Tiwari | Ranbir, Yash, Hans Zimmer & A.R. Rahman
+            - button "Scroll right" [ref=f1e336] [cursor=pointer]
+        - generic [ref=f1e339]:
+          - heading "Posters & Wallpapers" [level=2] [ref=f1e340]
+          - generic [ref=f1e341]:
+            - generic [ref=f1e342]:
+              - button "Ramayana photo 1" [ref=f1e343] [cursor=pointer]
+              - button "Ramayana photo 2" [ref=f1e344] [cursor=pointer]
+              - button "Ramayana photo 3" [ref=f1e345] [cursor=pointer]
+              - button "Ramayana photo 4" [ref=f1e346] [cursor=pointer]
+              - button "Ramayana photo 5" [ref=f1e347] [cursor=pointer]
+              - button "Ramayana photo 6" [ref=f1e348] [cursor=pointer]
+              - button "Ramayana photo 7" [ref=f1e349] [cursor=pointer]
+              - button "Ramayana photo 8" [ref=f1e350] [cursor=pointer]
+              - button "Ramayana photo 9" [ref=f1e351] [cursor=pointer]
+              - button "Ramayana photo 10" [ref=f1e352] [cursor=pointer]
+              - button "Ramayana photo 11" [ref=f1e353] [cursor=pointer]
+              - button "Ramayana photo 12" [ref=f1e354] [cursor=pointer]
+              - button "Ramayana photo 13" [ref=f1e355] [cursor=pointer]
+              - button "Ramayana photo 14" [ref=f1e356] [cursor=pointer]
+              - button "Ramayana photo 15" [ref=f1e357] [cursor=pointer]
+              - button "Ramayana photo 16" [ref=f1e358] [cursor=pointer]
+              - button "Ramayana photo 17" [ref=f1e359] [cursor=pointer]
+              - button "Ramayana photo 18" [ref=f1e360] [cursor=pointer]
+            - button "Scroll right" [ref=f1e361] [cursor=pointer]
+    - generic [ref=f1e364]:
+      - generic [ref=f1e365]:
+        - generic [ref=f1e367]:
+          - generic [ref=f1e368]: About Ramayana
+          - generic [ref=f1e371]:
+            - generic [ref=f1e373]:
+              - paragraph [ref=f1e374]:
+                - strong [ref=f1e375]: Ramayana
+                - text: ", also known as"
+                - strong [ref=f1e376]: Namit Malhotra’s Ramayana
+                - text: ", is an epic mythological drama directed by Nitesh Tiwari, with Ranbir Kapoor as Lord Rama, Sai Pallavi as Sita, Yash as Ravana and Sunny Deol as Hanumana. Based on the Valmiki Ramayana, it is the first film in a two-part saga produced by Namit Malhotra’s Prime Focus Studios with Yash’s Monster Mind Creations. It has visual effects by Oscar-winning DNEG, a score by A.R. Rahman and Hans Zimmer, and is the first Indian production Filmed for IMAX. Ramayana releases worldwide on"
+                - strong [ref=f1e377]: 5 November 2026
+                - text: .
+              - heading [level=3] [ref=f1e378]:
+                - strong [ref=f1e379]: Ramayana Release Date and Advance Booking
+              - paragraph [ref=f1e380]: The makers have confirmed that Ramayana opens in cinemas worldwide on 5 November 2026, ahead of Diwali, including premium formats such as IMAX and 4DX 3D. Part 2 follows in Diwali 2028. In India, the film releases in Hindi, Tamil, Telugu, Kannada and Malayalam.
+              - paragraph [ref=f1e381]: Early demand has been strong. Advance sales were already building weeks before release in India, and US pre-sales opened ahead of the international launch. With a festive opening and a limited number of IMAX screens in most cities, the best seats, formats and showtimes are likely to go first, so it helps to book early.
+              - heading [level=3] [ref=f1e382]:
+                - strong [ref=f1e383]: "Ramayana Cast and Characters: Who Plays Whom"
+              - paragraph [ref=f1e384]: "The first full trailer confirmed one of the largest ensembles ever assembled for an Indian film. Here is who plays whom in Ramayana:"
+              - paragraph [ref=f1e385]:
+                - strong [ref=f1e386]: Ayodhya
+              - list [ref=f1e387]:
+                - listitem [ref=f1e388]: Ranbir Kapoor as Lord Rama
+                - listitem [ref=f1e389]: Sai Pallavi as Sita
+                - listitem [ref=f1e390]: Ravie Dubey as Lakshmana
+                - listitem [ref=f1e391]: Arun Govil as King Dasharatha
+                - listitem [ref=f1e392]: Lara Dutta as Kaikeyi
+                - listitem [ref=f1e393]: Indira Krishnan as Kaushalya
+                - listitem [ref=f1e394]: Sonal Jha as Sumitra
+                - listitem [ref=f1e395]: Sheeba Chaddha as Manthara
+                - listitem [ref=f1e396]: Adinath Kothare as Bharata
+                - listitem [ref=f1e397]: Nitish Sharma as Shatrughna
+              - paragraph [ref=f1e398]:
+                - strong [ref=f1e399]: Lanka
+              - list [ref=f1e400]:
+                - listitem [ref=f1e401]: Yash as Ravana
+                - listitem [ref=f1e402]: Kajal Aggarwal as Mandodari
+                - listitem [ref=f1e403]: Rakul Preet Singh as Shurpanakha
+                - listitem [ref=f1e404]: Shobana as Kaikasi
+                - listitem [ref=f1e405]: Vivek Oberoi as Vidyutjihva
+                - listitem [ref=f1e406]: Harish Uthaman as Vibhishana
+                - listitem [ref=f1e407]: Faisal Malik as Kumbhakarna
+                - listitem [ref=f1e408]: Saurabh Sachdeva as Mareecha
+              - paragraph [ref=f1e409]:
+                - strong [ref=f1e410]: Sages, gods and allies
+              - list [ref=f1e411]:
+                - listitem [ref=f1e412]: Sunny Deol as Hanumana
+                - listitem [ref=f1e413]: Shishir Sharma as Vashishtha
+                - listitem [ref=f1e414]: Ajinkya Deo as Vishwamitra
+                - listitem [ref=f1e415]: Mukesh Tiwari as Agastya
+                - listitem [ref=f1e416]: Kunal Kapoor as Indra
+                - listitem [ref=f1e417]: Anupam Kher as Jatayu
+              - paragraph [ref=f1e418]: For full profiles, see the Ramayana cast and crew section on this page.
+              - heading [level=3] [ref=f1e419]:
+                - strong [ref=f1e420]: "Arun Govil as King Dasharatha: A Full-Circle Casting"
+              - paragraph [ref=f1e421]:
+                - text: One of the most talked-about choices in Ramayana is Arun Govil returning as King Dasharatha, Rama’s father. For millions of viewers, Govil
+                - emphasis [ref=f1e422]: is
+                - text: Lord Ram, thanks to his role in Ramanand Sagar’s much-loved 1987 television series. Seeing him step into the world of the Ramayana as the king of Ayodhya connects two generations of audiences.
+              - paragraph [ref=f1e423]: The makers marked the casting with a solo poster, and at the trailer launch in Delhi, the cast paid visible tribute to him on stage, with Ranbir Kapoor touching his feet. For viewers who grew up with the TV series, the casting gives the film an emotional connection before a single scene plays, and it has become a major point of conversation around the release.
+              - heading [level=3] [ref=f1e424]:
+                - strong [ref=f1e425]: "Ramayana Music: A.R. Rahman and Hans Zimmer"
+              - paragraph [ref=f1e426]:
+                - text: The film’s soundtrack stands out as one of its biggest highlights. Two-time Oscar winner
+                - strong [ref=f1e427]: A.R. Rahman
+                - text: ", renowned for"
+                - emphasis [ref=f1e428]: Slumdog Millionaire
+                - text: ", joins legendary composer"
+                - strong [ref=f1e429]: Hans Zimmer
+                - text: ", who won Academy Awards for"
+                - emphasis [ref=f1e430]: The Lion King
+                - text: and
+                - emphasis [ref=f1e431]: Dune
+                - text: . Zimmer, also acclaimed for scoring blockbusters like
+                - emphasis [ref=f1e432]: Inception
+                - text: and
+                - emphasis [ref=f1e433]: Interstellar
+                - text: (which feature visual effects by DNEG), makes his Indian cinema debut with
+                - emphasis [ref=f1e434]: Ramayana
+                - text: .
+              - paragraph [ref=f1e435]: The pairing has drawn attention across the industry and among fans, who see it as a meeting of Rahman’s Indian musical roots and Zimmer’s large-scale orchestral style. Rahman has said the project took close to three and a half years of work and called it the most exciting he has done. Poet Dr. Kumar Vishwas has written lyrics for the songs.
+              - paragraph [ref=f1e436]: "What has been released so far:"
+              - list [ref=f1e437]:
+                - listitem [ref=f1e438]:
+                  - strong [ref=f1e439]: Jai Jai Rama
+                  - text: ", the first song, composed by A.R. Rahman, sung by Shreya Ghoshal and Arijit Singh, released on Ganesh Chaturthi"
+                - listitem [ref=f1e440]:
+                  - strong [ref=f1e441]: Ravana Tandav,
+                  - text: the second single, released on Dussehra (20 October). Composed by A.R. Rahman and sung by Vishal Dadlani.
+                - listitem [ref=f1e442]:
+                  - strong [ref=f1e443]: Sita’s Aspiration
+                  - text: composed by A.R. Rahman, with vocals by A.R. Ameen, Vaishali Samant, Rakshita Suresh and Antara Nandy.
+                - listitem [ref=f1e444]:
+                  - strong [ref=f1e445]: Jai Jai Ram (Orchestral),
+                  - text: an instrumental version of the title song by Hans Zimmer and A.R. Rahman.
+                - listitem [ref=f1e446]:
+                  - strong [ref=f1e447]: Rama Theme,
+                  - text: a score piece by Hans Zimmer and A.R. Rahman, released earlier in the campaign.
+                - listitem [ref=f1e448]:
+                  - strong [ref=f1e449]: Mangal Rang,
+                  - text: composed by A.R. Rahman and sung by Arijit Singh and Shreya Ghoshal.
+              - heading [level=3] [ref=f1e450]:
+                - strong [ref=f1e451]: Ramayana Trailer, Posters and Marketing
+              - paragraph [ref=f1e452]: The official trailer of Ramayana released globally at 4:15 am IST on 30 July 2026, during Brahma Muhurat, a time traditionally seen as auspicious for new beginnings. The trailer runs about four minutes and was a big talking point for Yash’s entrance as Ravana. Earlier, the film was showcased at San Diego Comic-Con, and an English-language trailer followed in October.
+              - paragraph [ref=f1e453]:
+                - text: The campaign has leaned on cultural themes. The trailer launch at Bharat Mandapam in New Delhi, titled
+                - emphasis [ref=f1e454]: Pratham Sankalp
+                - text: ", was staged as a cultural celebration and not a conventional film event, and the ground campaign in India has been called"
+                - emphasis [ref=f1e455]: Hamara Satya, Hamara Itihaas
+                - text: . Dharma Distribution is handling the release in India and Sony Pictures outside India. Watch the trailer and see the cast posters on this page.
+              - heading [level=3] [ref=f1e456]:
+                - strong [ref=f1e457]: "Namit Malhotra: The Producer Behind Ramayana"
+              - paragraph [ref=f1e458]:
+                - strong [ref=f1e459]: Namit Malhotra
+                - text: began his career in 1997 by merging his Video Workshop with his father’s film equipment rental business to form Prime Focus. He expanded it globally, and in 2014 merged Prime Focus World with the London-based visual effects studio Double Negative, creating DNEG, where he is CEO. The company has since grown from about 700 to over 8,000 employees. As a producer, his credits include
+                - emphasis [ref=f1e460]: "Brahmastra: Part One – Shiva"
+                - text: ","
+                - emphasis [ref=f1e461]: Fighter
+                - text: and
+                - emphasis [ref=f1e462]: The Garfield Movie
+                - text: .
+              - paragraph [ref=f1e463]:
+                - text: His vision for Ramayana is to tell one of India’s oldest stories at global scale. He has described the film as mixing fantasy and human drama of the kind seen in
+                - emphasis [ref=f1e464]: The Lord of the Rings
+                - text: and
+                - emphasis [ref=f1e465]: Gladiator
+                - text: ", and brought in Hollywood stunt directors Terry Notary and Guy Norris to choreograph the battles. The film has also reportedly assembled over 10,000 crew members worldwide."
+              - paragraph [ref=f1e466]:
+                - strong [ref=f1e467]: "Why DNEG matters:"
+                - text: DNEG has won eight Academy Awards for Best Visual Effects since 2011, for films including
+                - emphasis [ref=f1e468]: Inception
+                - text: ","
+                - emphasis [ref=f1e469]: Interstellar
+                - text: ","
+                - emphasis [ref=f1e470]: Ex Machina
+                - text: ","
+                - emphasis [ref=f1e471]: Blade Runner 2049
+                - text: ","
+                - emphasis [ref=f1e472]: First Man
+                - text: ","
+                - emphasis [ref=f1e473]: Tenet
+                - text: ","
+                - emphasis [ref=f1e474]: Dune
+                - text: and
+                - emphasis [ref=f1e475]: "Dune: Part Two"
+                - text: . For Ramayana, that means the film’s mythological worlds, from Ayodhya to Lanka, are being built by the same studio behind some of the most acclaimed visual effects of the past decade.
+              - heading [level=3] [ref=f1e476]:
+                - strong [ref=f1e477]: Why Watch Ramayana in IMAX? The First Indian Film Filmed for IMAX
+              - paragraph [ref=f1e478]:
+                - text: Ramayana is the first Indian production to receive the
+                - strong [ref=f1e479]: Filmed for IMAX
+                - text: label. That means it was shot with IMAX-certified cameras and framed for IMAX screens from the start, not converted afterwards.
+              - paragraph [ref=f1e480]:
+                - strong [ref=f1e481]: "How IMAX differs from a standard screen:"
+              - list [ref=f1e482]:
+                - listitem [ref=f1e483]:
+                  - strong [ref=f1e484]: "Taller picture:"
+                  - text: Standard widescreen is 2.39:1, while IMAX uses a taller 1.90:1 frame, and some screens support the even taller 1.43:1. You see more of the image above and below, which can mean up to around 40% more picture in expanded sequences.
+                - listitem [ref=f1e485]:
+                  - strong [ref=f1e486]: "Bigger screens and sharper projection:"
+                  - text: IMAX auditoriums are built to fill your field of view, and IMAX with Laser offers brighter, higher-contrast images.
+                - listitem [ref=f1e487]:
+                  - strong [ref=f1e488]: "Sound:"
+                  - text: IMAX uses a dedicated multi-channel system designed for deep bass and surround.
+              - paragraph [ref=f1e489]:
+                - strong [ref=f1e490]: "“Filmed for IMAX” vs “Shot with IMAX”:"
+                - text: “Filmed for IMAX” films use IMAX-certified digital cameras, while “Shot with IMAX” refers to films shot with IMAX’s own film cameras, such as Christopher Nolan’s
+                - emphasis [ref=f1e491]: The Odyssey
+                - text: .
+              - paragraph [ref=f1e492]: For a film built around large-scale battles and mythological worlds, IMAX is the format that shows the most of what the makers shot. Presentation varies by theatre, since not every IMAX screen supports the same aspect ratio, so check the format tag on your showtime.
+              - heading [level=3] [ref=f1e493]:
+                - strong [ref=f1e494]: Book Ramayana Tickets in Chennai
+              - paragraph [ref=f1e495]: Book Ramayana tickets on District by choosing the desired cinema, showtime and seats in the format you prefer. The film is available in Hindi, Tamil, Telugu, Kannada, Malayalam and English at select theatres, so check the language and format tags on each showtime before booking. With a festive release, popular showtimes in Chennai can fill quickly.
+              - heading [level=3] [ref=f1e496]:
+                - strong [ref=f1e497]: Join the Hype for Ramayana
+              - paragraph [ref=f1e498]:
+                - text: Head over to the Ramayana movie page on District app and tap on
+                - strong [ref=f1e499]: Join the Hype
+                - text: and choose
+                - strong [ref=f1e500]: I’m Hyped
+                - text: or
+                - strong [ref=f1e501]: I’m Super Hyped
+                - text: . District creates a shareable card you can post on social media so friends and family know you’re counting down.
+            - button "Read more" [ref=f1e502] [cursor=pointer]
+        - region "Frequently Asked Questions" [ref=f1e503]:
+          - generic [ref=f1e509] [cursor=pointer]:
+            - generic [ref=f1e510]:
+              - heading [level=3] [ref=f1e511]:
+                - button "When was Ramayana released?" [expanded] [ref=f1e512]
+              - region "When was Ramayana released?" [ref=f1e517]:
+                - generic [ref=f1e518]: Ramayana was released on 5 November 2026.
+            - generic [ref=f1e521]:
+              - heading [level=3] [ref=f1e522]:
+                - button "What is the runtime of Ramayana?" [ref=f1e523]
+              - generic: Ramayana has a runtime of 3h 15m.
+            - generic [ref=f1e530]:
+              - heading [level=3] [ref=f1e531]:
+                - button "What languages is Ramayana available in?" [ref=f1e532]
+              - generic: Ramayana is available in Hindi, Tamil, Telugu, Kannada, Malayalam, English.
+            - generic [ref=f1e539]:
+              - heading [level=3] [ref=f1e540]:
+                - button "What is the censor rating of Ramayana?" [ref=f1e541]
+              - generic: Ramayana has a censor rating of U.
+            - generic [ref=f1e548]:
+              - heading [level=3] [ref=f1e549]:
+                - button "Who directed Ramayana?" [ref=f1e550]
+              - generic: Ramayana is directed by Nitesh Tiwari.
+            - generic [ref=f1e557]:
+              - heading [level=3] [ref=f1e558]:
+                - button "Who stars in Ramayana?" [ref=f1e559]
+              - generic: Ramayana stars Ranbir Kapoor, Yash, Sai Pallavi, Ravie Dubey, Sunny Deol.
+            - generic [ref=f1e566]:
+              - heading [level=3] [ref=f1e567]:
+                - button "Cinemas in Top Cities – Find the Best Movie Theatres Near You" [ref=f1e568]
+              - paragraph [ref=f1e574]:
+                - text: From premium IMAX and Dolby Atmos screens to neighbourhood multiplexes, find every cinema near you on District. Compare seating, formats, amenities, and real-time show availability — then book your tickets in seconds. Explore top cinemas across India's biggest cities and never miss a great movie experience.
+                - link [ref=f1e575]:
+                  - /url: https://www.district.in/movies/cinemas-in-delhi-ncr
+                  - text: Delhi/NCR
+                - text: ","
+                - link [ref=f1e576]:
+                  - /url: https://www.district.in/movies/cinemas-in-bengaluru
+                  - text: Bengaluru
+                - text: ","
+                - link [ref=f1e577]:
+                  - /url: https://www.district.in/movies/cinemas-in-mumbai
+                  - text: Mumbai
+                - text: ","
+                - link [ref=f1e578]:
+                  - /url: https://www.district.in/movies/cinemas-in-hyderabad
+                  - text: Hyderabad
+                - text: ","
+                - link [ref=f1e579]:
+                  - /url: https://www.district.in/movies/cinemas-in-kolkata
+                  - text: Kolkata
+                - text: ","
+                - link [ref=f1e580]:
+                  - /url: https://www.district.in/movies/cinemas-in-chandigarh
+                  - text: Chandigarh
+                - text: ","
+                - link [ref=f1e581]:
+                  - /url: https://www.district.in/movies/cinemas-in-ahmedabad
+                  - text: Ahmedabad
+                - text: ","
+                - link [ref=f1e582]:
+                  - /url: https://www.district.in/movies/cinemas-in-pune
+                  - text: Pune
+                - text: ","
+                - link [ref=f1e583]:
+                  - /url: https://www.district.in/movies/cinemas-in-chennai
+                  - text: Chennai
+            - generic [ref=f1e585]:
+              - heading [level=3] [ref=f1e586]:
+                - button "Best Movies Currently Showing in Popular Cities Across India" [ref=f1e587]
+              - paragraph [ref=f1e593]:
+                - text: From the heart of Bollywood in
+                - link [ref=f1e594]:
+                  - /url: https://www.district.in/movies/mumbai-movie-tickets
+                  - text: Mumbai
+                - text: to the cultural richness of
+                - link [ref=f1e595]:
+                  - /url: https://www.district.in/movies/delhi-ncr-movie-tickets
+                  - text: Delhi NCR
+                - text: and the tech-driven vibes of
+                - link [ref=f1e596]:
+                  - /url: https://www.district.in/movies/bengaluru-movie-tickets
+                  - text: Bengaluru
+                - text: ", catch the latest movies in your city. Discover top-rated movies in"
+                - link [ref=f1e597]:
+                  - /url: https://www.district.in/movies/hyderabad-movie-tickets
+                  - text: Hyderabad
+                - text: ", enjoy cinematic experiences with"
+                - link [ref=f1e598]:
+                  - /url: https://www.district.in/movies/chennai-movie-tickets
+                  - text: movies in Chennai
+                - text: and
+                - link [ref=f1e599]:
+                  - /url: https://www.district.in/movies/pune-movie-tickets
+                  - text: movies in Pune
+                - text: ", or dive into regional hits through"
+                - link [ref=f1e600]:
+                  - /url: https://www.district.in/movies/kolkata-movie-tickets
+                  - text: movies in Kolkata
+                - text: and
+                - link [ref=f1e601]:
+                  - /url: https://www.district.in/movies/ahmedabad-movie-tickets
+                  - text: movies in Ahmedabad
+                - text: . Explore stories from the heartland with
+                - link [ref=f1e602]:
+                  - /url: https://www.district.in/movies/jaipur-movie-tickets
+                  - text: movies in Jaipur
+                - text: ","
+                - link [ref=f1e603]:
+                  - /url: https://www.district.in/movies/lucknow-movie-tickets
+                  - text: movies in Lucknow
+                - text: ", and"
+                - link [ref=f1e604]:
+                  - /url: https://www.district.in/movies/indore-movie-tickets
+                  - text: movies in Indore
+                - text: . For movie lovers in Andhra Pradesh and Telangana, check out
+                - link [ref=f1e605]:
+                  - /url: https://www.district.in/movies/vizag-movie-tickets
+                  - text: movies in Vizag
+                - text: ","
+                - link [ref=f1e606]:
+                  - /url: https://www.district.in/movies/guntur-movie-tickets
+                  - text: Guntur
+                - text: ","
+                - link [ref=f1e607]:
+                  - /url: https://www.district.in/movies/vijayawada-movie-tickets
+                  - text: Vijayawada
+                - text: ","
+                - link [ref=f1e608]:
+                  - /url: https://www.district.in/movies/nellore-movie-tickets
+                  - text: Nellore
+                - text: ","
+                - link [ref=f1e609]:
+                  - /url: https://www.district.in/movies/anantapur-movie-tickets
+                  - text: Anantapur
+                - text: ","
+                - link [ref=f1e610]:
+                  - /url: https://www.district.in/movies/kurnool-movie-tickets
+                  - text: Kurnool
+                - text: ", and"
+                - link [ref=f1e611]:
+                  - /url: https://www.district.in/movies/kakinada-movie-tickets
+                  - text: Kakinada
+                - text: . Down south, enjoy movies in Trivandrum, while western India awaits with movies in
+                - link [ref=f1e612]:
+                  - /url: https://www.district.in/movies/surat-movie-tickets
+                  - text: Surat
+                - text: . No matter where you are, every city has a screen waiting for you.
+            - generic [ref=f1e614]:
+              - heading [level=3] [ref=f1e615]:
+                - button "Movies Now Running in Theatres – Book Tickets Online Across India" [ref=f1e616]
+              - paragraph [ref=f1e622]:
+                - text: Catch the latest blockbusters and new releases running in theatres right now. From big-screen action spectacles to family entertainers and indie gems, District brings you real-time showtimes, seat availability, and instant booking — all in one place. Find what's playing in theatres near you today and secure your seats before they sell out.
+                - link [ref=f1e623]:
+                  - /url: https://www.district.in/movies/ramayana-movie-tickets-MV176276
+                  - text: Ramayana
+                - text: ","
+                - link [ref=f1e624]:
+                  - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-MV225928
+                  - text: "O.M: Operation Mole"
+                - text: ","
+                - link [ref=f1e625]:
+                  - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-MV176735
+                  - text: "Avengers: Doomsday"
+                - text: ","
+                - link [ref=f1e626]:
+                  - /url: https://www.district.in/movies/ene-repeat-movie-tickets-MV227790
+                  - text: ENE Repeat
+                - text: ","
+                - link [ref=f1e627]:
+                  - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-MV203295
+                  - text: Aakasamlo Oka Tara
+                - text: ","
+                - link [ref=f1e628]:
+                  - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-MV219297
+                  - text: Godzilla Minus Zero
+                - text: ","
+                - link [ref=f1e629]:
+                  - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-MV233661
+                  - text: Bachelor Party D'eux
+                - text: ","
+                - link [ref=f1e630]:
+                  - /url: https://www.district.in/movies/scene-movie-tickets-MV233181
+                  - text: Scene
+                - text: ","
+                - link [ref=f1e631]:
+                  - /url: https://www.district.in/movies/appakutty-movie-tickets-MV234558
+                  - text: Appakutty
+                - text: ","
+                - link [ref=f1e632]:
+                  - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-MV220828
+                  - text: How to Rob a Bank
+                - text: ","
+                - link [ref=f1e633]:
+                  - /url: https://www.district.in/movies/sathyavan-savithiri-movie-tickets-MV221047
+                  - text: Sathyavan Savithiri
+                - text: ","
+                - link [ref=f1e634]:
+                  - /url: https://www.district.in/movies/kaali-kheti-movie-tickets-MV235145
+                  - text: Kaali Kheti
+                - text: ","
+                - link [ref=f1e635]:
+                  - /url: https://www.district.in/movies/ebenezer-movie-tickets-MV213946
+                  - text: Ebenezer
+                - text: ","
+                - link [ref=f1e636]:
+                  - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-MV174475
+                  - text: "The Hunger Games: Sunrise on the Reaping"
+                - text: ","
+                - link [ref=f1e637]:
+                  - /url: https://www.district.in/movies/aot-movie-tickets-MV239967
+                  - text: AOT
+                - text: ","
+                - link [ref=f1e638]:
+                  - /url: https://www.district.in/movies/chakkven-movie-tickets-MV237361
+                  - text: Chakkven
+                - text: ","
+                - link [ref=f1e639]:
+                  - /url: https://www.district.in/movies/ruff-and-tuff-kanya-movie-tickets-MV236494
+                  - text: Ruff and Tuff Kanya
+                - text: ","
+                - link [ref=f1e640]:
+                  - /url: https://www.district.in/movies/pyre-movie-tickets-MV235005
+                  - text: Pyre
+                - text: ","
+                - link [ref=f1e641]:
+                  - /url: https://www.district.in/movies/dnk-movie-tickets-MV230033
+                  - text: DNK
+                - text: ","
+                - link [ref=f1e642]:
+                  - /url: https://www.district.in/movies/nanhey-dil-movie-tickets-MV239209
+                  - text: Nanhey Dil
+            - generic [ref=f1e644]:
+              - heading [level=3] [ref=f1e645]:
+                - button "Upcoming Movies – New Releases You Can't Miss in 2026" [ref=f1e646]
+              - paragraph [ref=f1e652]:
+                - text: Stay ahead of every release with District's complete upcoming movies calendar. From the most anticipated Bollywood blockbusters and Hollywood sequels to regional gems across Hindi, Tamil, Telugu, Malayalam, Kannada, Marathi and more — find release dates, trailers, and pre-booking details all in one place. Set your plans early and never miss a film you've been waiting for.
+                - link [ref=f1e653]:
+                  - /url: https://www.district.in/movies/sabse-bada-fan-with-laksh-maheshwari-movie-tickets-MV239152
+                  - text: Sabse Bada Fan with Laksh Maheshwari
+                - text: ","
+                - link [ref=f1e654]:
+                  - /url: https://www.district.in/movies/samurai-vengeance-movie-tickets-MV239276
+                  - text: Samurai Vengeance
+                - text: ","
+                - link [ref=f1e655]:
+                  - /url: https://www.district.in/movies/lilo-scratch-movie-tickets-MV231108
+                  - text: Lilo & Scratch
+                - text: ","
+                - link [ref=f1e656]:
+                  - /url: https://www.district.in/movies/gana-dhav-re-movie-tickets-MV239240
+                  - text: Gana Dhav Re
+                - text: ","
+                - link [ref=f1e657]:
+                  - /url: https://www.district.in/movies/606-movie-tickets-MV239321
+                  - text: "606"
+                - text: ","
+                - link [ref=f1e658]:
+                  - /url: https://www.district.in/movies/ananthapayana-movie-tickets-MV239593
+                  - text: Ananthapayana
+                - text: ","
+                - link [ref=f1e659]:
+                  - /url: https://www.district.in/movies/nanakutty-movie-tickets-MV236335
+                  - text: Nanakutty
+                - text: ","
+                - link [ref=f1e660]:
+                  - /url: https://www.district.in/movies/mannavan-movie-tickets-MV236504
+                  - text: Mannavan
+                - text: ","
+                - link [ref=f1e661]:
+                  - /url: https://www.district.in/movies/high-movie-tickets-MV238606
+                  - text: High
+                - text: ","
+                - link [ref=f1e662]:
+                  - /url: https://www.district.in/movies/gunmaaster-g9-movie-tickets-MV201788
+                  - text: Gunmaaster G9
+                - text: ","
+                - link [ref=f1e663]:
+                  - /url: https://www.district.in/movies/laagi-chhoote-na-movie-tickets-MV236787
+                  - text: Laagi Chhoote Na
+                - text: ","
+                - link [ref=f1e664]:
+                  - /url: https://www.district.in/movies/josephine-movie-tickets-MV239041
+                  - text: Josephine
+                - text: ","
+                - link [ref=f1e665]:
+                  - /url: https://www.district.in/movies/rajanivaasa-movie-tickets-MV239037
+                  - text: Rajanivaasa
+                - text: ","
+                - link [ref=f1e666]:
+                  - /url: https://www.district.in/movies/sanjog-movie-tickets-MV236994
+                  - text: Sanjog
+                - text: ","
+                - link [ref=f1e667]:
+                  - /url: https://www.district.in/movies/mysaa-movie-tickets-MV201023
+                  - text: Mysaa
+                - text: ","
+                - link [ref=f1e668]:
+                  - /url: https://www.district.in/movies/focker-in-law-movie-tickets-MV209243
+                  - text: Focker In-Law
+                - text: ","
+                - link [ref=f1e669]:
+                  - /url: https://www.district.in/movies/miranda-warning-movie-tickets-MV233835
+                  - text: Miranda Warning
+                - text: ","
+                - link [ref=f1e670]:
+                  - /url: https://www.district.in/movies/tibro-movie-tickets-MV240162
+                  - text: Tibro
+                - text: ","
+                - link [ref=f1e671]:
+                  - /url: https://www.district.in/movies/bala-369-atajani-kaanche-movie-tickets-MV239616
+                  - text: "Bala 369: Atajani Kaanche"
+                - text: ","
+                - link [ref=f1e672]:
+                  - /url: https://www.district.in/movies/delivery-boy-movie-tickets-MV227404
+                  - text: Delivery Boy
+            - generic [ref=f1e674]:
+              - heading [level=3] [ref=f1e675]:
+                - button "Upcoming Movies in Your Favourite Language – Hindi, Tamil, Telugu & More" [ref=f1e676]
+              - paragraph [ref=f1e682]:
+                - text: Never miss an upcoming release in your favourite language. Browse the complete list of
+                - link [ref=f1e683]:
+                  - /url: https://www.district.in/movies/upcoming-hindi-movies?srsltid=AU7gw4XAkPqJRb0pQE2XFv5BuoBihg48A1Bv-DinXw4thVVWB8i0i5tg
+                  - text: upcoming Hindi movies
+                - text: ", English movies, Tamil movies, Telugu movies, Malayalam movies, Kannada movies, Marathi movies, Punjabi movies, Bengali movies, and more — all with release dates and pre-booking details in one place. Whether you follow Bollywood, Kollywood, Tollywood, or Hollywood, District keeps you ahead of every big release coming soon to theatres near you."
+                - link [ref=f1e684]:
+                  - /url: https://www.district.in/movies/upcoming-telugu-movies
+                  - text: Telugu
+                - text: ","
+                - link [ref=f1e685]:
+                  - /url: https://www.district.in/movies/upcoming-tamil-movies
+                  - text: Tamil
+                - text: ","
+                - link [ref=f1e686]:
+                  - /url: https://www.district.in/movies/upcoming-hindi-movies
+                  - text: Hindi
+                - text: ","
+                - link [ref=f1e687]:
+                  - /url: https://www.district.in/movies/upcoming-malayalam-movies
+                  - text: Malayalam
+                - text: ","
+                - link [ref=f1e688]:
+                  - /url: https://www.district.in/movies/upcoming-kannada-movies
+                  - text: Kannada
+                - text: ","
+                - link [ref=f1e689]:
+                  - /url: https://www.district.in/movies/upcoming-english-movies
+                  - text: English
+                - text: ","
+                - link [ref=f1e690]:
+                  - /url: https://www.district.in/movies/upcoming-japanese-movies
+                  - text: Japanese
+                - text: ","
+                - link [ref=f1e691]:
+                  - /url: https://www.district.in/movies/upcoming-marathi-movies
+                  - text: Marathi
+                - text: ","
+                - link [ref=f1e692]:
+                  - /url: https://www.district.in/movies/upcoming-punjabi-movies
+                  - text: Punjabi
+                - text: ","
+                - link [ref=f1e693]:
+                  - /url: https://www.district.in/movies/upcoming-gujarati-movies
+                  - text: Gujarati
+            - generic [ref=f1e695]:
+              - heading [level=3] [ref=f1e696]:
+                - button "Upcoming Movies Across Top Cities in India – Release Dates & Bookings" [ref=f1e697]
+              - paragraph [ref=f1e703]:
+                - text: From Delhi NCR to Mumbai, Bangalore to Hyderabad — stay ahead of every new release no matter which city you're in. District brings you a complete city-wise calendar of upcoming movies with release dates, advance booking, and real-time seat availability across India's top cities. Plan your next movie outing in advance, grab the best seats early, and never miss an opening day show in your city again.
+                - link [ref=f1e704]:
+                  - /url: https://www.district.in/movies/upcoming-movies-in-delhi-ncr
+                  - text: Delhi/NCR
+                - text: ","
+                - link [ref=f1e705]:
+                  - /url: https://www.district.in/movies/upcoming-movies-in-bengaluru
+                  - text: Bengaluru
+                - text: ","
+                - link [ref=f1e706]:
+                  - /url: https://www.district.in/movies/upcoming-movies-in-mumbai
+                  - text: Mumbai
+                - text: ","
+                - link [ref=f1e707]:
+                  - /url: https://www.district.in/movies/upcoming-movies-in-hyderabad
+                  - text: Hyderabad
+                - text: ","
+                - link [ref=f1e708]:
+                  - /url: https://www.district.in/movies/upcoming-movies-in-kolkata
+                  - text: Kolkata
+                - text: ","
+                - link [ref=f1e709]:
+                  - /url: https://www.district.in/movies/upcoming-movies-in-chandigarh
+                  - text: Chandigarh
+                - text: ","
+                - link [ref=f1e710]:
+                  - /url: https://www.district.in/movies/upcoming-movies-in-ahmedabad
+                  - text: Ahmedabad
+                - text: ","
+                - link [ref=f1e711]:
+                  - /url: https://www.district.in/movies/upcoming-movies-in-pune
+                  - text: Pune
+                - text: ","
+                - link [ref=f1e712]:
+                  - /url: https://www.district.in/movies/upcoming-movies-in-chennai
+                  - text: Chennai
+      - generic [ref=f1e713]:
+        - generic [ref=f1e714]:
+          - link [ref=f1e717] [cursor=pointer]:
+            - /url: /
+            - img "app-store" [ref=f1e718]
+          - generic [ref=f1e719]:
+            - link "Terms & Conditions" [ref=f1e720] [cursor=pointer]:
+              - /url: /policies/terms-of-service
+            - link "Privacy Policy" [ref=f1e722] [cursor=pointer]:
+              - /url: /policies/privacy
+            - link "Contact Us" [ref=f1e724] [cursor=pointer]:
+              - /url: /contact
+            - link "List your events" [ref=f1e726] [cursor=pointer]:
+              - /url: /events/list-your-event
+          - generic [ref=f1e729]:
+            - img "Download the app" [ref=f1e730]
+            - paragraph [ref=f1e731]: Scan to download the app
+        - generic [ref=f1e732]:
+          - generic [ref=f1e733]: By accessing this page, you confirm that you have read, understood, and agreed to our Terms of Service, Cookie Policy, Privacy Policy, and Content Guidelines. All rights reserved.
+          - generic [ref=f1e734]:
+            - link [ref=f1e735] [cursor=pointer]:
+              - /url: https://www.facebook.com/districtupdates
+              - img "Facebook Logo" [ref=f1e736]
+            - link [ref=f1e737] [cursor=pointer]:
+              - /url: https://www.instagram.com/districtupdates/
+              - img "Instagram Logo" [ref=f1e738]
+            - link [ref=f1e739] [cursor=pointer]:
+              - /url: https://x.com/district_india
+              - img "Twitter Logo" [ref=f1e740]
+            - link [ref=f1e741] [cursor=pointer]:
+              - /url: https://www.youtube.com/@district.culture
+              - img "YouTube Logo" [ref=f1e742]
+  - alert [ref=f1e743]
