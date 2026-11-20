@@ -1,0 +1,20 @@
+[    1472ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://cdn.district.in/district-web/_next/static/chunks/2lw4e5bbgs-13.js:0
+[    2294ms] [LOG] CleverTap [1795176553166]: CleverTap info: 545: Empty value for key 'title' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2295ms] [LOG] CleverTap [1795176553168]: CleverTap info: 545: Empty value for key 'cityId' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2295ms] [LOG] CleverTap [1795176553168]: CleverTap info: 545: Empty value for key 'lat' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2295ms] [LOG] CleverTap [1795176553169]: CleverTap info: 545: Empty value for key 'long' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2295ms] [LOG] CleverTap [1795176553169]: CleverTap info: 545: Empty value for key 'placeId' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2296ms] [LOG] CleverTap [1795176553169]: CleverTap info: 545: Empty value for key 'placeType' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2296ms] [LOG] CleverTap [1795176553169]: CleverTap info: 545: Empty value for key 'pCityId' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2296ms] [LOG] CleverTap [1795176553169]: CleverTap info: 545: Empty value for key 'pCityName' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2296ms] [LOG] CleverTap [1795176553169]: CleverTap info: 545: Empty value for key 'countryId' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2296ms] [LOG] CleverTap [1795176553169]: CleverTap info: 545: Empty value for key 'subtitle' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2296ms] [LOG] CleverTap [1795176553170]: CleverTap info: 545: Empty value for key 'google_place_id' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2297ms] [LOG] CleverTap [1795176553170]: CleverTap info: 545: Empty value for key 'id' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2297ms] [LOG] CleverTap [1795176553170]: CleverTap info: 545: Empty value for key 'pStateKey' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2297ms] [LOG] CleverTap [1795176553170]: CleverTap info: 545: Empty value for key 'pStateName' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2297ms] [LOG] CleverTap [1795176553170]: CleverTap info: 545: Empty value for key 'pCityKey' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2297ms] [LOG] CleverTap [1795176553170]: CleverTap info: 545: Empty value for key 'countryKey' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2297ms] [LOG] CleverTap [1795176553171]: CleverTap info: 545: Empty value for key 'cityName' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2630ms] [WARNING] [Meta pixel] 1014217412290897 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more. @ https://connect.facebook.net/en_US/fbevents.js:205
+[   34261ms] [INFO] {time: 1795176585134, level: 30, trace_id: , method: POST, url: https://www.district.in/gw/web/get_discovery_results} @ https://cdn.district.in/district-web/_next/static/chunks/0mbth7f_7_kng.js:0

@@ -1,0 +1,397 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e13] [cursor=pointer]
+            - button "Search for Movies, Events, Plays, Sports and Activities" [active] [ref=e17]
+          - generic [ref=e22]:
+            - button "Chennai" [ref=e23] [cursor=pointer]
+            - generic [ref=e27] [cursor=pointer]:
+              - button "Sign in" [ref=e28]
+              - button "Menu" [ref=e30]
+        - generic [ref=e35]:
+          - generic [ref=e37]:
+            - link "Movies" [ref=e38] [cursor=pointer]:
+              - /url: /explore/movies-chennai?cat=MT
+            - link "Stream" [ref=e39] [cursor=pointer]:
+              - /url: /explore/c/stream?cat=Online Streaming Events
+            - link "Events" [ref=e40] [cursor=pointer]:
+              - /url: /explore/events-chennai?cat=CT
+            - link "Plays" [ref=e41] [cursor=pointer]:
+              - /url: /explore/plays-chennai?cat=PL
+            - link "Sports" [ref=e42] [cursor=pointer]:
+              - /url: /explore/sports-chennai?cat=SP
+            - link "Activities" [ref=e43] [cursor=pointer]:
+              - /url: /explore/activities-chennai?cat=AT
+          - generic [ref=e45]:
+            - link "ListYourShow" [ref=e46] [cursor=pointer]:
+              - /url: /list-your-show/
+            - link "Corporates" [ref=e47] [cursor=pointer]:
+              - /url: /voucher
+            - link "Offers" [ref=e48] [cursor=pointer]:
+              - /url: /offers
+            - link "Gift Cards" [ref=e49] [cursor=pointer]:
+              - /url: /giftcards
+      - main [ref=e50]:
+        - main [ref=e51]:
+          - generic [ref=e59]:
+            - generic [ref=e61]:
+              - button [ref=e64] [cursor=pointer]:
+                - img "promotion-banner" [ref=e65]
+              - button [ref=e68] [cursor=pointer]:
+                - img "promotion-banner" [ref=e69]
+              - button [ref=e72] [cursor=pointer]:
+                - img "promotion-banner" [ref=e73]
+              - button [ref=e76] [cursor=pointer]:
+                - img "promotion-banner" [ref=e77]
+            - generic [ref=e78] [cursor=pointer]
+            - generic [ref=e82] [cursor=pointer]
+            - generic [ref=e87]:
+              - generic [ref=e88] [cursor=pointer]
+              - generic [ref=e89] [cursor=pointer]
+          - generic [ref=e91]:
+            - generic [ref=e95]:
+              - generic [ref=e97]:
+                - heading "Recommended Movies" [level=2] [ref=e99]
+                - link "See All ›" [ref=e101] [cursor=pointer]:
+                  - /url: https://in.bookmyshow.com/explore/movies-chennai
+              - generic [ref=e104]:
+                - generic [ref=e105]:
+                  - link "Sathyavan Savithiri Sathyavan Savithiri Crime/Drama/Thriller" [ref=e107] [cursor=pointer]:
+                    - /url: https://in.bookmyshow.com/movies/chennai/sathyavan-savithiri/ET00522599
+                    - generic [ref=e108]:
+                      - img "Sathyavan Savithiri" [ref=e111]
+                      - generic [ref=e112]:
+                        - generic [ref=e113]: Sathyavan Savithiri
+                        - generic [ref=e115]: Crime/Drama/Thriller
+                  - link "Party Animals Party Animals Comedy" [ref=e118] [cursor=pointer]:
+                    - /url: https://in.bookmyshow.com/movies/chennai/party-animals/ET00519397
+                    - generic [ref=e119]:
+                      - img "Party Animals" [ref=e122]
+                      - generic [ref=e123]:
+                        - generic [ref=e124]: Party Animals
+                        - generic [ref=e126]: Comedy
+                  - link "O.M Operation Mole O.M Operation Mole Action/Thriller" [ref=e129] [cursor=pointer]:
+                    - /url: https://in.bookmyshow.com/movies/chennai/om-operation-mole/ET00504901
+                    - generic [ref=e130]:
+                      - img "O.M Operation Mole" [ref=e133]
+                      - generic [ref=e134]:
+                        - generic [ref=e135]: O.M Operation Mole
+                        - generic [ref=e137]: Action/Thriller
+                  - link "Ramayana Ramayana Action/Adventure/Drama" [ref=e140] [cursor=pointer]:
+                    - /url: https://in.bookmyshow.com/movies/chennai/ramayana/ET00451914
+                    - generic [ref=e141]:
+                      - img "Ramayana" [ref=e144]
+                      - generic [ref=e145]:
+                        - generic [ref=e146]: Ramayana
+                        - generic [ref=e148]: Action/Adventure/Drama
+                  - link "Appakutty Appakutty Drama/Family" [ref=e151] [cursor=pointer]:
+                    - /url: https://in.bookmyshow.com/movies/chennai/appakutty/ET00518647
+                    - generic [ref=e152]:
+                      - img "Appakutty" [ref=e155]
+                      - generic [ref=e156]:
+                        - generic [ref=e157]: Appakutty
+                        - generic [ref=e159]: Drama/Family
+                - button "Scroll right" [ref=e166] [cursor=pointer]
+            - link [ref=e174] [cursor=pointer]:
+              - /url: https://in.bookmyshow.com/explore/c/stream
+              - img "Stream" [ref=e178]
+            - generic [ref=e182]:
+              - heading "The Best Of Live Events" [level=2] [ref=e186]
+              - button "Scroll right" [ref=e187] [cursor=pointer]
+      - contentinfo [ref=e195]:
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - generic [ref=e199]:
+              - generic [ref=e200]:
+                - img "hut" [ref=e203]
+                - generic [ref=e204]:
+                  - generic [ref=e205]: List your Show
+                  - generic [ref=e206]: Got a show, event, activity or a great experience? Partner with us & get listed on BookMyShow
+              - button "Contact today!" [ref=e208] [cursor=pointer]
+            - generic [ref=e210]:
+              - link "24/7 CUSTOMER CARE" [ref=e211] [cursor=pointer]:
+                - /url: https://support.bookmyshow.com/support/home
+              - generic [ref=e215] [cursor=pointer]: RESEND BOOKING CONFIRMATION
+              - generic [ref=e219] [cursor=pointer]: SUBSCRIBE TO THE NEWSLETTER
+            - generic [ref=e224]:
+              - generic [ref=e225]:
+                - generic [ref=e226]: Movies Now Showing in Chennai
+                - generic [ref=e227]:
+                  - link "O.M Operation Mole" [ref=e228] [cursor=pointer]:
+                    - /url: /movies/om-operation-mole/ET00504901
+                  - link "Ramayana" [ref=e229] [cursor=pointer]:
+                    - /url: /movies/ramayana-3dtamil/ET00523997
+                  - link "Appakutty" [ref=e230] [cursor=pointer]:
+                    - /url: /movies/appakutty/ET00518647
+                  - link "Scene" [ref=e231] [cursor=pointer]:
+                    - /url: /movies/scene/ET00516631
+                  - 'link "Avengers: Doomsday" [ref=e232] [cursor=pointer]':
+                    - /url: /movies/avengers-doomsday-msinfinity-vsn-3d/ET00526306
+                  - link "Sathyavan Savithiri" [ref=e233] [cursor=pointer]:
+                    - /url: /movies/sathyavan-savithiri/ET00522599
+                  - link "John Doe" [ref=e234] [cursor=pointer]:
+                    - /url: /movies/john-doe/ET00525702
+                  - link "AOT" [ref=e235] [cursor=pointer]:
+                    - /url: /movies/aot/ET00526277
+                  - link "Aakasamlo Oka Tara" [ref=e236] [cursor=pointer]:
+                    - /url: /movies/aakasamlo-oka-tara/ET00482388
+                  - link "Godzilla Minus Zero" [ref=e237] [cursor=pointer]:
+                    - /url: /movies/godzilla-minus-zero/ET00524518
+              - generic [ref=e238]:
+                - generic [ref=e239]: Upcoming Movies Per Week
+                - generic [ref=e240]:
+                  - link "Upcoming Movies Today" [ref=e241] [cursor=pointer]:
+                    - /url: /explore/upcoming-movies-today-chennai
+                  - link "Upcoming Movies Tomorrow" [ref=e242] [cursor=pointer]:
+                    - /url: /explore/upcoming-movies-tomorrow-chennai
+                  - link "Upcoming Movies This Weekend" [ref=e243] [cursor=pointer]:
+                    - /url: /explore/upcoming-movies-this-weekend-chennai
+              - generic [ref=e244]:
+                - generic [ref=e245]: Movies By Genre
+                - generic [ref=e246]:
+                  - link "Drama Movies" [ref=e247] [cursor=pointer]:
+                    - /url: /explore/drama-movies-chennai
+                  - link "Thriller Movies" [ref=e248] [cursor=pointer]:
+                    - /url: /explore/thriller-movies-chennai
+                  - link "Action Movies" [ref=e249] [cursor=pointer]:
+                    - /url: /explore/action-movies-chennai
+                  - link "Adventure Movies" [ref=e250] [cursor=pointer]:
+                    - /url: /explore/adventure-movies-chennai
+                  - link "Comedy Movies" [ref=e251] [cursor=pointer]:
+                    - /url: /explore/comedy-movies-chennai
+                  - link "Fantasy Movies" [ref=e252] [cursor=pointer]:
+                    - /url: /explore/fantasy-movies-chennai
+                  - link "Romantic Movies" [ref=e253] [cursor=pointer]:
+                    - /url: /explore/romantic-movies-chennai
+                  - link "Crime Movies" [ref=e254] [cursor=pointer]:
+                    - /url: /explore/crime-movies-chennai
+                  - link "Horror Movies" [ref=e255] [cursor=pointer]:
+                    - /url: /explore/horror-movies-chennai
+                  - link "Mystery Movies" [ref=e256] [cursor=pointer]:
+                    - /url: /explore/mystery-movies-chennai
+              - generic [ref=e257]:
+                - generic [ref=e258]: Movies By Language
+                - generic [ref=e259]:
+                  - link "Movies in English" [ref=e260] [cursor=pointer]:
+                    - /url: /explore/english-movies-chennai
+                  - link "Movies in Tamil" [ref=e261] [cursor=pointer]:
+                    - /url: /explore/tamil-movies-chennai
+                  - link "Movies in Hindi" [ref=e262] [cursor=pointer]:
+                    - /url: /explore/hindi-movies-chennai
+                  - link "Movies in Japanese" [ref=e263] [cursor=pointer]:
+                    - /url: /explore/japanese-movies-chennai
+                  - link "Movies in Telugu" [ref=e264] [cursor=pointer]:
+                    - /url: /explore/telugu-movies-chennai
+                  - link "Movies in Malayalam" [ref=e265] [cursor=pointer]:
+                    - /url: /explore/malayalam-movies-chennai
+                  - link "Movies in Kannada" [ref=e266] [cursor=pointer]:
+                    - /url: /explore/kannada-movies-chennai
+                  - link "Movies in Sindhi" [ref=e267] [cursor=pointer]:
+                    - /url: /explore/sindhi-movies-chennai
+                  - link "Movies in Bengali" [ref=e268] [cursor=pointer]:
+                    - /url: /explore/bengali-movies-chennai
+                  - link "Movies in Flemish" [ref=e269] [cursor=pointer]:
+                    - /url: /explore/flemish-movies-chennai
+              - generic [ref=e270]:
+                - generic [ref=e271]: Sports Events in Chennai
+                - generic [ref=e272]:
+                  - link "Running" [ref=e273] [cursor=pointer]:
+                    - /url: /explore/running-chennai
+                  - link "Football" [ref=e274] [cursor=pointer]:
+                    - /url: /explore/football-chennai
+                  - link "Bowling" [ref=e275] [cursor=pointer]:
+                    - /url: /explore/bowling-chennai
+                  - link "Mixed Martial Arts" [ref=e276] [cursor=pointer]:
+                    - /url: /explore/mixed-martial-arts-chennai
+                  - link "Basketball" [ref=e277] [cursor=pointer]:
+                    - /url: /explore/basketball-chennai
+                  - link "Cricket" [ref=e278] [cursor=pointer]:
+                    - /url: /explore/cricket-chennai
+                  - link "Horse Race" [ref=e279] [cursor=pointer]:
+                    - /url: /explore/derby-horse-race-chennai
+                  - link "Sailing" [ref=e280] [cursor=pointer]:
+                    - /url: /explore/sailing-chennai
+                  - link "Chess" [ref=e281] [cursor=pointer]:
+                    - /url: /explore/chess-chennai
+                  - link "Cycling" [ref=e282] [cursor=pointer]:
+                    - /url: /explore/cycling-chennai
+              - generic [ref=e283]:
+                - generic [ref=e284]: Events in Top Cities
+                - generic [ref=e285]:
+                  - link "Events in Mumbai" [ref=e286] [cursor=pointer]:
+                    - /url: /explore/events-mumbai
+                  - link "Events in Delhi-NCR" [ref=e287] [cursor=pointer]:
+                    - /url: /explore/events-national-capital-region-ncr
+                  - link "Events in Chennai" [ref=e288] [cursor=pointer]:
+                    - /url: /explore/events-chennai
+                  - link "Events in Bengaluru" [ref=e289] [cursor=pointer]:
+                    - /url: /explore/events-bengaluru
+                  - link "Events in Hyderabad" [ref=e290] [cursor=pointer]:
+                    - /url: /explore/events-hyderabad
+                  - link "Events in Pune" [ref=e291] [cursor=pointer]:
+                    - /url: /explore/events-pune
+                  - link "Events in Ahmedabad" [ref=e292] [cursor=pointer]:
+                    - /url: /explore/events-ahmedabad
+                  - link "Events in Kolkata" [ref=e293] [cursor=pointer]:
+                    - /url: /explore/events-kolkata
+                  - link "Events in Kochi" [ref=e294] [cursor=pointer]:
+                    - /url: /explore/events-kochi
+              - generic [ref=e295]:
+                - generic [ref=e296]: Cinemas in Top Cities
+                - generic [ref=e297]:
+                  - link "Cinemas in Mumbai" [ref=e298] [cursor=pointer]:
+                    - /url: /mumbai/cinemas
+                  - link "Cinemas in Delhi-NCR" [ref=e299] [cursor=pointer]:
+                    - /url: /national-capital-region-ncr/cinemas
+                  - link "Cinemas in Chennai" [ref=e300] [cursor=pointer]:
+                    - /url: /chennai/cinemas
+                  - link "Cinemas in Bengaluru" [ref=e301] [cursor=pointer]:
+                    - /url: /bengaluru/cinemas
+                  - link "Cinemas in Hyderabad" [ref=e302] [cursor=pointer]:
+                    - /url: /hyderabad/cinemas
+                  - link "Cinemas in Pune" [ref=e303] [cursor=pointer]:
+                    - /url: /pune/cinemas
+                  - link "Cinemas in Ahmedabad" [ref=e304] [cursor=pointer]:
+                    - /url: /ahmedabad/cinemas
+                  - link "Cinemas in Kolkata" [ref=e305] [cursor=pointer]:
+                    - /url: /kolkata/cinemas
+                  - link "Cinemas in Kochi" [ref=e306] [cursor=pointer]:
+                    - /url: /kochi/cinemas
+              - generic [ref=e307]:
+                - generic [ref=e308]: Plays in Top Cities
+                - generic [ref=e309]:
+                  - link "Plays in Mumbai" [ref=e310] [cursor=pointer]:
+                    - /url: /explore/plays-mumbai
+                  - link "Plays in Delhi-NCR" [ref=e311] [cursor=pointer]:
+                    - /url: /explore/plays-national-capital-region-ncr
+                  - link "Plays in Chennai" [ref=e312] [cursor=pointer]:
+                    - /url: /explore/plays-chennai
+                  - link "Plays in Bengaluru" [ref=e313] [cursor=pointer]:
+                    - /url: /explore/plays-bengaluru
+                  - link "Plays in Hyderabad" [ref=e314] [cursor=pointer]:
+                    - /url: /explore/plays-hyderabad
+                  - link "Plays in Pune" [ref=e315] [cursor=pointer]:
+                    - /url: /explore/plays-pune
+                  - link "Plays in Ahmedabad" [ref=e316] [cursor=pointer]:
+                    - /url: /explore/plays-ahmedabad
+                  - link "Plays in Kolkata" [ref=e317] [cursor=pointer]:
+                    - /url: /explore/plays-kolkata
+                  - link "Plays in Kochi" [ref=e318] [cursor=pointer]:
+                    - /url: /explore/plays-kochi
+              - generic [ref=e319]:
+                - generic [ref=e320]: Activities in Top Cities
+                - generic [ref=e321]:
+                  - link "Activities in Mumbai" [ref=e322] [cursor=pointer]:
+                    - /url: /explore/activities-mumbai
+                  - link "Activities in Delhi-NCR" [ref=e323] [cursor=pointer]:
+                    - /url: /explore/activities-national-capital-region-ncr
+                  - link "Activities in Chennai" [ref=e324] [cursor=pointer]:
+                    - /url: /explore/activities-chennai
+                  - link "Activities in Bengaluru" [ref=e325] [cursor=pointer]:
+                    - /url: /explore/activities-bengaluru
+                  - link "Activities in Hyderabad" [ref=e326] [cursor=pointer]:
+                    - /url: /explore/activities-hyderabad
+                  - link "Activities in Pune" [ref=e327] [cursor=pointer]:
+                    - /url: /explore/activities-pune
+                  - link "Activities in Ahmedabad" [ref=e328] [cursor=pointer]:
+                    - /url: /explore/activities-ahmedabad
+                  - link "Activities in Kolkata" [ref=e329] [cursor=pointer]:
+                    - /url: /explore/activities-kolkata
+                  - link "Activities in Kochi" [ref=e330] [cursor=pointer]:
+                    - /url: /explore/activities-kochi
+              - generic [ref=e331]:
+                - generic [ref=e332]: Movies Now Showing
+                - generic [ref=e333]:
+                  - link "Ramayana" [ref=e334] [cursor=pointer]:
+                    - /url: /movies/ramayana-3dkannada/ET00523152
+                  - link "O.M Operation Mole" [ref=e335] [cursor=pointer]:
+                    - /url: /movies/om-operation-mole-hindi/ET00504907
+                  - 'link "Avengers: Doomsday" [ref=e336] [cursor=pointer]':
+                    - /url: /movies/avengers-doomsday-msinfinity-vsn-3d/ET00526306
+                  - link "ENE Repeat" [ref=e337] [cursor=pointer]:
+                    - /url: /movies/ene-repeat/ET00506990
+                  - link "Aakasamlo Oka Tara" [ref=e338] [cursor=pointer]:
+                    - /url: /movies/aakasamlo-oka-tara/ET00482388
+                  - link "Brindavihari" [ref=e339] [cursor=pointer]:
+                    - /url: /movies/brindavihari/ET00520736
+                  - link "Godzilla Minus Zero" [ref=e340] [cursor=pointer]:
+                    - /url: /movies/godzilla-minus-zero/ET00524518
+                  - link "Ruff and Tuff Kanya" [ref=e341] [cursor=pointer]:
+                    - /url: /movies/ruff-and-tuff-kanya/ET00523472
+                  - link "Adventure of Jetcat 7D - Combo" [ref=e342] [cursor=pointer]:
+                    - /url: /movies/adventure-of-jetcat-7d-combo/ET00448287
+                  - link "Appakutty" [ref=e343] [cursor=pointer]:
+                    - /url: /movies/appakutty/ET00518647
+              - generic [ref=e344]:
+                - generic [ref=e345]: COUNTRIES
+                - generic [ref=e346]:
+                  - link "Indonesia" [ref=e347] [cursor=pointer]:
+                    - /url: https://id.bookmyshow.com/
+                  - link "Singapore" [ref=e348] [cursor=pointer]:
+                    - /url: https://sg.bookmyshow.com/
+                  - link "Sri Lanka" [ref=e349] [cursor=pointer]:
+                    - /url: https://lk.bookmyshow.com/
+                  - link "West Indies" [ref=e350] [cursor=pointer]:
+                    - /url: https://wi.bookmyshow.com/
+              - generic [ref=e351]:
+                - generic [ref=e352]: HELP
+                - generic [ref=e353]:
+                  - link "About Us" [ref=e354] [cursor=pointer]:
+                    - /url: /aboutus
+                  - link "Contact Us" [ref=e355] [cursor=pointer]:
+                    - /url: /contactus
+                  - link "Current Opening" [ref=e356] [cursor=pointer]:
+                    - /url: /careers/
+                  - link "Press Release" [ref=e357] [cursor=pointer]:
+                    - /url: /press-release
+                  - link "Press Coverage" [ref=e358] [cursor=pointer]:
+                    - /url: /press-coverage
+                  - link "FAQs" [ref=e359] [cursor=pointer]:
+                    - /url: /faq
+                  - link "Terms and Conditions" [ref=e360] [cursor=pointer]:
+                    - /url: /terms-and-conditions
+                  - link "Privacy Policy" [ref=e361] [cursor=pointer]:
+                    - /url: /privacy
+              - generic [ref=e362]:
+                - generic [ref=e363]: BOOKMYSHOW EXCLUSIVES
+                - generic [ref=e364]:
+                  - link "Lollapalooza India" [ref=e365] [cursor=pointer]:
+                    - /url: https://lollaindia.com/
+                  - link "BookAChange" [ref=e366] [cursor=pointer]:
+                    - /url: /donation
+                  - link "Corporate Vouchers" [ref=e367] [cursor=pointer]:
+                    - /url: /voucher
+                  - link "Gift Cards" [ref=e368] [cursor=pointer]:
+                    - /url: /giftcards
+                  - link "List My Show" [ref=e369] [cursor=pointer]:
+                    - /url: /s/list-your-show/
+                  - link "Offers" [ref=e370] [cursor=pointer]:
+                    - /url: /offers
+                  - link "Stream" [ref=e371] [cursor=pointer]:
+                    - /url: /explore/c/stream
+                  - link "Trailers" [ref=e372] [cursor=pointer]:
+                    - /url: /trailers
+          - generic [ref=e374]:
+            - link [ref=e377] [cursor=pointer]:
+              - /url: /
+              - img "BookMyShow" [ref=e378]
+            - generic [ref=e380]:
+              - link [ref=e381] [cursor=pointer]:
+                - /url: https://www.facebook.com/BookMyShowIN
+              - link [ref=e384] [cursor=pointer]:
+                - /url: https://x.com//BookMyShow/
+              - link [ref=e387] [cursor=pointer]:
+                - /url: https://www.instagram.com/bookmyshowin/
+              - link [ref=e390] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/BookMyShow/featured
+              - link [ref=e393] [cursor=pointer]:
+                - /url: https://www.pinterest.com/bookmyshow/
+              - link [ref=e396] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/bookmyshow/
+            - generic [ref=e399]: Copyright 2026 ©Bigtree Entertainment Pvt. Ltd.All Rights Reserved.The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and images on this website is intended to promote the works and no endorsement of the artist shall be implied. Unauthorized use is prohibited and punishable by law.
+  - generic: Search currently unavailable. Please try again later.
