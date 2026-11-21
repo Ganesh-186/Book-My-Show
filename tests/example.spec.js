@@ -1,19 +1,28 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
+import fs from 'node:fs';
+import path from 'node:path';
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+const districtStatePath = path.resolve('playwright/.auth/district.json');
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
-});
+test('opens District with the saved login state', async ({ browser }) => {
+  expect(
+    fs.existsSync(districtStatePath),
+    'District login state not found. Run "npm run auth:district" first.',
+  ).toBe(true);
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  const context = await browser.newContext({
+    storageState: districtStatePath,
+  });
+  const page = await context.newPage();
 
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
+  await page.goto('https://www.district.in/', {
+    waitUntil: 'domcontentloaded',
+  });
 
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+  await expect(page).toHaveURL(/district\.in/);
+  await expect(page).toHaveTitle(/District/i);
+
+  await page.waitForTimeout(15000)
+  await context.close();
 });
