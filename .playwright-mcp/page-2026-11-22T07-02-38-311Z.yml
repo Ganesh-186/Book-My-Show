@@ -1,0 +1,11 @@
+- generic [active] [ref=f4e1]:
+  - main [ref=f4e2540]:
+    - generic [ref=f4e2545]:
+      - link "District Home" [ref=f4e2546] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f4e2560]:
+        - heading "Ramayana" [level=2] [ref=f4e2561]
+        - heading "22 Nov, 06:35 PM at Vettri Theatres RGB Laser, Chrompet, Chennai" [level=3] [ref=f4e2562]
+      - button "Login" [ref=f4e2564] [cursor=pointer]
+    - generic [ref=f4e2568]: Loading seats
+  - alert [ref=f4e1453]: Ramayana Movie Tickets Online Booking @District.in

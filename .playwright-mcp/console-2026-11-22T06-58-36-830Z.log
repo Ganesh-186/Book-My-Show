@@ -1,0 +1,23 @@
+[    1420ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://cdn.district.in/district-web/_next/static/chunks/1ow552enqeo05.js:0
+[    1719ms] [WARNING] [Meta pixel] 1014217412290897 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more. @ https://connect.facebook.net/en_US/fbevents.js:205
+[    1982ms] [LOG] CleverTap [1795330718810]: CleverTap info: 545: Empty value for key 'title' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1982ms] [LOG] CleverTap [1795330718812]: CleverTap info: 545: Empty value for key 'cityId' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1982ms] [LOG] CleverTap [1795330718812]: CleverTap info: 545: Empty value for key 'lat' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1982ms] [LOG] CleverTap [1795330718812]: CleverTap info: 545: Empty value for key 'long' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1982ms] [LOG] CleverTap [1795330718812]: CleverTap info: 545: Empty value for key 'placeId' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1982ms] [LOG] CleverTap [1795330718812]: CleverTap info: 545: Empty value for key 'placeType' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1983ms] [LOG] CleverTap [1795330718812]: CleverTap info: 545: Empty value for key 'pCityId' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1983ms] [LOG] CleverTap [1795330718812]: CleverTap info: 545: Empty value for key 'pCityName' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1983ms] [LOG] CleverTap [1795330718812]: CleverTap info: 545: Empty value for key 'countryId' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1983ms] [LOG] CleverTap [1795330718813]: CleverTap info: 545: Empty value for key 'subtitle' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1984ms] [LOG] CleverTap [1795330718814]: CleverTap info: 545: Empty value for key 'google_place_id' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1985ms] [LOG] CleverTap [1795330718814]: CleverTap info: 545: Empty value for key 'id' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1986ms] [LOG] CleverTap [1795330718815]: CleverTap info: 545: Empty value for key 'pStateKey' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1986ms] [LOG] CleverTap [1795330718815]: CleverTap info: 545: Empty value for key 'pStateName' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1986ms] [LOG] CleverTap [1795330718816]: CleverTap info: 545: Empty value for key 'pCityKey' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1987ms] [LOG] CleverTap [1795330718817]: CleverTap info: 545: Empty value for key 'countryKey' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    1987ms] [LOG] CleverTap [1795330718817]: CleverTap info: 545: Empty value for key 'cityName' was removed @ https://static.clevertap.com/js/clevertap.min.js:14
+[    2272ms] [WARNING] The feature flag gating model execution was disabled. @ https://www.district.in/movies/:0
+[    2273ms] [WARNING] On-device AI is disabled in Chrome settings. To use Built-In AI APIs, enable "On-device AI" in chrome://settings/ai. @ https://www.district.in/movies/:0
+[    2274ms] [WARNING] The feature flag gating model execution was disabled. @ https://www.district.in/movies/:0
+[   23936ms] [INFO] {time: 1795330740765, level: 30, trace_id: , method: POST, url: https://www.district.in/gw/web/get_discovery_results} @ https://cdn.district.in/district-web/_next/static/chunks/0zqph9x85on4c.js:0

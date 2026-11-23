@@ -1,0 +1,2223 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "District Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - button "Madurai Main Madurai" [ref=e21] [cursor=pointer]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: Madurai Main
+            - generic [ref=e26]: Madurai
+        - generic [ref=e29]:
+          - button "Open search" [ref=e30] [cursor=pointer]:
+            - generic [ref=e31]:
+              - button "Movies" [ref=e32]
+              - generic [ref=e37]: Search for events, movies, restaurants...
+          - button "Login" [ref=e43] [cursor=pointer]
+      - navigation "Primary" [ref=e48]:
+        - link "For you" [ref=e49] [cursor=pointer]:
+          - /url: /
+        - link "Dining" [ref=e55] [cursor=pointer]:
+          - /url: /dining/
+        - link "Movies" [ref=e58] [cursor=pointer]:
+          - /url: /movies/
+        - link "Events" [ref=e62] [cursor=pointer]:
+          - /url: /events/
+    - generic [ref=e65]:
+      - generic [ref=e67]:
+        - generic [ref=e70]:
+          - button [ref=e71] [cursor=pointer]
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - 'link "John Doe UA16+ | Crime, Psychological +1 more A determined police officer investigates a mystery on the Kerala–Tamil Nadu border, but as clues lead to his past and everyone doubts him, one question haunts him: Am I good enough? Accessibility through Audio Description (AD) & Closed Captions (CC) is available for this movie on the ''CineDubs'' app. Book now John Doe" [ref=e76] [cursor=pointer]':
+                - /url: https://www.district.in/movies/john-doe-movie-tickets-MV237453
+                - generic [ref=e82]:
+                  - generic [ref=e83]:
+                    - generic [ref=e84]:
+                      - heading "John Doe" [level=2] [ref=e85]
+                      - generic [ref=e86]: UA16+ | Crime, Psychological +1 more
+                      - generic [ref=e87]: "A determined police officer investigates a mystery on the Kerala–Tamil Nadu border, but as clues lead to his past and everyone doubts him, one question haunts him: Am I good enough? Accessibility through Audio Description (AD) & Closed Captions (CC) is available for this movie on the 'CineDubs' app."
+                    - button "Book now" [ref=e89]
+                  - img "John Doe" [ref=e93]
+              - link "Appakutty UA16+ | Action, Drama +1 more Driven by an unbreakable protective bond, a devoted dad navigates a high-stakes underworld of betrayal and conflict after sinister forces endanger his daughter's life, fighting fiercely to keep her safe. Book now Appakutty" [ref=e95] [cursor=pointer]:
+                - /url: https://www.district.in/movies/appakutty-movie-tickets-MV234558
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - generic [ref=e103]:
+                      - heading "Appakutty" [level=2] [ref=e104]
+                      - generic [ref=e105]: UA16+ | Action, Drama +1 more
+                      - generic [ref=e106]: Driven by an unbreakable protective bond, a devoted dad navigates a high-stakes underworld of betrayal and conflict after sinister forces endanger his daughter's life, fighting fiercely to keep her safe.
+                    - button "Book now" [ref=e108]
+                  - img "Appakutty" [ref=e112]
+              - 'link "O.M: Operation Mole UA16+ | Action, Drama +1 more In the forests of Tiruvannamalai, an undercover mission to rescue 20 arrested woodcutters draws an operative into the world of a powerful red-sandalwood syndicate and a dangerous clash with the law of criminals. Accessibility through Audio Description (AD) & Closed Captions (CC) is available for this movie on the ''ADX by PostX'' app. Book now O.M: Operation Mole" [ref=e114] [cursor=pointer]':
+                - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-MV225928
+                - generic [ref=e120]:
+                  - generic [ref=e121]:
+                    - generic [ref=e122]:
+                      - 'heading "O.M: Operation Mole" [level=2] [ref=e123]'
+                      - generic [ref=e124]: UA16+ | Action, Drama +1 more
+                      - generic [ref=e125]: In the forests of Tiruvannamalai, an undercover mission to rescue 20 arrested woodcutters draws an operative into the world of a powerful red-sandalwood syndicate and a dangerous clash with the law of criminals. Accessibility through Audio Description (AD) & Closed Captions (CC) is available for this movie on the 'ADX by PostX' app.
+                    - button "Book now" [ref=e127]
+                  - 'img "O.M: Operation Mole" [ref=e131]'
+              - link "Ramayana U | Epic, Mythological When Rakshasa emperor Ravana, invincible to all but man, conquers the three worlds, Lord Vishnu descends as noble prince Rama. Bound by his father's vow, Rama enters perilous exile with virtuous Sita and devoted Lakshmana. When Ravana abducts Sita, God in human form rises to fight the greatest war ever. Accessibility through Audio Description (AD) & Closed Captions (CC) is available for this movie on the 'CineDubs' app. Book now Ramayana" [ref=e133] [cursor=pointer]:
+                - /url: https://www.district.in/movies/ramayana-movie-tickets-MV176276
+                - generic [ref=e139]:
+                  - generic [ref=e140]:
+                    - generic [ref=e141]:
+                      - heading "Ramayana" [level=2] [ref=e142]
+                      - generic [ref=e143]: U | Epic, Mythological
+                      - generic [ref=e144]: When Rakshasa emperor Ravana, invincible to all but man, conquers the three worlds, Lord Vishnu descends as noble prince Rama. Bound by his father's vow, Rama enters perilous exile with virtuous Sita and devoted Lakshmana. When Ravana abducts Sita, God in human form rises to fight the greatest war ever. Accessibility through Audio Description (AD) & Closed Captions (CC) is available for this movie on the 'CineDubs' app.
+                    - button "Book now" [ref=e146]
+                  - img "Ramayana" [ref=e150]
+              - link "Scene UA16+ | Action, Comedy +1 more Inbaraj, a police officer is forced to reopen a case he left unfinished years ago. This time, he must solve it with a chaotic and troublesome team. As they struggle to work together and deal with the twists and turns of the case, the investigation takes them on a chaotic and unpredictable ride. Accessibility through Audio Description (AD) & Closed Captions (CC) is available for this movie on the 'CineDubs' app. Book now Scene" [ref=e152] [cursor=pointer]:
+                - /url: https://www.district.in/movies/scene-movie-tickets-MV233181
+                - generic [ref=e158]:
+                  - generic [ref=e159]:
+                    - generic [ref=e160]:
+                      - heading "Scene" [level=2] [ref=e161]
+                      - generic [ref=e162]: UA16+ | Action, Comedy +1 more
+                      - generic [ref=e163]: Inbaraj, a police officer is forced to reopen a case he left unfinished years ago. This time, he must solve it with a chaotic and troublesome team. As they struggle to work together and deal with the twists and turns of the case, the investigation takes them on a chaotic and unpredictable ride. Accessibility through Audio Description (AD) & Closed Captions (CC) is available for this movie on the 'CineDubs' app.
+                    - button "Book now" [ref=e165]
+                  - img "Scene" [ref=e169]
+            - generic [ref=e170]:
+              - generic [ref=e171] [cursor=pointer]
+              - generic [ref=e172] [cursor=pointer]
+              - generic [ref=e173] [cursor=pointer]
+              - generic [ref=e174] [cursor=pointer]
+              - generic [ref=e175] [cursor=pointer]
+          - button [ref=e176] [cursor=pointer]
+        - generic [ref=e179]:
+          - generic [ref=e180]: All movies
+          - generic [ref=e186]:
+            - button "Filters" [ref=e187] [cursor=pointer]
+            - button "Tamil" [ref=e198] [cursor=pointer]
+            - button "Telugu" [ref=e200] [cursor=pointer]
+            - button "New Releases" [ref=e202] [cursor=pointer]
+            - button "3D" [ref=e204] [cursor=pointer]
+          - generic [ref=e206]:
+            - link "Scene Scene UA16+ | Tamil" [ref=e207] [cursor=pointer]:
+              - /url: https://www.district.in/movies/scene-movie-tickets-MV233181
+              - generic [ref=e209]:
+                - img "Scene" [ref=e210]
+                - generic [ref=e211]:
+                  - heading "Scene" [level=5] [ref=e212]
+                  - generic [ref=e213]: UA16+ | Tamil
+            - 'link "O.M: Operation Mole O.M: Operation Mole UA16+ | Tamil" [ref=e214] [cursor=pointer]':
+              - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-MV225928
+              - generic [ref=e216]:
+                - 'img "O.M: Operation Mole" [ref=e217]'
+                - generic [ref=e218]:
+                  - 'heading "O.M: Operation Mole" [level=5] [ref=e219]'
+                  - generic [ref=e220]: UA16+ | Tamil
+            - link "Godzilla Minus Zero Godzilla Minus Zero UA16+ | Japanese" [ref=e221] [cursor=pointer]:
+              - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-MV219297
+              - generic [ref=e223]:
+                - img "Godzilla Minus Zero" [ref=e224]
+                - generic [ref=e225]:
+                  - heading "Godzilla Minus Zero" [level=5] [ref=e226]
+                  - generic [ref=e227]: UA16+ | Japanese
+            - link "John Doe John Doe UA16+ | Tamil" [ref=e228] [cursor=pointer]:
+              - /url: https://www.district.in/movies/john-doe-movie-tickets-MV237453
+              - generic [ref=e230]:
+                - img "John Doe" [ref=e231]
+                - generic [ref=e232]:
+                  - heading "John Doe" [level=5] [ref=e233]
+                  - generic [ref=e234]: UA16+ | Tamil
+            - link "Appakutty Appakutty UA16+ | Tamil" [ref=e235] [cursor=pointer]:
+              - /url: https://www.district.in/movies/appakutty-movie-tickets-MV234558
+              - generic [ref=e237]:
+                - img "Appakutty" [ref=e238]
+                - generic [ref=e239]:
+                  - heading "Appakutty" [level=5] [ref=e240]
+                  - generic [ref=e241]: UA16+ | Tamil
+            - link "Ramayana Ramayana U | Tamil" [ref=e242] [cursor=pointer]:
+              - /url: https://www.district.in/movies/ramayana-movie-tickets-MV176276
+              - generic [ref=e244]:
+                - img "Ramayana" [ref=e245]
+                - generic [ref=e246]:
+                  - heading "Ramayana" [level=5] [ref=e247]
+                  - generic [ref=e248]: U | Tamil
+            - link "ENE Repeat ENE Repeat UA16+ | Telugu" [ref=e249] [cursor=pointer]:
+              - /url: https://www.district.in/movies/ene-repeat-movie-tickets-MV227790
+              - generic [ref=e251]:
+                - img "ENE Repeat" [ref=e252]
+                - generic [ref=e253]:
+                  - heading "ENE Repeat" [level=5] [ref=e254]
+                  - generic [ref=e255]: UA16+ | Telugu
+            - link "AOT AOT UA13+ | Tamil" [ref=e256] [cursor=pointer]:
+              - /url: https://www.district.in/movies/aot-movie-tickets-MV239967
+              - generic [ref=e258]:
+                - img "AOT" [ref=e259]
+                - generic [ref=e260]:
+                  - heading "AOT" [level=5] [ref=e261]
+                  - generic [ref=e262]: UA13+ | Tamil
+            - link "Sathyavan Savithiri Sathyavan Savithiri UA16+ | Tamil" [ref=e263] [cursor=pointer]:
+              - /url: https://www.district.in/movies/sathyavan-savithiri-movie-tickets-MV221047
+              - generic [ref=e265]:
+                - img "Sathyavan Savithiri" [ref=e266]
+                - generic [ref=e267]:
+                  - heading "Sathyavan Savithiri" [level=5] [ref=e268]
+                  - generic [ref=e269]: UA16+ | Tamil
+            - 'link "The Hunger Games: Sunrise on the Reaping The Hunger Games: Sunrise on the Reaping UA16+ | English" [ref=e270] [cursor=pointer]':
+              - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-MV174475
+              - generic [ref=e272]:
+                - 'img "The Hunger Games: Sunrise on the Reaping" [ref=e273]'
+                - generic [ref=e274]:
+                  - 'heading "The Hunger Games: Sunrise on the Reaping" [level=5] [ref=e275]'
+                  - generic [ref=e276]: UA16+ | English
+            - link "Aakasamlo Oka Tara Aakasamlo Oka Tara UA13+ | Telugu" [ref=e277] [cursor=pointer]:
+              - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-MV203295
+              - generic [ref=e279]:
+                - img "Aakasamlo Oka Tara" [ref=e280]
+                - generic [ref=e281]:
+                  - heading "Aakasamlo Oka Tara" [level=5] [ref=e282]
+                  - generic [ref=e283]: UA13+ | Telugu
+      - generic [ref=e286] [cursor=pointer]:
+        - generic [ref=e287]:
+          - button [ref=e289]:
+            - 'heading "Catch the Trending Blockbusters: Get Your Movie Tickets Now!" [level=2] [ref=e291]'
+          - paragraph [ref=e296]:
+            - text: Want to catch the biggest blockbusters? We've curated the Top 40 movies currently showing across theatres near you. From edge-of-the-seat thrillers to heartwarming dramas and more, these films are lighting up the box office. Watch the trending releases like
+            - link [ref=e297]:
+              - /url: https://www.district.in/movies/ramayana-movie-tickets-MV176276
+              - text: Ramayana
+            - text: ","
+            - link [ref=e298]:
+              - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-MV225928
+              - text: "O.M: Operation Mole"
+            - text: ","
+            - link [ref=e299]:
+              - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-MV176735
+              - text: "Avengers: Doomsday"
+            - text: ","
+            - link [ref=e300]:
+              - /url: https://www.district.in/movies/ene-repeat-movie-tickets-MV227790
+              - text: ENE Repeat
+            - text: ","
+            - link [ref=e301]:
+              - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-MV203295
+              - text: Aakasamlo Oka Tara
+            - text: ","
+            - link [ref=e302]:
+              - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-MV219297
+              - text: Godzilla Minus Zero
+            - text: ","
+            - link [ref=e303]:
+              - /url: https://www.district.in/movies/scene-movie-tickets-MV233181
+              - text: Scene
+            - text: ","
+            - link [ref=e304]:
+              - /url: https://www.district.in/movies/dune-part-three-movie-tickets-MV207332
+              - text: "Dune: Part Three"
+            - text: ","
+            - link [ref=e305]:
+              - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-MV174475
+              - text: "The Hunger Games: Sunrise on the Reaping"
+            - text: ","
+            - link [ref=e306]:
+              - /url: https://www.district.in/movies/aot-movie-tickets-MV239967
+              - text: AOT
+            - text: ","
+            - link [ref=e307]:
+              - /url: https://www.district.in/movies/kaali-kheti-movie-tickets-MV235145
+              - text: Kaali Kheti
+            - text: ","
+            - link [ref=e308]:
+              - /url: https://www.district.in/movies/appakutty-movie-tickets-MV234558
+              - text: Appakutty
+            - text: ","
+            - link [ref=e309]:
+              - /url: https://www.district.in/movies/pyre-movie-tickets-MV235005
+              - text: Pyre
+            - text: ","
+            - link [ref=e310]:
+              - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-MV233661
+              - text: Bachelor Party D'eux
+            - text: ","
+            - link [ref=e311]:
+              - /url: https://www.district.in/movies/aadi-anant-movie-tickets-MV235370
+              - text: Aadi Anant
+            - text: ","
+            - link [ref=e312]:
+              - /url: https://www.district.in/movies/chakkven-movie-tickets-MV237361
+              - text: Chakkven
+            - text: ","
+            - link [ref=e313]:
+              - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-MV220828
+              - text: How to Rob a Bank
+            - text: ","
+            - link [ref=e314]:
+              - /url: https://www.district.in/movies/ebenezer-movie-tickets-MV213946
+              - text: Ebenezer
+            - text: ","
+            - link [ref=e315]:
+              - /url: https://www.district.in/movies/sathyavan-savithiri-movie-tickets-MV221047
+              - text: Sathyavan Savithiri
+            - text: ","
+            - link [ref=e316]:
+              - /url: https://www.district.in/movies/dnk-movie-tickets-MV230033
+              - text: DNK
+            - text: ","
+            - link [ref=e317]:
+              - /url: https://www.district.in/movies/ruff-and-tuff-kanya-movie-tickets-MV236494
+              - text: Ruff and Tuff Kanya
+            - text: ","
+            - link [ref=e318]:
+              - /url: https://www.district.in/movies/nanhey-dil-movie-tickets-MV239209
+              - text: Nanhey Dil
+            - text: ","
+            - link [ref=e319]:
+              - /url: https://www.district.in/movies/70-syaal-movie-tickets-MV217219
+              - text: 70 Syaal
+            - text: ","
+            - link [ref=e320]:
+              - /url: https://www.district.in/movies/brindavihari-movie-tickets-MV235911
+              - text: Brindavihari
+            - text: ","
+            - link [ref=e321]:
+              - /url: https://www.district.in/movies/bouma-movie-tickets-MV237043
+              - text: Bouma
+            - text: ","
+            - link [ref=e322]:
+              - /url: https://www.district.in/movies/udta-teer-movie-tickets-MV219550
+              - text: Udta Teer
+            - text: ","
+            - link [ref=e323]:
+              - /url: https://www.district.in/movies/party-animals-movie-tickets-MV237247
+              - text: Party Animals
+            - text: ","
+            - link [ref=e324]:
+              - /url: https://www.district.in/movies/sadhak-bamakhyapa-movie-tickets-MV238329
+              - text: Sadhak Bamakhyapa
+            - text: ","
+            - link [ref=e325]:
+              - /url: https://www.district.in/movies/maitreyaa-movie-tickets-MV239668
+              - text: Maitreyaa
+            - text: ","
+            - link [ref=e326]:
+              - /url: https://www.district.in/movies/i-play-rocky-movie-tickets-MV227343
+              - text: I Play Rocky
+            - text: ","
+            - link [ref=e327]:
+              - /url: https://www.district.in/movies/gondhal-2025-movie-tickets-MV208861
+              - text: Gondhal (2025)
+            - text: ","
+            - link [ref=e328]:
+              - /url: https://www.district.in/movies/wildwood-movie-tickets-MV225188
+              - text: Wildwood
+            - text: ","
+            - link [ref=e329]:
+              - /url: https://www.district.in/movies/pratap-movie-tickets-MV233676
+              - text: Pratap
+            - text: ","
+            - link [ref=e330]:
+              - /url: https://www.district.in/movies/aadarsha-kutumbam-house-no-47-movie-tickets-MV211590
+              - text: "Aadarsha Kutumbam House No: 47"
+            - text: ","
+            - link [ref=e331]:
+              - /url: https://www.district.in/movies/meru-malan-movie-tickets-MV239151
+              - text: Meru Malan
+            - text: ","
+            - link [ref=e332]:
+              - /url: https://www.district.in/movies/drishyam-the-conclusion-movie-tickets-MV207254
+              - text: "Drishyam: The Conclusion"
+            - text: ","
+            - link [ref=e333]:
+              - /url: https://www.district.in/movies/john-doe-movie-tickets-MV237453
+              - text: John Doe
+            - text: ","
+            - link [ref=e334]:
+              - /url: https://www.district.in/movies/shankarabharanna-movie-tickets-MV237814
+              - text: Shankarabharanna
+            - text: ","
+            - link [ref=e335]:
+              - /url: https://www.district.in/movies/bandhu-movie-tickets-MV238505
+              - text: Bandhu
+            - text: ","
+            - link [ref=e336]:
+              - /url: https://www.district.in/movies/rajini-the-jailer-2-movie-tickets-MV235763
+              - text: "Rajini: The Jailer 2"
+            - text: and more. Grab your movie tickets now before they’re gone on
+            - link [ref=e337]:
+              - /url: https://www.district.in
+              - text: District.in
+        - generic [ref=e338]:
+          - button [ref=e340]:
+            - heading "Discover Trending Films in Popular Cities & Grab Tickets for the Hottest Releases!" [level=2] [ref=e342]
+          - generic [ref=e346]:
+            - paragraph [ref=e347]: Browse our list of trending movies. Whether you're into offbeat indie films or regional cinema, there’s something for everyone.
+            - paragraph [ref=e348]
+            - list [ref=e349]:
+              - listitem [ref=e350]:
+                - strong [ref=e351]: "Delhi NCR:"
+                - text: Book tickets for trending movies in Delhi NCR, with movies like
+                - link [ref=e352]:
+                  - /url: https://www.district.in/movies/ramayana-movie-tickets-in-delhi-ncr-MV176276
+                  - text: Ramayana
+                - text: ","
+                - link [ref=e353]:
+                  - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-in-delhi-ncr-MV176735
+                  - text: "Avengers: Doomsday"
+                - text: ","
+                - link [ref=e354]:
+                  - /url: https://www.district.in/movies/pyre-movie-tickets-in-delhi-ncr-MV235005
+                  - text: Pyre
+                - text: ","
+                - link [ref=e355]:
+                  - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-in-delhi-ncr-MV219297
+                  - text: Godzilla Minus Zero
+                - text: ","
+                - link [ref=e356]:
+                  - /url: https://www.district.in/movies/dune-part-three-movie-tickets-in-delhi-ncr-MV207332
+                  - text: "Dune: Part Three"
+                - text: ","
+                - link [ref=e357]:
+                  - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-in-delhi-ncr-MV174475
+                  - text: "The Hunger Games: Sunrise on the Reaping"
+                - text: ","
+                - link [ref=e358]:
+                  - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-in-delhi-ncr-MV225928
+                  - text: "O.M: Operation Mole"
+                - text: ","
+                - link [ref=e359]:
+                  - /url: https://www.district.in/movies/kaali-kheti-movie-tickets-in-delhi-ncr-MV235145
+                  - text: Kaali Kheti
+                - text: ","
+                - link [ref=e360]:
+                  - /url: https://www.district.in/movies/ebenezer-movie-tickets-in-delhi-ncr-MV213946
+                  - text: Ebenezer
+                - text: ","
+                - link [ref=e361]:
+                  - /url: https://www.district.in/movies/nanhey-dil-movie-tickets-in-delhi-ncr-MV239209
+                  - text: Nanhey Dil
+                - text: ","
+                - link [ref=e362]:
+                  - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-in-delhi-ncr-MV220828
+                  - text: How to Rob a Bank
+                - text: ","
+                - link [ref=e363]:
+                  - /url: https://www.district.in/movies/udta-teer-movie-tickets-in-delhi-ncr-MV219550
+                  - text: Udta Teer
+                - text: ","
+                - link [ref=e364]:
+                  - /url: https://www.district.in/movies/ene-repeat-movie-tickets-in-delhi-ncr-MV227790
+                  - text: ENE Repeat
+                - text: ","
+                - link [ref=e365]:
+                  - /url: https://www.district.in/movies/i-play-rocky-movie-tickets-in-delhi-ncr-MV227343
+                  - text: I Play Rocky
+                - text: ","
+                - link [ref=e366]:
+                  - /url: https://www.district.in/movies/party-animals-movie-tickets-in-delhi-ncr-MV237247
+                  - text: Party Animals
+                - text: ","
+                - link [ref=e367]:
+                  - /url: https://www.district.in/movies/chakkven-movie-tickets-in-delhi-ncr-MV237361
+                  - text: Chakkven
+                - text: ","
+                - link [ref=e368]:
+                  - /url: https://www.district.in/movies/pratap-movie-tickets-in-delhi-ncr-MV233676
+                  - text: Pratap
+                - text: ","
+                - link [ref=e369]:
+                  - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-in-delhi-ncr-MV233661
+                  - text: Bachelor Party D'eux
+                - text: ","
+                - link [ref=e370]:
+                  - /url: https://www.district.in/movies/wildwood-movie-tickets-in-delhi-ncr-MV225188
+                  - text: Wildwood
+                - text: ","
+                - link [ref=e371]:
+                  - /url: https://www.district.in/movies/gondhal-2025-movie-tickets-in-delhi-ncr-MV208861
+                  - text: Gondhal (2025)
+                - text: . Whether you’re looking for indie flicks or regional films.
+              - listitem [ref=e372]:
+                - strong [ref=e373]: "Chennai:"
+                - text: In Chennai, find the latest trending movies, including
+                - link [ref=e374]:
+                  - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-in-chennai-MV225928
+                  - text: "O.M: Operation Mole"
+                - text: ","
+                - link [ref=e375]:
+                  - /url: https://www.district.in/movies/ramayana-movie-tickets-in-chennai-MV176276
+                  - text: Ramayana
+                - text: ","
+                - link [ref=e376]:
+                  - /url: https://www.district.in/movies/scene-movie-tickets-in-chennai-MV233181
+                  - text: Scene
+                - text: ","
+                - link [ref=e377]:
+                  - /url: https://www.district.in/movies/appakutty-movie-tickets-in-chennai-MV234558
+                  - text: Appakutty
+                - text: ","
+                - link [ref=e378]:
+                  - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-in-chennai-MV176735
+                  - text: "Avengers: Doomsday"
+                - text: ","
+                - link [ref=e379]:
+                  - /url: https://www.district.in/movies/sathyavan-savithiri-movie-tickets-in-chennai-MV221047
+                  - text: Sathyavan Savithiri
+                - text: ","
+                - link [ref=e380]:
+                  - /url: https://www.district.in/movies/aot-movie-tickets-in-chennai-MV239967
+                  - text: AOT
+                - text: ","
+                - link [ref=e381]:
+                  - /url: https://www.district.in/movies/john-doe-movie-tickets-in-chennai-MV237453
+                  - text: John Doe
+                - text: ","
+                - link [ref=e382]:
+                  - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-in-chennai-MV203295
+                  - text: Aakasamlo Oka Tara
+                - text: ","
+                - link [ref=e383]:
+                  - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-in-chennai-MV219297
+                  - text: Godzilla Minus Zero
+                - text: ","
+                - link [ref=e384]:
+                  - /url: https://www.district.in/movies/ene-repeat-movie-tickets-in-chennai-MV227790
+                  - text: ENE Repeat
+                - text: ","
+                - link [ref=e385]:
+                  - /url: https://www.district.in/movies/jailer-2-movie-tickets-in-chennai-MV187766
+                  - text: Jailer 2
+                - text: ","
+                - link [ref=e386]:
+                  - /url: https://www.district.in/movies/dune-part-three-movie-tickets-in-chennai-MV207332
+                  - text: "Dune: Part Three"
+                - text: ","
+                - link [ref=e387]:
+                  - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-in-chennai-MV174475
+                  - text: "The Hunger Games: Sunrise on the Reaping"
+                - text: ","
+                - link [ref=e388]:
+                  - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-in-chennai-MV233661
+                  - text: Bachelor Party D'eux
+                - text: ","
+                - link [ref=e389]:
+                  - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-in-chennai-MV220828
+                  - text: How to Rob a Bank
+                - text: ","
+                - link [ref=e390]:
+                  - /url: https://www.district.in/movies/mookuthi-amman-2-movie-tickets-in-chennai-MV176127
+                  - text: Mookuthi Amman 2
+                - text: ","
+                - link [ref=e391]:
+                  - /url: https://www.district.in/movies/bouma-movie-tickets-in-chennai-MV237043
+                  - text: Bouma
+                - text: ","
+                - link [ref=e392]:
+                  - /url: https://www.district.in/movies/nanhey-dil-movie-tickets-in-chennai-MV239209
+                  - text: Nanhey Dil
+                - text: ","
+                - link [ref=e393]:
+                  - /url: https://www.district.in/movies/wildwood-movie-tickets-in-chennai-MV225188
+                  - text: Wildwood
+                - text: . Explore offbeat choices and regional hits.
+              - listitem [ref=e394]:
+                - strong [ref=e395]: "Bangalore:"
+                - text: Explore Bangalore's diverse movie scene with films like
+                - link [ref=e396]:
+                  - /url: https://www.district.in/movies/ramayana-movie-tickets-in-bengaluru-MV176276
+                  - text: Ramayana
+                - text: ","
+                - link [ref=e397]:
+                  - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-in-bengaluru-MV225928
+                  - text: "O.M: Operation Mole"
+                - text: ","
+                - link [ref=e398]:
+                  - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-in-bengaluru-MV176735
+                  - text: "Avengers: Doomsday"
+                - text: ","
+                - link [ref=e399]:
+                  - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-in-bengaluru-MV203295
+                  - text: Aakasamlo Oka Tara
+                - text: ","
+                - link [ref=e400]:
+                  - /url: https://www.district.in/movies/brindavihari-movie-tickets-in-bengaluru-MV235911
+                  - text: Brindavihari
+                - text: ","
+                - link [ref=e401]:
+                  - /url: https://www.district.in/movies/ene-repeat-movie-tickets-in-bengaluru-MV227790
+                  - text: ENE Repeat
+                - text: ","
+                - link [ref=e402]:
+                  - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-in-bengaluru-MV219297
+                  - text: Godzilla Minus Zero
+                - text: ","
+                - link [ref=e403]:
+                  - /url: https://www.district.in/movies/dune-part-three-movie-tickets-in-bengaluru-MV207332
+                  - text: "Dune: Part Three"
+                - text: ","
+                - link [ref=e404]:
+                  - /url: https://www.district.in/movies/scene-movie-tickets-in-bengaluru-MV233181
+                  - text: Scene
+                - text: ","
+                - link [ref=e405]:
+                  - /url: https://www.district.in/movies/shankarabharanna-movie-tickets-in-bengaluru-MV237814
+                  - text: Shankarabharanna
+                - text: ","
+                - link [ref=e406]:
+                  - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-in-bengaluru-MV174475
+                  - text: "The Hunger Games: Sunrise on the Reaping"
+                - text: ","
+                - link [ref=e407]:
+                  - /url: https://www.district.in/movies/ebenezer-movie-tickets-in-bengaluru-MV213946
+                  - text: Ebenezer
+                - text: ","
+                - link [ref=e408]:
+                  - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-in-bengaluru-MV220828
+                  - text: How to Rob a Bank
+                - text: ","
+                - link [ref=e409]:
+                  - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-in-bengaluru-MV233661
+                  - text: Bachelor Party D'eux
+                - text: ","
+                - link [ref=e410]:
+                  - /url: https://www.district.in/movies/bouma-movie-tickets-in-bengaluru-MV237043
+                  - text: Bouma
+                - text: ","
+                - link [ref=e411]:
+                  - /url: https://www.district.in/movies/kaali-kheti-movie-tickets-in-bengaluru-MV235145
+                  - text: Kaali Kheti
+                - text: ","
+                - link [ref=e412]:
+                  - /url: https://www.district.in/movies/wildwood-movie-tickets-in-bengaluru-MV225188
+                  - text: Wildwood
+                - text: ","
+                - link [ref=e413]:
+                  - /url: https://www.district.in/movies/sathyavan-savithiri-movie-tickets-in-bengaluru-MV221047
+                  - text: Sathyavan Savithiri
+                - text: ","
+                - link [ref=e414]:
+                  - /url: https://www.district.in/movies/appakutty-movie-tickets-in-bengaluru-MV234558
+                  - text: Appakutty
+                - text: ","
+                - link [ref=e415]:
+                  - /url: https://www.district.in/movies/aot-movie-tickets-in-bengaluru-MV239967
+                  - text: AOT
+                - text: . There's always something fresh to discover.
+              - listitem [ref=e416]:
+                - strong [ref=e417]: "Hyderabad:"
+                - text: Dive into the latest movie trends in Hyderabad, featuring films like
+                - link [ref=e418]:
+                  - /url: https://www.district.in/movies/ene-repeat-movie-tickets-in-hyderabad-MV227790
+                  - text: ENE Repeat
+                - text: ","
+                - link [ref=e419]:
+                  - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-in-hyderabad-MV225928
+                  - text: "O.M: Operation Mole"
+                - text: ","
+                - link [ref=e420]:
+                  - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-in-hyderabad-MV203295
+                  - text: Aakasamlo Oka Tara
+                - text: ","
+                - link [ref=e421]:
+                  - /url: https://www.district.in/movies/ramayana-movie-tickets-in-hyderabad-MV176276
+                  - text: Ramayana
+                - text: ","
+                - link [ref=e422]:
+                  - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-in-hyderabad-MV176735
+                  - text: "Avengers: Doomsday"
+                - text: ","
+                - link [ref=e423]:
+                  - /url: https://www.district.in/movies/scene-movie-tickets-in-hyderabad-MV233181
+                  - text: Scene
+                - text: ","
+                - link [ref=e424]:
+                  - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-in-hyderabad-MV219297
+                  - text: Godzilla Minus Zero
+                - text: ","
+                - link [ref=e425]:
+                  - /url: https://www.district.in/movies/dnk-movie-tickets-in-hyderabad-MV230033
+                  - text: DNK
+                - text: ","
+                - link [ref=e426]:
+                  - /url: https://www.district.in/movies/badmash-pottey-returns-movie-tickets-in-hyderabad-MV239916
+                  - text: Badmash Pottey Returns
+                - text: ","
+                - link [ref=e427]:
+                  - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-in-hyderabad-MV174475
+                  - text: "The Hunger Games: Sunrise on the Reaping"
+                - text: ","
+                - link [ref=e428]:
+                  - /url: https://www.district.in/movies/dune-part-three-movie-tickets-in-hyderabad-MV207332
+                  - text: "Dune: Part Three"
+                - text: ","
+                - link [ref=e429]:
+                  - /url: https://www.district.in/movies/sathyavan-savithiri-movie-tickets-in-hyderabad-MV221047
+                  - text: Sathyavan Savithiri
+                - text: ","
+                - link [ref=e430]:
+                  - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-in-hyderabad-MV220828
+                  - text: How to Rob a Bank
+                - text: ","
+                - link [ref=e431]:
+                  - /url: https://www.district.in/movies/kaali-kheti-movie-tickets-in-hyderabad-MV235145
+                  - text: Kaali Kheti
+                - text: ","
+                - link [ref=e432]:
+                  - /url: https://www.district.in/movies/ebenezer-movie-tickets-in-hyderabad-MV213946
+                  - text: Ebenezer
+                - text: ","
+                - link [ref=e433]:
+                  - /url: https://www.district.in/movies/itllu-arjuna-movie-tickets-in-hyderabad-MV212781
+                  - text: Itllu Arjuna
+                - text: ","
+                - link [ref=e434]:
+                  - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-in-hyderabad-MV233661
+                  - text: Bachelor Party D'eux
+                - text: ","
+                - link [ref=e435]:
+                  - /url: https://www.district.in/movies/nanhey-dil-movie-tickets-in-hyderabad-MV239209
+                  - text: Nanhey Dil
+                - text: ","
+                - link [ref=e436]:
+                  - /url: https://www.district.in/movies/doraemon-the-movie-new-nobita-and-the-castle-of-the-undersea-devil-movie-tickets-in-hyderabad-MV223185
+                  - text: "Doraemon the Movie: New Nobita and the Castle of the Undersea Devil"
+                - text: ","
+                - link [ref=e437]:
+                  - /url: https://www.district.in/movies/hanuman-ansh-movie-tickets-in-hyderabad-MV225612
+                  - text: Hanuman Ansh
+                - text: .
+              - listitem [ref=e438]:
+                - strong [ref=e439]: "Mumbai:"
+                - text: In Mumbai, explore a variety of trending movies such as
+                - link [ref=e440]:
+                  - /url: https://www.district.in/movies/ramayana-movie-tickets-in-mumbai-MV176276
+                  - text: Ramayana
+                - text: ","
+                - link [ref=e441]:
+                  - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-in-mumbai-MV176735
+                  - text: "Avengers: Doomsday"
+                - text: ","
+                - link [ref=e442]:
+                  - /url: https://www.district.in/movies/aadi-anant-movie-tickets-in-mumbai-MV235370
+                  - text: Aadi Anant
+                - text: ","
+                - link [ref=e443]:
+                  - /url: https://www.district.in/movies/dune-part-three-movie-tickets-in-mumbai-MV207332
+                  - text: "Dune: Part Three"
+                - text: ","
+                - link [ref=e444]:
+                  - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-in-mumbai-MV219297
+                  - text: Godzilla Minus Zero
+                - text: ","
+                - link [ref=e445]:
+                  - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-in-mumbai-MV174475
+                  - text: "The Hunger Games: Sunrise on the Reaping"
+                - text: ","
+                - link [ref=e446]:
+                  - /url: https://www.district.in/movies/kaali-kheti-movie-tickets-in-mumbai-MV235145
+                  - text: Kaali Kheti
+                - text: ","
+                - link [ref=e447]:
+                  - /url: https://www.district.in/movies/ene-repeat-movie-tickets-in-mumbai-MV227790
+                  - text: ENE Repeat
+                - text: ","
+                - link [ref=e448]:
+                  - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-in-mumbai-MV225928
+                  - text: "O.M: Operation Mole"
+                - text: ","
+                - link [ref=e449]:
+                  - /url: https://www.district.in/movies/maitreyaa-movie-tickets-in-mumbai-MV239668
+                  - text: Maitreyaa
+                - text: ","
+                - link [ref=e450]:
+                  - /url: https://www.district.in/movies/ebenezer-movie-tickets-in-mumbai-MV213946
+                  - text: Ebenezer
+                - text: ","
+                - link [ref=e451]:
+                  - /url: https://www.district.in/movies/gondhal-2025-movie-tickets-in-mumbai-MV208861
+                  - text: Gondhal (2025)
+                - text: ","
+                - link [ref=e452]:
+                  - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-in-mumbai-MV220828
+                  - text: How to Rob a Bank
+                - text: ","
+                - link [ref=e453]:
+                  - /url: https://www.district.in/movies/i-play-rocky-movie-tickets-in-mumbai-MV227343
+                  - text: I Play Rocky
+                - text: ","
+                - link [ref=e454]:
+                  - /url: https://www.district.in/movies/bandhu-movie-tickets-in-mumbai-MV238505
+                  - text: Bandhu
+                - text: ","
+                - link [ref=e455]:
+                  - /url: https://www.district.in/movies/wildwood-movie-tickets-in-mumbai-MV225188
+                  - text: Wildwood
+                - text: ","
+                - link [ref=e456]:
+                  - /url: https://www.district.in/movies/udta-teer-movie-tickets-in-mumbai-MV219550
+                  - text: Udta Teer
+                - text: ","
+                - link [ref=e457]:
+                  - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-in-mumbai-MV203295
+                  - text: Aakasamlo Oka Tara
+                - text: ","
+                - link [ref=e458]:
+                  - /url: https://www.district.in/movies/ruff-and-tuff-kanya-movie-tickets-in-mumbai-MV236494
+                  - text: Ruff and Tuff Kanya
+                - text: ","
+                - link [ref=e459]:
+                  - /url: https://www.district.in/movies/pyre-movie-tickets-in-mumbai-MV235005
+                  - text: Pyre
+                - text: . Just experience the best in class cinema.
+              - listitem [ref=e460]:
+                - strong [ref=e461]: "Jaipur:"
+                - link [ref=e462]:
+                  - /url: https://www.district.in/movies/ramayana-movie-tickets-in-jaipur-MV176276
+                  - text: Ramayana
+                - text: ","
+                - link [ref=e463]:
+                  - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-in-jaipur-MV176735
+                  - text: "Avengers: Doomsday"
+                - text: ","
+                - link [ref=e464]:
+                  - /url: https://www.district.in/movies/kaali-kheti-movie-tickets-in-jaipur-MV235145
+                  - text: Kaali Kheti
+                - text: ","
+                - link [ref=e465]:
+                  - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-in-jaipur-MV225928
+                  - text: "O.M: Operation Mole"
+                - text: ","
+                - link [ref=e466]:
+                  - /url: https://www.district.in/movies/pyre-movie-tickets-in-jaipur-MV235005
+                  - text: Pyre
+                - text: ","
+                - link [ref=e467]:
+                  - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-in-jaipur-MV219297
+                  - text: Godzilla Minus Zero
+                - text: ","
+                - link [ref=e468]:
+                  - /url: https://www.district.in/movies/udta-teer-movie-tickets-in-jaipur-MV219550
+                  - text: Udta Teer
+                - text: ","
+                - link [ref=e469]:
+                  - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-in-jaipur-MV174475
+                  - text: "The Hunger Games: Sunrise on the Reaping"
+                - text: ","
+                - link [ref=e470]:
+                  - /url: https://www.district.in/movies/dune-part-three-movie-tickets-in-jaipur-MV207332
+                  - text: "Dune: Part Three"
+                - text: ","
+                - link [ref=e471]:
+                  - /url: https://www.district.in/movies/yeh-prem-mol-liya-movie-tickets-in-jaipur-MV223177
+                  - text: Yeh Prem Mol Liya
+                - text: ","
+                - link [ref=e472]:
+                  - /url: https://www.district.in/movies/drishyam-the-conclusion-movie-tickets-in-jaipur-MV207254
+                  - text: "Drishyam: The Conclusion"
+                - text: ","
+                - link [ref=e473]:
+                  - /url: https://www.district.in/movies/party-animals-movie-tickets-in-jaipur-MV237247
+                  - text: Party Animals
+                - text: ","
+                - link [ref=e474]:
+                  - /url: https://www.district.in/movies/ene-repeat-movie-tickets-in-jaipur-MV227790
+                  - text: ENE Repeat
+                - text: ","
+                - link [ref=e475]:
+                  - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-in-jaipur-MV220828
+                  - text: How to Rob a Bank
+                - text: ","
+                - link [ref=e476]:
+                  - /url: https://www.district.in/movies/nanhey-dil-movie-tickets-in-jaipur-MV239209
+                  - text: Nanhey Dil
+                - text: ","
+                - link [ref=e477]:
+                  - /url: https://www.district.in/movies/ebenezer-movie-tickets-in-jaipur-MV213946
+                  - text: Ebenezer
+                - text: ","
+                - link [ref=e478]:
+                  - /url: https://www.district.in/movies/dhood-movie-tickets-in-jaipur-MV234349
+                  - text: Dhood
+                - text: ","
+                - link [ref=e479]:
+                  - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-in-jaipur-MV233661
+                  - text: Bachelor Party D'eux
+                - text: ","
+                - link [ref=e480]:
+                  - /url: https://www.district.in/movies/pratap-movie-tickets-in-jaipur-MV233676
+                  - text: Pratap
+                - text: ","
+                - link [ref=e481]:
+                  - /url: https://www.district.in/movies/scene-movie-tickets-in-jaipur-MV233181
+                  - text: Scene
+                - text: . From local hits to Bollywood blockbusters, there's something for everyone.
+              - listitem [ref=e482]:
+                - strong [ref=e483]: "Pune:"
+                - text: Explore mix of indie films, regional hits, and mainstream movies like
+                - link [ref=e484]:
+                  - /url: https://www.district.in/movies/ramayana-movie-tickets-in-pune-MV176276
+                  - text: Ramayana
+                - text: ","
+                - link [ref=e485]:
+                  - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-in-pune-MV176735
+                  - text: "Avengers: Doomsday"
+                - text: ","
+                - link [ref=e486]:
+                  - /url: https://www.district.in/movies/aadi-anant-movie-tickets-in-pune-MV235370
+                  - text: Aadi Anant
+                - text: ","
+                - link [ref=e487]:
+                  - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-in-pune-MV219297
+                  - text: Godzilla Minus Zero
+                - text: ","
+                - link [ref=e488]:
+                  - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-in-pune-MV174475
+                  - text: "The Hunger Games: Sunrise on the Reaping"
+                - text: ","
+                - link [ref=e489]:
+                  - /url: https://www.district.in/movies/dune-part-three-movie-tickets-in-pune-MV207332
+                  - text: "Dune: Part Three"
+                - text: ","
+                - link [ref=e490]:
+                  - /url: https://www.district.in/movies/kaali-kheti-movie-tickets-in-pune-MV235145
+                  - text: Kaali Kheti
+                - text: ","
+                - link [ref=e491]:
+                  - /url: https://www.district.in/movies/maitreyaa-movie-tickets-in-pune-MV239668
+                  - text: Maitreyaa
+                - text: ","
+                - link [ref=e492]:
+                  - /url: https://www.district.in/movies/ene-repeat-movie-tickets-in-pune-MV227790
+                  - text: ENE Repeat
+                - text: ","
+                - link [ref=e493]:
+                  - /url: https://www.district.in/movies/ebenezer-movie-tickets-in-pune-MV213946
+                  - text: Ebenezer
+                - text: ","
+                - link [ref=e494]:
+                  - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-in-pune-MV225928
+                  - text: "O.M: Operation Mole"
+                - text: ","
+                - link [ref=e495]:
+                  - /url: https://www.district.in/movies/pyre-movie-tickets-in-pune-MV235005
+                  - text: Pyre
+                - text: ","
+                - link [ref=e496]:
+                  - /url: https://www.district.in/movies/gondhal-2025-movie-tickets-in-pune-MV208861
+                  - text: Gondhal (2025)
+                - text: ","
+                - link [ref=e497]:
+                  - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-in-pune-MV220828
+                  - text: How to Rob a Bank
+                - text: ","
+                - link [ref=e498]:
+                  - /url: https://www.district.in/movies/wildwood-movie-tickets-in-pune-MV225188
+                  - text: Wildwood
+                - text: ","
+                - link [ref=e499]:
+                  - /url: https://www.district.in/movies/i-play-rocky-movie-tickets-in-pune-MV227343
+                  - text: I Play Rocky
+                - text: ","
+                - link [ref=e500]:
+                  - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-in-pune-MV203295
+                  - text: Aakasamlo Oka Tara
+                - text: ","
+                - link [ref=e501]:
+                  - /url: https://www.district.in/movies/udta-teer-movie-tickets-in-pune-MV219550
+                  - text: Udta Teer
+                - text: ","
+                - link [ref=e502]:
+                  - /url: https://www.district.in/movies/bandhu-movie-tickets-in-pune-MV238505
+                  - text: Bandhu
+                - text: ","
+                - link [ref=e503]:
+                  - /url: https://www.district.in/movies/drishyam-the-conclusion-movie-tickets-in-pune-MV207254
+                  - text: "Drishyam: The Conclusion"
+                - text: .
+              - listitem [ref=e504]:
+                - strong [ref=e505]: "Lucknow:"
+                - text: Discover regional and trending films like
+                - link [ref=e506]:
+                  - /url: https://www.district.in/movies/ramayana-movie-tickets-in-lucknow-MV176276
+                  - text: Ramayana
+                - text: ","
+                - link [ref=e507]:
+                  - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-in-lucknow-MV176735
+                  - text: "Avengers: Doomsday"
+                - text: ","
+                - link [ref=e508]:
+                  - /url: https://www.district.in/movies/dune-part-three-movie-tickets-in-lucknow-MV207332
+                  - text: "Dune: Part Three"
+                - text: ","
+                - link [ref=e509]:
+                  - /url: https://www.district.in/movies/pyre-movie-tickets-in-lucknow-MV235005
+                  - text: Pyre
+                - text: ","
+                - link [ref=e510]:
+                  - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-in-lucknow-MV219297
+                  - text: Godzilla Minus Zero
+                - text: ","
+                - link [ref=e511]:
+                  - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-in-lucknow-MV225928
+                  - text: "O.M: Operation Mole"
+                - text: ","
+                - link [ref=e512]:
+                  - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-in-lucknow-MV174475
+                  - text: "The Hunger Games: Sunrise on the Reaping"
+                - text: ","
+                - link [ref=e513]:
+                  - /url: https://www.district.in/movies/kaali-kheti-movie-tickets-in-lucknow-MV235145
+                  - text: Kaali Kheti
+                - text: ","
+                - link [ref=e514]:
+                  - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-in-lucknow-MV220828
+                  - text: How to Rob a Bank
+                - text: ","
+                - link [ref=e515]:
+                  - /url: https://www.district.in/movies/nanhey-dil-movie-tickets-in-lucknow-MV239209
+                  - text: Nanhey Dil
+                - text: ","
+                - link [ref=e516]:
+                  - /url: https://www.district.in/movies/ebenezer-movie-tickets-in-lucknow-MV213946
+                  - text: Ebenezer
+                - text: ","
+                - link [ref=e517]:
+                  - /url: https://www.district.in/movies/party-animals-movie-tickets-in-lucknow-MV237247
+                  - text: Party Animals
+                - text: ","
+                - link [ref=e518]:
+                  - /url: https://www.district.in/movies/ene-repeat-movie-tickets-in-lucknow-MV227790
+                  - text: ENE Repeat
+                - text: ","
+                - link [ref=e519]:
+                  - /url: https://www.district.in/movies/pratap-movie-tickets-in-lucknow-MV233676
+                  - text: Pratap
+                - text: ","
+                - link [ref=e520]:
+                  - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-in-lucknow-MV233661
+                  - text: Bachelor Party D'eux
+                - text: ","
+                - link [ref=e521]:
+                  - /url: https://www.district.in/movies/chakkven-movie-tickets-in-lucknow-MV237361
+                  - text: Chakkven
+                - text: ","
+                - link [ref=e522]:
+                  - /url: https://www.district.in/movies/udta-teer-movie-tickets-in-lucknow-MV219550
+                  - text: Udta Teer
+                - text: ","
+                - link [ref=e523]:
+                  - /url: https://www.district.in/movies/gondhal-2025-movie-tickets-in-lucknow-MV208861
+                  - text: Gondhal (2025)
+                - text: ","
+                - link [ref=e524]:
+                  - /url: https://www.district.in/movies/70-syaal-movie-tickets-in-lucknow-MV217219
+                  - text: 70 Syaal
+                - text: .
+              - listitem [ref=e525]:
+                - strong [ref=e526]: "Vizag:"
+                - text: Regional and trending hits, including
+                - link [ref=e527]:
+                  - /url: https://www.district.in/movies/ene-repeat-movie-tickets-in-vizag-MV227790
+                  - text: ENE Repeat
+                - text: ","
+                - link [ref=e528]:
+                  - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-in-vizag-MV225928
+                  - text: "O.M: Operation Mole"
+                - text: ","
+                - link [ref=e529]:
+                  - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-in-vizag-MV203295
+                  - text: Aakasamlo Oka Tara
+                - text: ","
+                - link [ref=e530]:
+                  - /url: https://www.district.in/movies/ramayana-movie-tickets-in-vizag-MV176276
+                  - text: Ramayana
+                - text: ","
+                - link [ref=e531]:
+                  - /url: https://www.district.in/movies/scene-movie-tickets-in-vizag-MV233181
+                  - text: Scene
+                - text: ","
+                - link [ref=e532]:
+                  - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-in-vizag-MV219297
+                  - text: Godzilla Minus Zero
+                - text: ","
+                - link [ref=e533]:
+                  - /url: https://www.district.in/movies/dnk-movie-tickets-in-vizag-MV230033
+                  - text: DNK
+                - text: ","
+                - link [ref=e534]:
+                  - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-in-vizag-MV176735
+                  - text: "Avengers: Doomsday"
+                - text: ","
+                - link [ref=e535]:
+                  - /url: https://www.district.in/movies/dune-part-three-movie-tickets-in-vizag-MV207332
+                  - text: "Dune: Part Three"
+                - text: ","
+                - link [ref=e536]:
+                  - /url: https://www.district.in/movies/sathyavan-savithiri-movie-tickets-in-vizag-MV221047
+                  - text: Sathyavan Savithiri
+                - text: ","
+                - link [ref=e537]:
+                  - /url: https://www.district.in/movies/ebenezer-movie-tickets-in-vizag-MV213946
+                  - text: Ebenezer
+                - text: ","
+                - link [ref=e538]:
+                  - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-in-vizag-MV220828
+                  - text: How to Rob a Bank
+                - text: ","
+                - link [ref=e539]:
+                  - /url: https://www.district.in/movies/view-movie-tickets-in-vizag-MV239724
+                  - text: View
+                - text: ","
+                - link [ref=e540]:
+                  - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-in-vizag-MV174475
+                  - text: "The Hunger Games: Sunrise on the Reaping"
+                - text: ","
+                - link [ref=e541]:
+                  - /url: https://www.district.in/movies/itllu-arjuna-movie-tickets-in-vizag-MV212781
+                  - text: Itllu Arjuna
+                - text: ","
+                - link [ref=e542]:
+                  - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-in-vizag-MV233661
+                  - text: Bachelor Party D'eux
+                - text: ","
+                - link [ref=e543]:
+                  - /url: https://www.district.in/movies/mana-doctor-babe-movie-tickets-in-vizag-MV239810
+                  - text: Mana Doctor Babe
+                - text: ","
+                - link [ref=e544]:
+                  - /url: https://www.district.in/movies/kaali-kheti-movie-tickets-in-vizag-MV235145
+                  - text: Kaali Kheti
+                - text: ","
+                - link [ref=e545]:
+                  - /url: https://www.district.in/movies/kerub-movie-tickets-in-vizag-MV239722
+                  - text: Kerub
+                - text: .
+              - listitem [ref=e546]:
+                - strong [ref=e547]: "Guntur:"
+                - link [ref=e548]:
+                  - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-in-guntur-MV225928
+                  - text: "O.M: Operation Mole"
+                - text: ","
+                - link [ref=e549]:
+                  - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-in-guntur-MV203295
+                  - text: Aakasamlo Oka Tara
+                - text: ","
+                - link [ref=e550]:
+                  - /url: https://www.district.in/movies/ene-repeat-movie-tickets-in-guntur-MV227790
+                  - text: ENE Repeat
+                - text: ","
+                - link [ref=e551]:
+                  - /url: https://www.district.in/movies/ramayana-movie-tickets-in-guntur-MV176276
+                  - text: Ramayana
+                - text: ","
+                - link [ref=e552]:
+                  - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-in-guntur-MV176735
+                  - text: "Avengers: Doomsday"
+                - text: ","
+                - link [ref=e553]:
+                  - /url: https://www.district.in/movies/scene-movie-tickets-in-guntur-MV233181
+                  - text: Scene
+                - text: ","
+                - link [ref=e554]:
+                  - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-in-guntur-MV219297
+                  - text: Godzilla Minus Zero
+                - text: ","
+                - link [ref=e555]:
+                  - /url: https://www.district.in/movies/aadarsha-kutumbam-house-no-47-movie-tickets-in-guntur-MV211590
+                  - text: "Aadarsha Kutumbam House No: 47"
+                - text: ","
+                - link [ref=e556]:
+                  - /url: https://www.district.in/movies/dnk-movie-tickets-in-guntur-MV230033
+                  - text: DNK
+                - text: ","
+                - link [ref=e557]:
+                  - /url: https://www.district.in/movies/sathyavan-savithiri-movie-tickets-in-guntur-MV221047
+                  - text: Sathyavan Savithiri
+                - text: ","
+                - link [ref=e558]:
+                  - /url: https://www.district.in/movies/view-movie-tickets-in-guntur-MV239724
+                  - text: View
+                - text: ","
+                - link [ref=e559]:
+                  - /url: https://www.district.in/movies/jailer-2-movie-tickets-in-guntur-MV187766
+                  - text: Jailer 2
+                - text: ","
+                - link [ref=e560]:
+                  - /url: https://www.district.in/movies/ebenezer-movie-tickets-in-guntur-MV213946
+                  - text: Ebenezer
+                - text: ","
+                - link [ref=e561]:
+                  - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-in-guntur-MV233661
+                  - text: Bachelor Party D'eux
+                - text: ","
+                - link [ref=e562]:
+                  - /url: https://www.district.in/movies/muta-mestri-1993-movie-tickets-in-guntur-MV230947
+                  - text: Muta Mestri (1993)
+                - text: . Explore regional blockbusters and the latest hits.
+        - generic [ref=e563]:
+          - button [ref=e565]:
+            - heading "Explore the Best Movies Currently Showing in Popular Cities!" [level=2] [ref=e567]
+          - paragraph [ref=e572]:
+            - text: From the heart of Bollywood in
+            - link [ref=e573]:
+              - /url: https://www.district.in/movies/mumbai-movie-tickets
+              - text: Mumbai
+            - text: to the cultural richness of
+            - link [ref=e574]:
+              - /url: https://www.district.in/movies/delhi-ncr-movie-tickets
+              - text: Delhi NCR
+            - text: and the tech-driven vibes of
+            - link [ref=e575]:
+              - /url: https://www.district.in/movies/bengaluru-movie-tickets
+              - text: Bengaluru
+            - text: ", catch the latest movies in your city. Discover top-rated movies in"
+            - link [ref=e576]:
+              - /url: https://www.district.in/movies/hyderabad-movie-tickets
+              - text: Hyderabad
+            - text: ", enjoy cinematic experiences with"
+            - link [ref=e577]:
+              - /url: https://www.district.in/movies/chennai-movie-tickets
+              - text: movies in Chennai
+            - text: and
+            - link [ref=e578]:
+              - /url: https://www.district.in/movies/pune-movie-tickets
+              - text: movies in Pune
+            - text: ", or dive into regional hits through"
+            - link [ref=e579]:
+              - /url: https://www.district.in/movies/kolkata-movie-tickets
+              - text: movies in Kolkata
+            - text: and
+            - link [ref=e580]:
+              - /url: https://www.district.in/movies/ahmedabad-movie-tickets
+              - text: movies in Ahmedabad
+            - text: . Explore stories from the heartland with
+            - link [ref=e581]:
+              - /url: https://www.district.in/movies/jaipur-movie-tickets
+              - text: movies in Jaipur
+            - text: ","
+            - link [ref=e582]:
+              - /url: https://www.district.in/movies/lucknow-movie-tickets
+              - text: movies in Lucknow
+            - text: ", and"
+            - link [ref=e583]:
+              - /url: https://www.district.in/movies/indore-movie-tickets
+              - text: movies in Indore
+            - text: . For movie lovers in Andhra Pradesh and Telangana, check out
+            - link [ref=e584]:
+              - /url: https://www.district.in/movies/vizag-movie-tickets
+              - text: movies in Vizag
+            - text: ","
+            - link [ref=e585]:
+              - /url: https://www.district.in/movies/guntur-movie-tickets
+              - text: Guntur
+            - text: ","
+            - link [ref=e586]:
+              - /url: https://www.district.in/movies/vijayawada-movie-tickets
+              - text: Vijayawada
+            - text: ","
+            - link [ref=e587]:
+              - /url: https://www.district.in/movies/nellore-movie-tickets
+              - text: Nellore
+            - text: ","
+            - link [ref=e588]:
+              - /url: https://www.district.in/movies/anantapur-movie-tickets
+              - text: Anantapur
+            - text: ","
+            - link [ref=e589]:
+              - /url: https://www.district.in/movies/kurnool-movie-tickets
+              - text: Kurnool
+            - text: ", and"
+            - link [ref=e590]:
+              - /url: https://www.district.in/movies/kakinada-movie-tickets
+              - text: Kakinada
+            - text: . Down south, enjoy movies in Trivandrum, while western India awaits with movies in
+            - link [ref=e591]:
+              - /url: https://www.district.in/movies/surat-movie-tickets
+              - text: Surat
+            - text: . No matter where you are, every city has a screen waiting for you.
+        - generic [ref=e592]:
+          - button [ref=e594]:
+            - heading "Top Movie Genres You’ll Love – Action, Comedy, Romance & More!" [level=2] [ref=e596]
+          - list [ref=e601]:
+            - listitem [ref=e602]:
+              - text: "Action: Experience the rush with films like"
+              - link [ref=e603]:
+                - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-MV225928
+                - text: "O.M: Operation Mole"
+              - text: ","
+              - link [ref=e604]:
+                - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-MV176735
+                - text: "Avengers: Doomsday"
+              - text: ","
+              - link [ref=e605]:
+                - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-MV219297
+                - text: Godzilla Minus Zero
+              - text: ","
+              - link [ref=e606]:
+                - /url: https://www.district.in/movies/scene-movie-tickets-MV233181
+                - text: Scene
+              - text: ","
+              - link [ref=e607]:
+                - /url: https://www.district.in/movies/dune-part-three-movie-tickets-MV207332
+                - text: "Dune: Part Three"
+              - text: ","
+              - link [ref=e608]:
+                - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-MV174475
+                - text: "The Hunger Games: Sunrise on the Reaping"
+              - text: ","
+              - link [ref=e609]:
+                - /url: https://www.district.in/movies/appakutty-movie-tickets-MV234558
+                - text: Appakutty
+              - text: ","
+              - link [ref=e610]:
+                - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-MV233661
+                - text: Bachelor Party D'eux
+              - text: ","
+              - link [ref=e611]:
+                - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-MV220828
+                - text: How to Rob a Bank
+              - text: ","
+              - link [ref=e612]:
+                - /url: https://www.district.in/movies/pratap-movie-tickets-MV233676
+                - text: Pratap
+              - text: . Explore the world of adrenaline with action movies collection on
+              - link [ref=e613]:
+                - /url: https://www.district.in
+                - text: District.in
+            - listitem [ref=e614]:
+              - text: "Comedy: Unlimited laughs for your heart with"
+              - link [ref=e615]:
+                - /url: https://www.district.in/movies/ene-repeat-movie-tickets-MV227790
+                - text: ENE Repeat
+              - text: ","
+              - link [ref=e616]:
+                - /url: https://www.district.in/movies/scene-movie-tickets-MV233181
+                - text: Scene
+              - text: ","
+              - link [ref=e617]:
+                - /url: https://www.district.in/movies/dnk-movie-tickets-MV230033
+                - text: DNK
+              - text: ","
+              - link [ref=e618]:
+                - /url: https://www.district.in/movies/ruff-and-tuff-kanya-movie-tickets-MV236494
+                - text: Ruff and Tuff Kanya
+              - text: ","
+              - link [ref=e619]:
+                - /url: https://www.district.in/movies/udta-teer-movie-tickets-MV219550
+                - text: Udta Teer
+              - text: ","
+              - link [ref=e620]:
+                - /url: https://www.district.in/movies/party-animals-movie-tickets-MV237247
+                - text: Party Animals
+              - text: ","
+              - link [ref=e621]:
+                - /url: https://www.district.in/movies/aadarsha-kutumbam-house-no-47-movie-tickets-MV211590
+                - text: "Aadarsha Kutumbam House No: 47"
+              - text: ","
+              - link [ref=e622]:
+                - /url: https://www.district.in/movies/badmash-pottey-returns-movie-tickets-MV239916
+                - text: Badmash Pottey Returns
+              - text: ","
+              - link [ref=e623]:
+                - /url: https://www.district.in/movies/the-cat-in-the-hat-movie-tickets-MV201083
+                - text: The Cat in the Hat
+              - text: ","
+              - link [ref=e624]:
+                - /url: https://www.district.in/movies/g-o-a-t-movie-tickets-MV211406
+                - text: G.O.A.T
+              - text: and more. Dive into a full comedy movie list.
+            - listitem [ref=e625]:
+              - text: "Romance: Fall in love with cinema again from cute romantic comedies to emotional love stories like"
+              - link [ref=e626]:
+                - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-MV203295
+                - text: Aakasamlo Oka Tara
+              - text: ","
+              - link [ref=e627]:
+                - /url: https://www.district.in/movies/aot-movie-tickets-MV239967
+                - text: AOT
+              - text: ","
+              - link [ref=e628]:
+                - /url: https://www.district.in/movies/pyre-movie-tickets-MV235005
+                - text: Pyre
+              - text: ","
+              - link [ref=e629]:
+                - /url: https://www.district.in/movies/brindavihari-movie-tickets-MV235911
+                - text: Brindavihari
+              - text: ","
+              - link [ref=e630]:
+                - /url: https://www.district.in/movies/maitreyaa-movie-tickets-MV239668
+                - text: Maitreyaa
+              - text: ","
+              - link [ref=e631]:
+                - /url: https://www.district.in/movies/meru-malan-movie-tickets-MV239151
+                - text: Meru Malan
+              - text: ","
+              - link [ref=e632]:
+                - /url: https://www.district.in/movies/itllu-arjuna-movie-tickets-MV212781
+                - text: Itllu Arjuna
+              - text: ","
+              - link [ref=e633]:
+                - /url: https://www.district.in/movies/premada-oorali-movie-tickets-MV234253
+                - text: Premada Oorali
+              - text: ","
+              - link [ref=e634]:
+                - /url: https://www.district.in/movies/gunmaaster-g9-movie-tickets-MV201788
+                - text: Gunmaaster G9
+              - text: ","
+              - link [ref=e635]:
+                - /url: https://www.district.in/movies/mitha-chuingam-movie-tickets-MV239794
+                - text: Mitha Chuingam
+              - text: .
+            - listitem [ref=e636]:
+              - text: "Thriller or Horror: Get on the edge of your seat with movies like"
+              - link [ref=e637]:
+                - /url: https://www.district.in/movies/kaali-kheti-movie-tickets-MV235145
+                - text: Kaali Kheti
+              - text: ","
+              - link [ref=e638]:
+                - /url: https://www.district.in/movies/70-syaal-movie-tickets-MV217219
+                - text: 70 Syaal
+              - text: ","
+              - link [ref=e639]:
+                - /url: https://www.district.in/movies/badmash-pottey-returns-movie-tickets-MV239916
+                - text: Badmash Pottey Returns
+              - text: ","
+              - link [ref=e640]:
+                - /url: https://www.district.in/movies/view-movie-tickets-MV239724
+                - text: View
+              - text: ","
+              - link [ref=e641]:
+                - /url: https://www.district.in/movies/kankana-movie-tickets-MV228522
+                - text: Kankana
+              - text: ","
+              - link [ref=e642]:
+                - /url: https://www.district.in/movies/aaye-baaye-saaye-movie-tickets-MV239483
+                - text: Aaye Baaye Saaye
+              - text: ","
+              - link [ref=e643]:
+                - /url: https://www.district.in/movies/418-movie-tickets-MV229134
+                - text: "418"
+              - text: ","
+              - link [ref=e644]:
+                - /url: https://www.district.in/movies/clayface-movie-tickets-MV220119
+                - text: Clayface
+              - text: ","
+              - link [ref=e645]:
+                - /url: https://www.district.in/movies/bhootam-bhayam-movie-tickets-MV225495
+                - text: Bhootam Bhayam
+              - text: ","
+              - link [ref=e646]:
+                - /url: https://www.district.in/movies/the-girl-who-sees-movie-tickets-MV239280
+                - text: The Girl Who Sees
+              - text: . For fans of suspense and jump scares, our thriller & horror picks will not disappoint.
+        - generic [ref=e647]:
+          - button [ref=e649]:
+            - heading "Explore & Book Tickets for Your Favorite Movie Genres in Popular Cities!" [level=2] [ref=e651]
+          - generic [ref=e655]:
+            - paragraph [ref=e656]:
+              - text: Book movie tickets for your favorite genres from
+              - link [ref=e657]:
+                - /url: https://www.district.in/movies/action-movies-near-me
+                - text: Action
+              - text: ","
+              - link [ref=e658]:
+                - /url: https://www.district.in/movies/comedy-movies-near-me
+                - text: Comedy
+              - text: ","
+              - link [ref=e659]:
+                - /url: https://www.district.in/movies/romance-movies-near-me
+                - text: Romance
+              - text: ","
+              - link [ref=e660]:
+                - /url: https://www.district.in/movies/thriller-movies-near-me
+                - text: Thriller
+              - text: ","
+              - link [ref=e661]:
+                - /url: https://www.district.in/movies/drama-movies-near-me
+                - text: Drama
+              - text: ","
+              - link [ref=e662]:
+                - /url: https://www.district.in/movies/adventure-movies-near-me
+                - text: Adventure
+              - text: ","
+              - link [ref=e663]:
+                - /url: https://www.district.in/movies/horror-movies-near-me
+                - text: Horror
+              - text: and more in popular cities across India. Whether you're in Delhi NCR, Chennai, Bangalore, Hyderabad, or Mumbai, enjoy seamless access to the best movie experiences.
+            - paragraph [ref=e664]
+            - list [ref=e665]:
+              - listitem [ref=e666]:
+                - text: "Delhi NCR: Enjoy the best of"
+                - link [ref=e667]:
+                  - /url: https://www.district.in/movies/action-movies-in-delhi-ncr
+                  - text: Action
+                - text: ","
+                - link [ref=e668]:
+                  - /url: https://www.district.in/movies/comedy-movies-in-delhi-ncr
+                  - text: Comedy
+                - text: ","
+                - link [ref=e669]:
+                  - /url: https://www.district.in/movies/romance-movies-in-delhi-ncr
+                  - text: Romance
+                - text: ","
+                - link [ref=e670]:
+                  - /url: https://www.district.in/movies/thriller-movies-in-delhi-ncr
+                  - text: Thriller
+                - text: ","
+                - link [ref=e671]:
+                  - /url: https://www.district.in/movies/drama-movies-in-delhi-ncr
+                  - text: Drama
+                - text: ","
+                - link [ref=e672]:
+                  - /url: https://www.district.in/movies/adventure-movies-in-delhi-ncr
+                  - text: Adventure
+                - text: and
+                - link [ref=e673]:
+                  - /url: https://www.district.in/movies/horror-movies-in-delhi-ncr
+                  - text: Horror
+                - text: in Delhi NCR, where there’s something for every movie lover.
+              - listitem [ref=e674]:
+                - text: "Chennai: Discover top genres like"
+                - link [ref=e675]:
+                  - /url: https://www.district.in/movies/comedy-movies-in-chennai
+                  - text: Comedy
+                - text: ","
+                - link [ref=e676]:
+                  - /url: https://www.district.in/movies/romance-movies-in-chennai
+                  - text: Romance
+                - text: ","
+                - link [ref=e677]:
+                  - /url: https://www.district.in/movies/thriller-movies-in-chennai
+                  - text: Thriller
+                - text: ","
+                - link [ref=e678]:
+                  - /url: https://www.district.in/movies/action-movies-in-chennai
+                  - text: Action
+                - text: ","
+                - link [ref=e679]:
+                  - /url: https://www.district.in/movies/drama-movies-in-chennai
+                  - text: Drama
+                - text: ","
+                - link [ref=e680]:
+                  - /url: https://www.district.in/movies/adventure-movies-in-chennai
+                  - text: Adventure
+                - text: and
+                - link [ref=e681]:
+                  - /url: https://www.district.in/movies/horror-movies-in-chennai
+                  - text: Horror
+                - text: in Chennai, perfect for every film enthusiast.
+              - listitem [ref=e682]:
+                - text: "Bangalore: In Bangalore, catch the latest"
+                - link [ref=e683]:
+                  - /url: https://www.district.in/movies/horror-movies-in-bengaluru
+                  - text: Horror
+                - text: ","
+                - link [ref=e684]:
+                  - /url: https://www.district.in/movies/action-movies-in-bengaluru
+                  - text: Action
+                - text: ","
+                - link [ref=e685]:
+                  - /url: https://www.district.in/movies/comedy-movies-in-bengaluru
+                  - text: Comedy
+                - text: ","
+                - link [ref=e686]:
+                  - /url: https://www.district.in/movies/romance-movies-in-bengaluru
+                  - text: Romance
+                - text: ","
+                - link [ref=e687]:
+                  - /url: https://www.district.in/movies/thriller-movies-in-bengaluru
+                  - text: Thriller
+                - text: ","
+                - link [ref=e688]:
+                  - /url: https://www.district.in/movies/drama-movies-in-bengaluru
+                  - text: Drama
+                - text: ","
+                - link [ref=e689]:
+                  - /url: https://www.district.in/movies/adventure-movies-in-bengaluru
+                  - text: Adventure
+                - text: ", offering a cinematic experience for all tastes."
+              - listitem [ref=e690]:
+                - text: "Hyderabad: Hyderabad offers a great mix of"
+                - link [ref=e691]:
+                  - /url: https://www.district.in/movies/romance-movies-in-hyderabad
+                  - text: Romance
+                - text: ","
+                - link [ref=e692]:
+                  - /url: https://www.district.in/movies/action-movies-in-hyderabad
+                  - text: Action
+                - text: ","
+                - link [ref=e693]:
+                  - /url: https://www.district.in/movies/comedy-movies-in-hyderabad
+                  - text: Comedy
+                - text: ","
+                - link [ref=e694]:
+                  - /url: https://www.district.in/movies/thriller-movies-in-hyderabad
+                  - text: Thriller
+                - text: ","
+                - link [ref=e695]:
+                  - /url: https://www.district.in/movies/horror-movies-in-hyderabad
+                  - text: Horror
+                - text: ","
+                - link [ref=e696]:
+                  - /url: https://www.district.in/movies/adventure-movies-in-hyderabad
+                  - text: Adventure
+                - text: and
+                - link [ref=e697]:
+                  - /url: https://www.district.in/movies/drama-movies-in-hyderabad
+                  - text: Drama
+                - text: ", making it ideal for every kind of movie lover."
+              - listitem [ref=e698]:
+                - text: "Mumbai: From"
+                - link [ref=e699]:
+                  - /url: https://www.district.in/movies/action-movies-in-mumbai
+                  - text: Action
+                - text: to
+                - link [ref=e700]:
+                  - /url: https://www.district.in/movies/comedy-movies-in-mumbai
+                  - text: Comedy
+                - text: ","
+                - link [ref=e701]:
+                  - /url: https://www.district.in/movies/romance-movies-in-mumbai
+                  - text: Romance
+                - text: ","
+                - link [ref=e702]:
+                  - /url: https://www.district.in/movies/horror-movies-in-mumbai
+                  - text: Horror
+                - text: ","
+                - link [ref=e703]:
+                  - /url: https://www.district.in/movies/drama-movies-in-mumbai
+                  - text: Drama
+                - text: ","
+                - link [ref=e704]:
+                  - /url: https://www.district.in/movies/adventure-movies-in-mumbai
+                  - text: Adventure
+                - text: and
+                - link [ref=e705]:
+                  - /url: https://www.district.in/movies/thriller-movies-in-mumbai
+                  - text: Thriller
+                - text: ", Mumbai has the perfect movie for your vibe."
+        - generic [ref=e706]:
+          - button [ref=e708]:
+            - heading "Dive into Your Favorite Movie Genres in More Amazing Cities!" [level=2] [ref=e710]
+          - generic [ref=e714]:
+            - paragraph [ref=e715]: Book movie tickets for your preferred genres in some of the most popular cities across India. Whether you're in Kolkata, Jaipur, Indore, Guntur, or Vizag, the list is very long. Enjoy hassle-free access to top-notch movie experiences.
+            - paragraph [ref=e716]
+            - list [ref=e717]:
+              - listitem [ref=e718]:
+                - text: "Kolkata: Experience the best of"
+                - link [ref=e719]:
+                  - /url: https://www.district.in/movies/action-movies-in-kolkata
+                  - text: Action
+                - text: ","
+                - link [ref=e720]:
+                  - /url: https://www.district.in/movies/comedy-movies-in-kolkata
+                  - text: Comedy
+                - text: ","
+                - link [ref=e721]:
+                  - /url: https://www.district.in/movies/romance-movies-in-kolkata
+                  - text: Romance
+                - text: ","
+                - link [ref=e722]:
+                  - /url: https://www.district.in/movies/thriller-movies-in-kolkata
+                  - text: Thriller
+                - text: ","
+                - link [ref=e723]:
+                  - /url: https://www.district.in/movies/drama-movies-in-kolkata
+                  - text: Drama
+                - text: ","
+                - link [ref=e724]:
+                  - /url: https://www.district.in/movies/adventure-movies-in-kolkata
+                  - text: Adventure
+                - text: and
+                - link [ref=e725]:
+                  - /url: https://www.district.in/movies/horror-movies-in-kolkata
+                  - text: Horror
+                - text: in Kolkata, where every movie genre comes to life.
+              - listitem [ref=e726]:
+                - text: "Jaipur: In Jaipur, enjoy a range of genres like"
+                - link [ref=e727]:
+                  - /url: https://www.district.in/movies/comedy-movies-in-jaipur
+                  - text: Comedy
+                - text: ","
+                - link [ref=e728]:
+                  - /url: https://www.district.in/movies/romance-movies-in-jaipur
+                  - text: Romance
+                - text: ","
+                - link [ref=e729]:
+                  - /url: https://www.district.in/movies/action-movies-in-jaipur
+                  - text: Action
+                - text: ","
+                - link [ref=e730]:
+                  - /url: https://www.district.in/movies/thriller-movies-in-jaipur
+                  - text: Thriller
+                - text: ","
+                - link [ref=e731]:
+                  - /url: https://www.district.in/movies/adventure-movies-in-jaipur
+                  - text: Adventure
+                - text: ","
+                - link [ref=e732]:
+                  - /url: https://www.district.in/movies/horror-movies-in-jaipur
+                  - text: Horror
+                - text: and
+                - link [ref=e733]:
+                  - /url: https://www.district.in/movies/drama-movies-in-jaipur
+                  - text: Drama
+                - text: ", offering something for every movie lover."
+              - listitem [ref=e734]:
+                - text: "Indore: Indore brings you a mix of genres including"
+                - link [ref=e735]:
+                  - /url: https://www.district.in/movies/thriller-movies-in-indore
+                  - text: Thriller
+                - text: ","
+                - link [ref=e736]:
+                  - /url: https://www.district.in/movies/drama-movies-in-indore
+                  - text: Drama
+                - text: ","
+                - link [ref=e737]:
+                  - /url: https://www.district.in/movies/action-movies-in-indore
+                  - text: Action
+                - text: ","
+                - link [ref=e738]:
+                  - /url: https://www.district.in/movies/comedy-movies-in-indore
+                  - text: Comedy
+                - text: ","
+                - link [ref=e739]:
+                  - /url: https://www.district.in/movies/romance-movies-in-indore
+                  - text: Romance
+                - text: ","
+                - link [ref=e740]:
+                  - /url: https://www.district.in/movies/adventure-movies-in-indore
+                  - text: Adventure
+                - text: and
+                - link [ref=e741]:
+                  - /url: https://www.district.in/movies/horror-movies-in-indore
+                  - text: Horror
+                - text: to suit all kinds of movie tastes.
+              - listitem [ref=e742]:
+                - text: "Guntur: Whether it's"
+                - link [ref=e743]:
+                  - /url: https://www.district.in/movies/action-movies-in-guntur
+                  - text: Action
+                - text: ","
+                - link [ref=e744]:
+                  - /url: https://www.district.in/movies/horror-movies-in-guntur
+                  - text: Horror
+                - text: ","
+                - link [ref=e745]:
+                  - /url: https://www.district.in/movies/comedy-movies-in-guntur
+                  - text: Comedy
+                - text: ","
+                - link [ref=e746]:
+                  - /url: https://www.district.in/movies/romance-movies-in-guntur
+                  - text: Romance
+                - text: ","
+                - link [ref=e747]:
+                  - /url: https://www.district.in/movies/thriller-movies-in-guntur
+                  - text: Thriller
+                - text: ","
+                - link [ref=e748]:
+                  - /url: https://www.district.in/movies/drama-movies-in-guntur
+                  - text: Drama
+                - text: and
+                - link [ref=e749]:
+                  - /url: https://www.district.in/movies/adventure-movies-in-guntur
+                  - text: Adventure
+                - text: ", Guntur offers a wide variety of films for every mood."
+              - listitem [ref=e750]:
+                - text: "Vizag: Enjoy the finest of"
+                - link [ref=e751]:
+                  - /url: https://www.district.in/movies/romance-movies-in-vizag
+                  - text: Romance
+                - text: ","
+                - link [ref=e752]:
+                  - /url: https://www.district.in/movies/thriller-movies-in-vizag
+                  - text: Thriller
+                - text: ","
+                - link [ref=e753]:
+                  - /url: https://www.district.in/movies/action-movies-in-vizag
+                  - text: Action
+                - text: ","
+                - link [ref=e754]:
+                  - /url: https://www.district.in/movies/comedy-movies-in-vizag
+                  - text: Comedy
+                - text: ","
+                - link [ref=e755]:
+                  - /url: https://www.district.in/movies/drama-movies-in-vizag
+                  - text: Drama
+                - text: ","
+                - link [ref=e756]:
+                  - /url: https://www.district.in/movies/horror-movies-in-vizag
+                  - text: Horror
+                - text: and
+                - link [ref=e757]:
+                  - /url: https://www.district.in/movies/adventure-movies-in-vizag
+                  - text: Adventure
+                - text: in Vizag.
+        - generic [ref=e758]:
+          - button [ref=e760]:
+            - heading "Explore Movies in Your Language Across More Amazing Cities!" [level=2] [ref=e762]
+          - list [ref=e767]:
+            - listitem [ref=e768]:
+              - text: Hindi movies enjoy widespread popularity in cities like
+              - link [ref=e769]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-new-delhi
+                - text: Delhi NCR
+              - text: ","
+              - link [ref=e770]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-hyderabad
+                - text: Hyderabad
+              - text: ","
+              - link [ref=e771]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-chennai
+                - text: Chennai
+              - text: ","
+              - link [ref=e772]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-bengaluru
+                - text: Bengaluru
+              - text: ","
+              - link [ref=e773]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-mumbai
+                - text: Mumbai
+              - text: ","
+              - link [ref=e774]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-jaipur
+                - text: Jaipur
+              - text: ","
+              - link [ref=e775]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-pune
+                - text: Pune
+              - text: ","
+              - link [ref=e776]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-lucknow
+                - text: Lucknow
+              - text: ","
+              - link [ref=e777]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-vizag
+                - text: Vizag
+              - text: ","
+              - link [ref=e778]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-guntur
+                - text: Guntur
+              - text: ","
+              - link [ref=e779]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-ahmedabad
+                - text: Ahmedabad
+              - text: ","
+              - link [ref=e780]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-nellore
+                - text: Nellore
+              - text: ","
+              - link [ref=e781]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-vijayawada
+                - text: Vijayawada
+              - text: ","
+              - link [ref=e782]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-kolkata
+                - text: Kolkata
+              - text: ", and"
+              - link [ref=e783]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-indore
+                - text: Indore
+              - text: . These cities, along with others, are key hubs for Bollywood’s massive fanbase.
+            - listitem [ref=e784]:
+              - text: Telugu movies have a strong following in cities like
+              - link [ref=e785]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-hyderabad
+                - text: Hyderabad
+              - text: ","
+              - link [ref=e786]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-vizag
+                - text: Vizag
+              - text: ","
+              - link [ref=e787]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-guntur
+                - text: Guntur
+              - text: ","
+              - link [ref=e788]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-vijayawada
+                - text: Vijayawada
+              - text: ","
+              - link [ref=e789]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-nellore
+                - text: Nellore
+              - text: ","
+              - link [ref=e790]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-chennai
+                - text: Chennai
+              - text: ","
+              - link [ref=e791]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-bengaluru
+                - text: Bengaluru
+              - text: ","
+              - link [ref=e792]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-pune
+                - text: Pune
+              - text: ","
+              - link [ref=e793]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-mumbai
+                - text: Mumbai
+              - text: ","
+              - link [ref=e794]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-indore
+                - text: Indore
+              - text: ","
+              - link [ref=e795]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-jaipur
+                - text: Jaipur
+              - text: ","
+              - link [ref=e796]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-lucknow
+                - text: Lucknow
+              - text: ","
+              - link [ref=e797]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-new-delhi
+                - text: Delhi NCR
+              - text: ", and"
+              - link [ref=e798]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-ahmedabad
+                - text: Ahmedabad
+              - text: . These cities play a key role in the success of Tollywood films, with audiences eagerly supporting the industry both locally and internationally.
+            - listitem [ref=e799]:
+              - text: Tamil movies are widely loved in cities such as
+              - link [ref=e800]:
+                - /url: https://www.district.in/movies/tamil-movies-tickets-in-chennai
+                - text: Chennai
+              - text: ","
+              - link [ref=e801]:
+                - /url: https://www.district.in/movies/tamil-movies-tickets-in-bengaluru
+                - text: Bengaluru
+              - text: ", ,"
+              - link [ref=e802]:
+                - /url: https://www.district.in/movies/tamil-movies-tickets-in-mumbai
+                - text: Mumbai
+              - text: ","
+              - link [ref=e803]:
+                - /url: https://www.district.in/movies/tamil-movies-tickets-in-pune
+                - text: Pune
+              - text: ","
+              - link [ref=e804]:
+                - /url: https://www.district.in/movies/tamil-movies-tickets-in-kolkata
+                - text: Kolkata
+              - text: ","
+              - link [ref=e805]:
+                - /url: https://www.district.in/movies/tamil-movies-tickets-in-ahmedabad
+                - text: Ahmedabad
+              - text: ","
+              - link [ref=e806]:
+                - /url: https://www.district.in/movies/tamil-movies-tickets-in-new-delhi
+                - text: Delhi NCR
+              - text: ","
+              - link [ref=e807]:
+                - /url: https://www.district.in/movies/tamil-movies-tickets-in-jaipur
+                - text: Jaipur
+              - text: ","
+              - link [ref=e808]:
+                - /url: https://www.district.in/movies/tamil-movies-tickets-in-lucknow
+                - text: Lucknow
+              - text: ", and"
+              - link [ref=e809]:
+                - /url: https://www.district.in/movies/tamil-movies-tickets-in-indore
+                - text: Indore
+              - text: ", with a huge fanbase that supports Kollywood cinema across southern and northern India. The reach extends to other major urban centers, further cementing the influence of Tamil cinema."
+            - listitem [ref=e810]:
+              - text: English movies enjoy massive popularity in metropolitan cities like
+              - link [ref=e811]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-mumbai
+                - text: Mumbai
+              - text: ","
+              - link [ref=e812]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-new-delhi
+                - text: Delhi NCR
+              - text: ","
+              - link [ref=e813]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-bengaluru
+                - text: Bengaluru
+              - text: ","
+              - link [ref=e814]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-hyderabad
+                - text: Hyderabad
+              - text: ","
+              - link [ref=e815]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-pune
+                - text: Pune
+              - text: ","
+              - link [ref=e816]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-chennai
+                - text: Chennai
+              - text: ","
+              - link [ref=e817]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-kolkata
+                - text: Kolkata
+              - text: ","
+              - link [ref=e818]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-ahmedabad
+                - text: Ahmedabad
+              - text: ","
+              - link [ref=e819]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-jaipur
+                - text: Jaipur
+              - text: ","
+              - link [ref=e820]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-indore
+                - text: Indore
+              - text: ", and"
+              - link [ref=e821]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-lucknow
+                - text: Lucknow
+              - text: ", where international cinema is widely appreciated. These urban hubs serve as a focal point for global films and international stars, fostering a cross-cultural exchange in the film industry."
+            - listitem [ref=e822]:
+              - text: Punjabi movies resonate with audiences in cities like Amritsar, Ludhiana, Chandigarh,
+              - link [ref=e823]:
+                - /url: https://www.district.in/movies/punjabi-movies-tickets-in-new-delhi
+                - text: Delhi NCR
+              - text: ", Jalandhar, Patiala,"
+              - link [ref=e824]:
+                - /url: https://www.district.in/movies/punjabi-movies-tickets-in-mumbai
+                - text: Mumbai
+              - text: ","
+              - link [ref=e825]:
+                - /url: https://www.district.in/movies/punjabi-movies-tickets-in-bengaluru
+                - text: Bengaluru
+              - text: ","
+              - link [ref=e826]:
+                - /url: https://www.district.in/movies/punjabi-movies-tickets-in-pune
+                - text: Pune
+              - text: ","
+              - link [ref=e827]:
+                - /url: https://www.district.in/movies/punjabi-movies-tickets-in-hyderabad
+                - text: Hyderabad
+              - text: ","
+              - link [ref=e828]:
+                - /url: https://www.district.in/movies/punjabi-movies-tickets-in-kolkata
+                - text: Kolkata
+              - text: ", and even in places like Calgary and London, where the Punjabi diaspora has a strong presence. The cultural connection of Punjabi cinema extends beyond India, making it a favorite among the global Punjabi community."
+        - generic [ref=e829]:
+          - button [ref=e831]:
+            - heading "Find the Best Cinemas in Popular Cities and cue to popcorn!" [level=2] [ref=e833]
+          - paragraph [ref=e838]:
+            - text: Looking to catch the latest blockbuster? Whether you're in
+            - link [ref=e839]:
+              - /url: https://www.district.in/movies/cinemas-in-new-delhi
+              - text: Delhi NCR
+            - text: ","
+            - link [ref=e840]:
+              - /url: https://www.district.in/movies/cinemas-in-hyderabad
+              - text: Hyderabad
+            - text: ","
+            - link [ref=e841]:
+              - /url: https://www.district.in/movies/cinemas-in-chennai
+              - text: Chennai
+            - text: ", or"
+            - link [ref=e842]:
+              - /url: https://www.district.in/movies/cinemas-in-bengaluru
+              - text: Bengaluru
+            - text: ", we’ve got you covered with the best cinemas in your city. Discover top movie theaters in"
+            - link [ref=e843]:
+              - /url: https://www.district.in/movies/cinemas-in-mumbai
+              - text: Mumbai
+            - text: ","
+            - link [ref=e844]:
+              - /url: https://www.district.in/movies/cinemas-in-jaipur
+              - text: Jaipur
+            - text: ","
+            - link [ref=e845]:
+              - /url: https://www.district.in/movies/cinemas-in-pune
+              - text: Pune
+            - text: ", and"
+            - link [ref=e846]:
+              - /url: https://www.district.in/movies/cinemas-in-lucknow
+              - text: Lucknow
+            - text: ", and enjoy the latest films with the best viewing experience. If you’re in"
+            - link [ref=e847]:
+              - /url: https://www.district.in/movies/cinemas-in-vizag
+              - text: Vizag
+            - text: ","
+            - link [ref=e848]:
+              - /url: https://www.district.in/movies/cinemas-in-guntur
+              - text: Guntur
+            - text: ","
+            - link [ref=e849]:
+              - /url: https://www.district.in/movies/cinemas-in-ahmedabad
+              - text: Ahmedabad
+            - text: ","
+            - link [ref=e850]:
+              - /url: https://www.district.in/movies/cinemas-in-nellore
+              - text: Nellore
+            - text: ", or"
+            - link [ref=e851]:
+              - /url: https://www.district.in/movies/cinemas-in-vijayawada
+              - text: Vijayawada
+            - text: ", check out cinema options that offer both comfort and convenience. For movie lovers in"
+            - link [ref=e852]:
+              - /url: https://www.district.in/movies/cinemas-in-kolkata
+              - text: Kolkata
+            - text: ","
+            - link [ref=e853]:
+              - /url: https://www.district.in/movies/cinemas-in-indore
+              - text: Indore
+            - text: ","
+            - link [ref=e854]:
+              - /url: https://www.district.in/movies/cinemas-in-anantapur
+              - text: Anantapur
+            - text: ","
+            - link [ref=e855]:
+              - /url: https://www.district.in/movies/cinemas-in-kurnool
+              - text: Kurnool
+            - text: ", and"
+            - link [ref=e856]:
+              - /url: https://www.district.in/movies/cinemas-in-kakinada
+              - text: Kakinada
+            - text: ", explore our range of theaters. Similarly,"
+            - link [ref=e857]:
+              - /url: https://www.district.in/movies/cinemas-in-trivandrum
+              - text: Trivandrum
+            - text: ","
+            - link [ref=e858]:
+              - /url: https://www.district.in/movies/cinemas-in-surat
+              - text: Surat
+            - text: ", and"
+            - link [ref=e859]:
+              - /url: https://www.district.in/movies/cinemas-in-hosur
+              - text: Hosur
+            - text: promise a great movie night out. Cities like
+            - link [ref=e860]:
+              - /url: https://www.district.in/movies/cinemas-in-mohali
+              - text: Mohali
+            - text: ","
+            - link [ref=e861]:
+              - /url: https://www.district.in/movies/cinemas-in-agra
+              - text: Agra
+            - text: ","
+            - link [ref=e862]:
+              - /url: https://www.district.in/movies/cinemas-in-kanpur
+              - text: Kanpur
+            - text: ","
+            - link [ref=e863]:
+              - /url: https://www.district.in/movies/cinemas-in-gwalior
+              - text: Gwalior
+            - text: ", and"
+            - link [ref=e864]:
+              - /url: https://www.district.in/movies/cinemas-in-eluru
+              - text: Eluru
+            - text: offer great options for film enthusiasts. And of course, for those in
+            - link [ref=e865]:
+              - /url: https://www.district.in/movies/cinemas-in-chandigarh
+              - text: Chandigarh
+            - text: ","
+            - link [ref=e866]:
+              - /url: https://www.district.in/movies/cinemas-in-ludhiana
+              - text: Ludhiana
+            - text: ","
+            - link [ref=e867]:
+              - /url: https://www.district.in/movies/cinemas-in-vadodara
+              - text: Vadodara
+            - text: ", and"
+            - link [ref=e868]:
+              - /url: https://www.district.in/movies/cinemas-in-balasore
+              - text: Balasore
+            - text: ", you’ll find a variety of cinemas to choose from. Simply click on your city to find showtimes, book tickets, and enjoy the latest releases at the best cinemas near you!"
+    - generic [ref=e870]:
+      - generic [ref=e871]:
+        - generic [ref=e872]:
+          - link "District Home" [ref=e873] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e886]:
+            - link "Facebook" [ref=e887] [cursor=pointer]:
+              - /url: https://www.facebook.com/districtupdates
+            - link "Instagram" [ref=e890] [cursor=pointer]:
+              - /url: https://www.instagram.com/districtupdates/
+            - link "Twitter / X" [ref=e895] [cursor=pointer]:
+              - /url: https://x.com/district_india
+            - link "YouTube" [ref=e898] [cursor=pointer]:
+              - /url: https://www.youtube.com/@district.culture
+        - generic [ref=e901]:
+          - generic [ref=e902]: Help
+          - navigation "Help" [ref=e903]:
+            - link "Contact Us" [ref=e904] [cursor=pointer]:
+              - /url: /contact?utm_source=district
+            - link "Corporate Announcements" [ref=e905] [cursor=pointer]:
+              - /url: /corporate-announcements?utm_source=district
+        - generic [ref=e906]:
+          - generic [ref=e907]: Quick Links
+          - navigation "Quick Links" [ref=e908]:
+            - link "List your events" [ref=e909] [cursor=pointer]:
+              - /url: /events/list-your-event?utm_source=district
+            - link "List your restaurant" [ref=e910] [cursor=pointer]:
+              - /url: https://www.zomato.com/partner-with-us/new/?utm_source=district
+        - generic [ref=e911]:
+          - generic [ref=e912]: Useful Links
+          - navigation "Useful Links" [ref=e913]:
+            - link "Zomato" [ref=e914] [cursor=pointer]:
+              - /url: https://www.zomato.com/?utm_source=district
+            - link "Blinkit" [ref=e915] [cursor=pointer]:
+              - /url: https://blinkit.com/?utm_source=district
+            - link "Feeding India" [ref=e916] [cursor=pointer]:
+              - /url: https://www.feedingindia.org?utm_source=district
+            - link "Hyperpure" [ref=e917] [cursor=pointer]:
+              - /url: https://www.hyperpure.com/?utm_source=district
+            - link "District MCP" [ref=e918] [cursor=pointer]:
+              - /url: https://studio.district.in/mcp
+            - link "Eternal SBI Credit Card" [ref=e919] [cursor=pointer]:
+              - /url: https://www.eternal.com/credit-card/?utm_source=district_web
+        - generic [ref=e920]:
+          - generic [ref=e921]: Download App
+          - link [ref=e922] [cursor=pointer]:
+            - /url: https://link.district.in/DSTRKT/appicons
+            - img "QR code to download the District app" [ref=e923]
+            - generic [ref=e924]:
+              - paragraph [ref=e925]: Scan to Download
+              - paragraph [ref=e926]: Available on iOS & Android
+      - generic [ref=e928]:
+        - paragraph [ref=e929]: © 2026 District. All rights reserved.
+        - navigation "Footer legal links" [ref=e931]:
+          - link "Terms & Conditions" [ref=e932] [cursor=pointer]:
+            - /url: /policies/terms-of-service
+          - link "Privacy Policy" [ref=e933] [cursor=pointer]:
+            - /url: /policies/privacy
+      - paragraph [ref=e934]: By accessing this page, you confirm that you have read, understood, and agreed to our Terms of Service, Cookie Policy, Privacy Policy, and Content Guidelines.
+  - alert [ref=e935]
+  - dialog:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic: Filter by
+            - generic:
+              - generic:
+                - generic: Genre
+                - generic: Language
+                - generic: Format
+              - generic:
+                - generic:
+                  - checkbox
+                  - generic: Action
+                - generic:
+                  - checkbox
+                  - generic: Comedy
+                - generic:
+                  - checkbox
+                  - generic: Courtroom Dramas
+                - generic:
+                  - checkbox
+                  - generic: Crime
+                - generic:
+                  - checkbox
+                  - generic: Drama
+                - generic:
+                  - checkbox
+                  - generic: Epic
+                - generic:
+                  - checkbox
+                  - generic: Family
+                - generic:
+                  - checkbox
+                  - generic: Mythological
+                - generic:
+                  - checkbox
+                  - generic: Psychological
+                - generic:
+                  - checkbox
+                  - generic: Romance
+                - generic:
+                  - checkbox
+                  - generic: Survival
+                - generic:
+                  - checkbox
+                  - generic: Thriller
+            - generic:
+              - generic: Clear filters
+              - button "Apply Filters"

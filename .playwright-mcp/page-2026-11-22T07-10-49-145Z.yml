@@ -1,0 +1,483 @@
+- generic [ref=f33e1]:
+  - generic [ref=f33e2]:
+    - main [ref=f33e3]:
+      - generic [ref=f33e7]:
+        - generic [ref=f33e8]:
+          - link "District Home" [ref=f33e9] [cursor=pointer]:
+            - /url: /
+          - button "Chennai Chennai, Tamil Nadu" [ref=f33e23] [cursor=pointer]:
+            - generic [ref=f33e26]:
+              - generic [ref=f33e27]: Chennai
+              - generic [ref=f33e28]: Chennai, Tamil Nadu
+          - generic [ref=f33e31]:
+            - button "Open search" [ref=f33e32]:
+              - generic [ref=f33e33]:
+                - button "Movies" [ref=f33e34] [cursor=pointer]
+                - generic [ref=f33e39]:
+                  - generic [ref=f33e40] [cursor=pointer]
+                  - generic [ref=f33e43]: Search for events, movies, restaurants...
+            - button "Login" [ref=f33e45] [cursor=pointer]
+        - navigation "Primary" [ref=f33e50]:
+          - link "For you" [ref=f33e51] [cursor=pointer]:
+            - /url: /
+          - link "Dining" [ref=f33e57] [cursor=pointer]:
+            - /url: /dining/
+          - link "Movies" [ref=f33e60] [cursor=pointer]:
+            - /url: /movies/
+          - link "Events" [ref=f33e64] [cursor=pointer]:
+            - /url: /events/
+          - link "Stores" [ref=f33e67] [cursor=pointer]:
+            - /url: /stores/
+          - link "Activities" [ref=f33e70] [cursor=pointer]:
+            - /url: /activities/
+          - link "Play" [ref=f33e73] [cursor=pointer]:
+            - /url: /play/
+      - generic [ref=f33e76]:
+        - generic [ref=f33e78]:
+          - link "Ramayana - movie info" [ref=f33e79] [cursor=pointer]:
+            - /url: /movies/ramayana-movie-tickets-MV176276
+            - img "Ramayana" [ref=f33e80]
+          - generic [ref=f33e81]:
+            - link [ref=f33e82] [cursor=pointer]:
+              - /url: /movies/ramayana-movie-tickets-MV176276
+              - heading "Ramayana(2026)" [level=2] [ref=f33e83]:
+                - text: Ramayana
+                - generic [ref=f33e84]: (2026)
+            - generic [ref=f33e85]:
+              - generic [ref=f33e86]:
+                - generic [ref=f33e87]: U
+                - generic [ref=f33e88]: 3h 15m
+              - generic [ref=f33e89]: Hindi +5 more
+              - generic [ref=f33e90]: Epic, Mythological
+        - generic [ref=f33e93]:
+          - generic [ref=f33e96]:
+            - generic [ref=f33e97]: NOV
+            - link [ref=f33e98] [cursor=pointer]:
+              - /url: /movies/ramayana-movie-tickets-in-chennai-MV176276?frmtid=EU8~TURJ0F&fromdate=2026-11-22
+              - button "Sunday22" [ref=f33e99]:
+                - generic [ref=f33e100]: "22"
+                - generic [ref=f33e101]: Sun
+            - link [active] [ref=f33e102] [cursor=pointer]:
+              - /url: /movies/ramayana-movie-tickets-in-chennai-MV176276?frmtid=EU8~TURJ0F&fromdate=2026-11-23
+              - button "Monday23" [ref=f33e103]:
+                - generic [ref=f33e104]: "23"
+                - generic [ref=f33e105]: Mon
+            - link [ref=f33e106] [cursor=pointer]:
+              - /url: /movies/ramayana-movie-tickets-in-chennai-MV176276?frmtid=EU8~TURJ0F&fromdate=2026-11-24
+              - button "Tuesday24" [ref=f33e107]:
+                - generic [ref=f33e108]: "24"
+                - generic [ref=f33e109]: Tue
+            - link [ref=f33e110] [cursor=pointer]:
+              - /url: /movies/ramayana-movie-tickets-in-chennai-MV176276?frmtid=EU8~TURJ0F&fromdate=2026-11-25
+              - button "Wednesday25" [ref=f33e111]:
+                - generic [ref=f33e112]: "25"
+                - generic [ref=f33e113]: Wed
+            - link [ref=f33e114] [cursor=pointer]:
+              - /url: /movies/ramayana-movie-tickets-in-chennai-MV176276?frmtid=EU8~TURJ0F&fromdate=2026-11-26
+              - button "Thursday26" [ref=f33e115]:
+                - generic [ref=f33e116]: "26"
+                - generic [ref=f33e117]: Thu
+          - generic [ref=f33e1453]:
+            - list [ref=f33e1456]:
+              - listitem [ref=f33e1457]
+              - listitem [ref=f33e1458]
+              - listitem [ref=f33e1459]
+              - listitem [ref=f33e1460]
+              - listitem [ref=f33e1461]
+            - list [ref=f33e1464]:
+              - listitem [ref=f33e1465]
+              - listitem [ref=f33e1466]
+              - listitem [ref=f33e1467]
+              - listitem [ref=f33e1468]
+              - listitem [ref=f33e1469]
+            - list [ref=f33e1472]:
+              - listitem [ref=f33e1473]
+              - listitem [ref=f33e1474]
+              - listitem [ref=f33e1475]
+              - listitem [ref=f33e1476]
+              - listitem [ref=f33e1477]
+    - generic [ref=f33e1205]:
+      - region "Frequently Asked Questions" [ref=f33e1207]:
+        - generic [ref=f33e1213] [cursor=pointer]:
+          - generic [ref=f33e1214]:
+            - heading [level=3] [ref=f33e1478]:
+              - button "When was Ramayana released?" [expanded] [ref=f33e1479]
+            - region "When was Ramayana released?" [ref=f33e1480]:
+              - generic [ref=f33e1222]: Ramayana was released on 5 November 2026.
+          - generic [ref=f33e1225]:
+            - heading [level=3] [ref=f33e1481]:
+              - button "What is the runtime of Ramayana?" [ref=f33e1482]
+            - generic: Ramayana has a runtime of 3h 15m.
+          - generic [ref=f33e1234]:
+            - heading [level=3] [ref=f33e1483]:
+              - button "What languages is Ramayana available in?" [ref=f33e1484]
+            - generic: Ramayana is available in Hindi, Tamil, Telugu, Kannada, Malayalam, English.
+          - generic [ref=f33e1243]:
+            - heading [level=3] [ref=f33e1485]:
+              - button "What is the censor rating of Ramayana?" [ref=f33e1486]
+            - generic: Ramayana has a censor rating of U.
+          - generic [ref=f33e1252]:
+            - heading [level=3] [ref=f33e1487]:
+              - button "Who directed Ramayana?" [ref=f33e1488]
+            - generic: Ramayana is directed by Nitesh Tiwari.
+          - generic [ref=f33e1261]:
+            - heading [level=3] [ref=f33e1489]:
+              - button "Who stars in Ramayana?" [ref=f33e1490]
+            - generic: Ramayana stars Ranbir Kapoor, Yash, Sai Pallavi, Ravie Dubey, Sunny Deol.
+          - generic [ref=f33e1270]:
+            - heading [level=3] [ref=f33e1271]:
+              - button "Movies Now Showing in Chennai in Chennai – Latest Releases & Showtimes" [ref=f33e1272]
+            - paragraph [ref=f33e1491]:
+              - text: Book tickets for the latest movies now showing in Chennai in Chennai theatres — Bollywood blockbusters, Hollywood releases, and regional hits. Get real-time showtimes, instant seat selection, and the best deals at PVR, INOX, Cinepolis & more on District.
+              - link [ref=f33e1492]:
+                - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-in-chennai-MV225928
+                - text: "O.M: Operation Mole in Chennai"
+              - text: ","
+              - link [ref=f33e1493]:
+                - /url: https://www.district.in/movies/ramayana-movie-tickets-in-chennai-MV176276
+                - text: Ramayana in Chennai
+              - text: ","
+              - link [ref=f33e1494]:
+                - /url: https://www.district.in/movies/scene-movie-tickets-in-chennai-MV233181
+                - text: Scene in Chennai
+              - text: ","
+              - link [ref=f33e1495]:
+                - /url: https://www.district.in/movies/appakutty-movie-tickets-in-chennai-MV234558
+                - text: Appakutty in Chennai
+              - text: ","
+              - link [ref=f33e1496]:
+                - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-in-chennai-MV176735
+                - text: "Avengers: Doomsday in Chennai"
+              - text: ","
+              - link [ref=f33e1497]:
+                - /url: https://www.district.in/movies/sathyavan-savithiri-movie-tickets-in-chennai-MV221047
+                - text: Sathyavan Savithiri in Chennai
+              - text: ","
+              - link [ref=f33e1498]:
+                - /url: https://www.district.in/movies/aot-movie-tickets-in-chennai-MV239967
+                - text: AOT in Chennai
+              - text: ","
+              - link [ref=f33e1499]:
+                - /url: https://www.district.in/movies/john-doe-movie-tickets-in-chennai-MV237453
+                - text: John Doe in Chennai
+              - text: ","
+              - link [ref=f33e1500]:
+                - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-in-chennai-MV203295
+                - text: Aakasamlo Oka Tara in Chennai
+              - text: ","
+              - link [ref=f33e1501]:
+                - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-in-chennai-MV219297
+                - text: Godzilla Minus Zero in Chennai
+              - text: ","
+              - link [ref=f33e1502]:
+                - /url: https://www.district.in/movies/ene-repeat-movie-tickets-in-chennai-MV227790
+                - text: ENE Repeat in Chennai
+              - text: ","
+              - link [ref=f33e1503]:
+                - /url: https://www.district.in/movies/jailer-2-movie-tickets-in-chennai-MV187766
+                - text: Jailer 2 in Chennai
+              - text: ","
+              - link [ref=f33e1504]:
+                - /url: https://www.district.in/movies/dune-part-three-movie-tickets-in-chennai-MV207332
+                - text: "Dune: Part Three in Chennai"
+              - text: ","
+              - link [ref=f33e1505]:
+                - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-in-chennai-MV174475
+                - text: "The Hunger Games: Sunrise on the Reaping in Chennai"
+              - text: ","
+              - link [ref=f33e1506]:
+                - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-in-chennai-MV233661
+                - text: Bachelor Party D'eux in Chennai
+              - text: ","
+              - link [ref=f33e1507]:
+                - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-in-chennai-MV220828
+                - text: How to Rob a Bank in Chennai
+              - text: ","
+              - link [ref=f33e1508]:
+                - /url: https://www.district.in/movies/mookuthi-amman-2-movie-tickets-in-chennai-MV176127
+                - text: Mookuthi Amman 2 in Chennai
+              - text: ","
+              - link [ref=f33e1509]:
+                - /url: https://www.district.in/movies/bouma-movie-tickets-in-chennai-MV237043
+                - text: Bouma in Chennai
+              - text: ","
+              - link [ref=f33e1510]:
+                - /url: https://www.district.in/movies/nanhey-dil-movie-tickets-in-chennai-MV239209
+                - text: Nanhey Dil in Chennai
+              - text: ","
+              - link [ref=f33e1511]:
+                - /url: https://www.district.in/movies/wildwood-movie-tickets-in-chennai-MV225188
+                - text: Wildwood in Chennai
+          - generic [ref=f33e1300]:
+            - heading [level=3] [ref=f33e1301]:
+              - button "Upcoming Movie Releases in Chennai in Chennai – New Films Coming Soon to Theatres" [ref=f33e1302]
+            - paragraph [ref=f33e1512]:
+              - text: Plan ahead for the most awaited Bollywood, Hollywood, and regional releases in Chennai in Chennai. Browse upcoming movies, watch trailers, check release dates, and book your seats the moment advance booking opens on District.
+              - link [ref=f33e1513]:
+                - /url: https://www.district.in/movies/lilo-scratch-movie-tickets-in-chennai-MV231108
+                - text: Lilo & Scratch in Chennai
+              - text: ","
+              - link [ref=f33e1514]:
+                - /url: https://www.district.in/movies/minnum-oar-iravu-movie-tickets-in-chennai-MV239787
+                - text: Minnum Oar Iravu in Chennai
+              - text: ","
+              - link [ref=f33e1515]:
+                - /url: https://www.district.in/movies/focker-in-law-movie-tickets-in-chennai-MV209243
+                - text: Focker In-Law in Chennai
+              - text: ","
+              - link [ref=f33e1516]:
+                - /url: https://www.district.in/movies/haindava-movie-tickets-in-chennai-MV187693
+                - text: Haindava in Chennai
+              - text: ","
+              - link [ref=f33e1517]:
+                - /url: https://www.district.in/movies/king-of-salangpur-movie-tickets-in-chennai-MV232791
+                - text: King of Salangpur in Chennai
+              - text: ","
+              - link [ref=f33e1518]:
+                - /url: https://www.district.in/movies/josephine-movie-tickets-in-chennai-MV239041
+                - text: Josephine in Chennai
+              - text: ","
+              - link [ref=f33e1519]:
+                - /url: https://www.district.in/movies/you-can-see-everything-movie-tickets-in-chennai-MV239208
+                - text: You Can See Everything in Chennai
+              - text: ","
+              - link [ref=f33e1520]:
+                - /url: https://www.district.in/movies/laagi-chhoote-na-movie-tickets-in-chennai-MV236787
+                - text: Laagi Chhoote Na in Chennai
+              - text: ","
+              - link [ref=f33e1521]:
+                - /url: https://www.district.in/movies/rajanivaasa-movie-tickets-in-chennai-MV239037
+                - text: Rajanivaasa in Chennai
+              - text: ","
+              - link [ref=f33e1522]:
+                - /url: https://www.district.in/movies/sanjog-movie-tickets-in-chennai-MV236994
+                - text: Sanjog in Chennai
+              - text: ","
+              - link [ref=f33e1523]:
+                - /url: https://www.district.in/movies/gana-dhav-re-movie-tickets-in-chennai-MV239240
+                - text: Gana Dhav Re in Chennai
+              - text: ","
+              - link [ref=f33e1524]:
+                - /url: https://www.district.in/movies/606-movie-tickets-in-chennai-MV239321
+                - text: 606 in Chennai
+              - text: ","
+              - link [ref=f33e1525]:
+                - /url: https://www.district.in/movies/delivery-boy-movie-tickets-in-chennai-MV227404
+                - text: Delivery Boy in Chennai
+              - text: ","
+              - link [ref=f33e1526]:
+                - /url: https://www.district.in/movies/paper-tiger-movie-tickets-in-chennai-MV227340
+                - text: Paper Tiger in Chennai
+              - text: ","
+              - link [ref=f33e1527]:
+                - /url: https://www.district.in/movies/bala-369-movie-tickets-in-chennai-MV239616
+                - text: Bala 369 in Chennai
+              - text: ","
+              - link [ref=f33e1528]:
+                - /url: https://www.district.in/movies/mysaa-movie-tickets-in-chennai-MV201023
+                - text: Mysaa in Chennai
+              - text: ","
+              - link [ref=f33e1529]:
+                - /url: https://www.district.in/movies/miranda-warning-movie-tickets-in-chennai-MV233835
+                - text: Miranda Warning in Chennai
+              - text: ","
+              - link [ref=f33e1530]:
+                - /url: https://www.district.in/movies/cosmic-samson-movie-tickets-in-chennai-MV231860
+                - text: Cosmic Samson in Chennai
+              - text: ","
+              - link [ref=f33e1531]:
+                - /url: https://www.district.in/movies/dads-little-friend-movie-tickets-in-chennai-MV238020
+                - text: Dads Little Friend in Chennai
+              - text: ","
+              - link [ref=f33e1532]:
+                - /url: https://www.district.in/movies/hexed-movie-tickets-in-chennai-MV213955
+                - text: Hexed in Chennai
+          - generic [ref=f33e1330]:
+            - heading [level=3] [ref=f33e1331]:
+              - button "Movies in Chennai in Chennai by Genre – Action, Comedy, Romance, Thriller & More" [ref=f33e1332]
+            - paragraph [ref=f33e1338]:
+              - text: Discover movies in Chennai in Chennai by your favourite genre — action, comedy, romance, thriller, horror, drama, sci-fi, and family films. Browse genre-wise listings of Bollywood, Hollywood, and regional releases, and book the perfect movie night on District.
+              - link [ref=f33e1339]:
+                - /url: https://www.district.in/movies/action-movies-in-chennai
+                - text: Action
+              - text: ","
+              - link [ref=f33e1340]:
+                - /url: https://www.district.in/movies/adventure-movies-in-chennai
+                - text: Adventure
+              - text: ","
+              - link [ref=f33e1341]:
+                - /url: https://www.district.in/movies/comedy-movies-in-chennai
+                - text: Comedy
+              - text: ","
+              - link [ref=f33e1342]:
+                - /url: https://www.district.in/movies/drama-movies-in-chennai
+                - text: Drama
+              - text: ","
+              - link [ref=f33e1343]:
+                - /url: https://www.district.in/movies/horror-movies-in-chennai
+                - text: Horror
+              - text: ","
+              - link [ref=f33e1344]:
+                - /url: https://www.district.in/movies/science-fiction-movies-in-chennai
+                - text: Science Fiction
+              - text: ","
+              - link [ref=f33e1345]:
+                - /url: https://www.district.in/movies/fantasy-movies-in-chennai
+                - text: Fantasy
+              - text: ","
+              - link [ref=f33e1346]:
+                - /url: https://www.district.in/movies/romance-movies-in-chennai
+                - text: Romance
+              - text: ","
+              - link [ref=f33e1347]:
+                - /url: https://www.district.in/movies/thriller-movies-in-chennai
+                - text: Thriller
+              - text: ","
+              - link [ref=f33e1348]:
+                - /url: https://www.district.in/movies/animation-movies-in-chennai
+                - text: Animation
+          - generic [ref=f33e1350]:
+            - heading [level=3] [ref=f33e1351]:
+              - button "Movies in Chennai in Chennai by Language – Hindi, English, Marathi, Tamil & Telugu" [ref=f33e1352]
+            - paragraph [ref=f33e1358]:
+              - text: Prefer watching movies in your language? Find the latest Hindi, English, Marathi, Tamil, Telugu, Bengali, Kannada, Malayalam, and Punjabi films playing in Chennai in Chennai theatres right now. Check showtimes and book tickets instantly on District.
+              - link [ref=f33e1359]:
+                - /url: https://www.district.in/movies/tamil-movies-tickets-in-chennai
+                - text: Tamil
+              - text: ","
+              - link [ref=f33e1360]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-chennai
+                - text: Telugu
+              - text: ","
+              - link [ref=f33e1361]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-chennai
+                - text: Hindi
+              - text: ","
+              - link [ref=f33e1362]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-chennai
+                - text: English
+              - text: ","
+              - link [ref=f33e1363]:
+                - /url: https://www.district.in/movies/japanese-movies-tickets-in-chennai
+                - text: Japanese
+              - text: ","
+              - link [ref=f33e1364]:
+                - /url: https://www.district.in/movies/malayalam-movies-tickets-in-chennai
+                - text: Malayalam
+          - generic [ref=f33e1366]:
+            - heading [level=3] [ref=f33e1367]:
+              - button "Top Cinemas in Chennai in Chennai – Best Movie Theatres & Multiplexes Near You" [ref=f33e1368]
+            - paragraph [ref=f33e1374]:
+              - text: Find the best cinemas across Chennai in Chennai — from premium experiences like IMAX, ONYX, Insignia, 4DX, and Dolby Atmos to neighbourhood multiplexes and single screens. Pick your favourite theatre and book movie tickets in seconds on District.
+              - link [ref=f33e1375]:
+                - /url: https://www.district.in/movies/sk-cinema-4k-3d-a-c-dolby-7-1-alandur-chennai-CD1037227
+                - text: SK Cinema 4K 3D A/C Dolby 7.1, Alandur, Chennai
+              - text: ","
+              - link [ref=f33e1376]:
+                - /url: https://www.district.in/movies/sk-cinema-4k-3d-a-c-dolby-7-1-alandur-chennai-CD1053618
+                - text: SK Cinema 4K 3D A/C Dolby 7.1, Alandur, Chennai
+              - text: ","
+              - link [ref=f33e1377]:
+                - /url: https://www.district.in/movies/murugan-cinemas-plf-4k-ambattur-chennai-CD1042465
+                - text: Murugan Cinemas PLF 4K, Ambattur, Chennai
+              - text: ","
+              - link [ref=f33e1378]:
+                - /url: https://www.district.in/movies/rakki-rgb-laser-4k-ambattur-CD1042635
+                - text: Rakki RGB Laser 4K- Ambattur
+              - text: ","
+              - link [ref=f33e1379]:
+                - /url: https://www.district.in/movies/ega-cinemas-rgb-laser-dolby-audio-couple-sofa-kilpauk-chennai-CD1042615
+                - text: EGA Cinemas (RGB LASER | Dolby Audio | Couple Sofa), Kilpauk, Chennai
+              - text: ","
+              - link [ref=f33e1380]:
+                - /url: https://www.district.in/movies/santhalinga-cinemas-multiplex-dolby-atmos-4k-laser-oragadam-CD1102078
+                - text: Santhalinga Cinemas Multiplex Dolby Atmos 4K Laser, Oragadam
+              - text: ","
+              - link [ref=f33e1381]:
+                - /url: https://www.district.in/movies/pvr-grand-mall-velachery-chennai-CD1022271
+                - text: PVR Grand Mall, Velachery, Chennai
+              - text: ","
+              - link [ref=f33e1382]:
+                - /url: https://www.district.in/movies/miraj-cinemas-sekaran-mall-perrumbakkam-CD1030432
+                - text: "Miraj Cinemas : Sekaran Mall, Perrumbakkam"
+              - text: ","
+              - link [ref=f33e1383]:
+                - /url: https://www.district.in/movies/pvr-perambur-spectrum-mall-perambur-chennai-CD1022266
+                - text: PVR Perambur Spectrum Mall, Perambur, Chennai
+              - text: ","
+              - link [ref=f33e1384]:
+                - /url: https://www.district.in/movies/seven-screen-s-cinemas-kilambakkam-chennai-CD1102122
+                - text: Seven Screen's Cinemas, Kilambakkam, Chennai
+              - text: ","
+              - link [ref=f33e1385]:
+                - /url: https://www.district.in/movies/sree-lakshmi-cinemas-a-c-2k-dolby-atmos-thiruninravur-chennai-CD43338
+                - text: Sree Lakshmi Cinemas A/C 2K Dolby Atmos, Thiruninravur, Chennai
+              - text: ","
+              - link [ref=f33e1386]:
+                - /url: https://www.district.in/movies/pvr-grand-galada-mall-pallavaram-chennai-CD1022276
+                - text: PVR Grand Galada Mall, Pallavaram, Chennai
+              - text: ","
+              - link [ref=f33e1387]:
+                - /url: https://www.district.in/movies/pvr-ampa-skywalk-mall-aminjikarai-chennai-CD1022258
+                - text: PVR Ampa Skywalk Mall, Aminjikarai, Chennai
+              - text: ","
+              - link [ref=f33e1388]:
+                - /url: https://www.district.in/movies/pvr-palazzo-the-nexus-vijaya-mall-chennai-CD1022274
+                - text: PVR Palazzo, The Nexus Vijaya Mall, Chennai
+              - text: ","
+              - link [ref=f33e1389]:
+                - /url: https://www.district.in/movies/moviemax-pr-mall-wall-tax-road-chennai-CD1102281
+                - text: MovieMax PR Mall, Wall Tax Road, Chennai
+              - text: ","
+              - link [ref=f33e1390]:
+                - /url: https://www.district.in/movies/mk-cinemas-multiplex-sriperumbudur-digital-laser-dolby-atmos-barco-projectors-CD1102406
+                - text: MK Cinemas Multiplex, Sriperumbudur (Digital Laser | Dolby Atmos | Barco Projectors)
+              - text: ","
+              - link [ref=f33e1391]:
+                - /url: https://www.district.in/movies/casino-cinemas-pure-rgb-laser-dolby-atmos-couple-seats-mount-road-chennai-CD1036962
+                - text: Casino Cinemas (Pure RGB Laser |Dolby ATMOS |Couple Seats) Mount Road, Chennai
+              - text: ","
+              - link [ref=f33e1392]:
+                - /url: https://www.district.in/movies/jothi-theatre-a-c-4k-st-thomas-mount-CD1102588
+                - text: Jothi Theatre A/C 4K, St. Thomas Mount
+              - text: ","
+              - link [ref=f33e1393]:
+                - /url: https://www.district.in/movies/vettri-theatres-rgb-laser-chrompet-chennai-CD4891
+                - text: Vettri Theatres RGB Laser, Chrompet, Chennai
+              - text: ","
+              - link [ref=f33e1394]:
+                - /url: https://www.district.in/movies/inox-national-virugambakkam-chennai-CD1020773
+                - text: INOX National, Virugambakkam, Chennai
+      - generic [ref=f33e1395]:
+        - generic [ref=f33e1396]:
+          - link [ref=f33e1399] [cursor=pointer]:
+            - /url: /
+            - img "app-store" [ref=f33e1400]
+          - generic [ref=f33e1401]:
+            - link "Terms & Conditions" [ref=f33e1402] [cursor=pointer]:
+              - /url: /policies/terms-of-service
+            - link "Privacy Policy" [ref=f33e1404] [cursor=pointer]:
+              - /url: /policies/privacy
+            - link "Contact Us" [ref=f33e1406] [cursor=pointer]:
+              - /url: /contact
+            - link "List your events" [ref=f33e1408] [cursor=pointer]:
+              - /url: /events/list-your-event
+          - generic [ref=f33e1411]:
+            - img "Download the app" [ref=f33e1412]
+            - paragraph [ref=f33e1413]: Scan to download the app
+        - generic [ref=f33e1414]:
+          - generic [ref=f33e1415]: By accessing this page, you confirm that you have read, understood, and agreed to our Terms of Service, Cookie Policy, Privacy Policy, and Content Guidelines. All rights reserved.
+          - generic [ref=f33e1416]:
+            - link [ref=f33e1417] [cursor=pointer]:
+              - /url: https://www.facebook.com/districtupdates
+              - img "Facebook Logo" [ref=f33e1418]
+            - link [ref=f33e1419] [cursor=pointer]:
+              - /url: https://www.instagram.com/districtupdates/
+              - img "Instagram Logo" [ref=f33e1420]
+            - link [ref=f33e1421] [cursor=pointer]:
+              - /url: https://x.com/district_india
+              - img "Twitter Logo" [ref=f33e1422]
+            - link [ref=f33e1423] [cursor=pointer]:
+              - /url: https://www.youtube.com/@district.culture
+              - img "YouTube Logo" [ref=f33e1424]
+  - alert [ref=f33e1450]: Book Ramayana Tickets in Chennai - Showtimes - District

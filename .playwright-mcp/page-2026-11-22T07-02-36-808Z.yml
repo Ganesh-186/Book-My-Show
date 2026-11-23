@@ -1,0 +1,1345 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - main [ref=f4e3]:
+      - generic [ref=f4e7]:
+        - generic [ref=f4e8]:
+          - link "District Home" [ref=f4e9] [cursor=pointer]:
+            - /url: /
+          - button "Chennai Chennai, Tamil Nadu" [ref=f4e23] [cursor=pointer]:
+            - generic [ref=f4e26]:
+              - generic [ref=f4e27]: Chennai
+              - generic [ref=f4e28]: Chennai, Tamil Nadu
+          - generic [ref=f4e31]:
+            - button "Open search" [ref=f4e32]:
+              - generic [ref=f4e33]:
+                - button "Movies" [ref=f4e34] [cursor=pointer]
+                - generic [ref=f4e39]:
+                  - generic [ref=f4e40] [cursor=pointer]
+                  - generic [ref=f4e43]: Search for events, movies, restaurants...
+            - button "Login" [ref=f4e45] [cursor=pointer]
+        - navigation "Primary" [ref=f4e50]:
+          - link "For you" [ref=f4e51] [cursor=pointer]:
+            - /url: /
+          - link "Dining" [ref=f4e57] [cursor=pointer]:
+            - /url: /dining/
+          - link "Movies" [ref=f4e60] [cursor=pointer]:
+            - /url: /movies/
+          - link "Events" [ref=f4e64] [cursor=pointer]:
+            - /url: /events/
+          - link "Stores" [ref=f4e67] [cursor=pointer]:
+            - /url: /stores/
+          - link "Activities" [ref=f4e70] [cursor=pointer]:
+            - /url: /activities/
+          - link "Play" [ref=f4e73] [cursor=pointer]:
+            - /url: /play/
+      - generic [ref=f4e76]:
+        - generic [ref=f4e78]:
+          - link "Ramayana - movie info" [ref=f4e79] [cursor=pointer]:
+            - /url: /movies/ramayana-movie-tickets-MV176276
+            - img "Ramayana" [ref=f4e80]
+          - generic [ref=f4e81]:
+            - link [ref=f4e82] [cursor=pointer]:
+              - /url: /movies/ramayana-movie-tickets-MV176276
+              - heading "Ramayana(2026)" [level=2] [ref=f4e83]:
+                - text: Ramayana
+                - generic [ref=f4e84]: (2026)
+            - generic [ref=f4e85]:
+              - generic [ref=f4e86]:
+                - generic [ref=f4e87]: U
+                - generic [ref=f4e88]: 3h 15m
+              - generic [ref=f4e89]: Hindi +5 more
+              - generic [ref=f4e90]: Epic, Mythological
+        - generic [ref=f4e93]:
+          - generic [ref=f4e94]:
+            - generic [ref=f4e96]:
+              - generic [ref=f4e97]: NOV
+              - link [ref=f4e98] [cursor=pointer]:
+                - /url: /movies/ramayana-movie-tickets-in-chennai-MV176276?frmtid=EU8~TURJ0F&fromdate=2026-11-22
+                - button "Sunday22" [ref=f4e99]:
+                  - generic [ref=f4e100]: "22"
+                  - generic [ref=f4e101]: Sun
+              - link [ref=f4e102] [cursor=pointer]:
+                - /url: /movies/ramayana-movie-tickets-in-chennai-MV176276?frmtid=EU8~TURJ0F&fromdate=2026-11-23
+                - button "Monday23" [ref=f4e103]:
+                  - generic [ref=f4e104]: "23"
+                  - generic [ref=f4e105]: Mon
+              - link [ref=f4e106] [cursor=pointer]:
+                - /url: /movies/ramayana-movie-tickets-in-chennai-MV176276?frmtid=EU8~TURJ0F&fromdate=2026-11-24
+                - button "Tuesday24" [ref=f4e107]:
+                  - generic [ref=f4e108]: "24"
+                  - generic [ref=f4e109]: Tue
+              - link [ref=f4e110] [cursor=pointer]:
+                - /url: /movies/ramayana-movie-tickets-in-chennai-MV176276?frmtid=EU8~TURJ0F&fromdate=2026-11-25
+                - button "Wednesday25" [ref=f4e111]:
+                  - generic [ref=f4e112]: "25"
+                  - generic [ref=f4e113]: Wed
+              - link [ref=f4e114] [cursor=pointer]:
+                - /url: /movies/ramayana-movie-tickets-in-chennai-MV176276?frmtid=EU8~TURJ0F&fromdate=2026-11-26
+                - button "Thursday26" [ref=f4e115]:
+                  - generic [ref=f4e116]: "26"
+                  - generic [ref=f4e117]: Thu
+            - list [ref=f4e1454]:
+              - button "filter" [ref=f4e1455]:
+                - generic [ref=f4e1457]: Filters
+              - generic [ref=f4e1460]:
+                - button "Tamil filter, click to apply" [ref=f4e1461] [cursor=pointer]:
+                  - generic "Tamil filter, click to apply" [ref=f4e1462]: Tamil
+                - button "3D filter, click to apply" [ref=f4e1464] [cursor=pointer]:
+                  - generic "3D filter, click to apply" [ref=f4e1465]: 3D
+                - button "IMAX 3D filter, click to apply" [ref=f4e1466] [cursor=pointer]:
+                  - generic "IMAX 3D filter, click to apply" [ref=f4e1467]: IMAX 3D
+                - button "After 5 PM filter, click to apply" [ref=f4e1468] [cursor=pointer]:
+                  - generic "After 5 PM filter, click to apply" [ref=f4e1469]: After 5 PM
+                - button "Wheelchair Friendly filter, click to apply" [ref=f4e1470] [cursor=pointer]:
+                  - generic "Wheelchair Friendly filter, click to apply" [ref=f4e1471]: Wheelchair Friendly
+          - list [ref=f4e1473]:
+            - generic [ref=f4e1474]:
+              - generic [ref=f4e1475]: English subtitle
+              - generic [ref=f4e1477]: Available
+              - generic [ref=f4e1480]: Filling fast
+              - generic [ref=f4e1483]: Almost full
+            - listitem [ref=f4e1486]:
+              - generic [ref=f4e1487]:
+                - link [ref=f4e1488] [cursor=pointer]:
+                  - /url: /movies/kamala-cinemas-4k-rgb-laser-dolby-vadapalani-chennai-CD5059
+                  - img "Kamala Cinemas 4K RGB Laser Dolby, Vadapalani, Chennai" [ref=f4e1489]
+                - generic [ref=f4e1490]:
+                  - generic [ref=f4e1492]:
+                    - button "Like" [ref=f4e1494] [cursor=pointer]
+                    - link "Kamala Cinemas 4K RGB Laser Dolby, Vadapalani, Chennai" [ref=f4e1495] [cursor=pointer]:
+                      - /url: /movies/kamala-cinemas-4k-rgb-laser-dolby-vadapalani-chennai-CD5059
+                  - generic [ref=f4e1496]:
+                    - button "13.4 km away" [ref=f4e1497] [cursor=pointer]
+                    - generic [ref=f4e1499]: Non-cancellable
+              - list [ref=f4e1504]:
+                - button "07:50 PM SCREEN2 3D" [ref=f4e1505]:
+                  - link:
+                    - /url: /movies/seat-layout/EU8~TURJ0F?encsessionid=5059-35347__1795357200__30__77865-obe0p2-5059&freeseating=false&fromsessions=true&type=MOVIES&contentid=176276
+                  - generic [ref=f4e1506] [cursor=pointer]:
+                    - text: 07:50 PM
+                    - generic [ref=f4e1507]: SCREEN2
+                  - generic [ref=f4e1509]: 3D
+            - listitem [ref=f4e1510]:
+              - generic [ref=f4e1511]:
+                - link [ref=f4e1512] [cursor=pointer]:
+                  - /url: /movies/vettri-theatres-rgb-laser-chrompet-chennai-CD4891
+                  - img "Vettri Theatres RGB Laser, Chrompet, Chennai" [ref=f4e1513]
+                - generic [ref=f4e1514]:
+                  - generic [ref=f4e1516]:
+                    - button "Like" [ref=f4e1518] [cursor=pointer]
+                    - link "Vettri Theatres RGB Laser, Chrompet, Chennai" [ref=f4e1519] [cursor=pointer]:
+                      - /url: /movies/vettri-theatres-rgb-laser-chrompet-chennai-CD4891
+                  - generic [ref=f4e1520]:
+                    - button "1.8 km away" [ref=f4e1521] [cursor=pointer]
+                    - generic [ref=f4e1523]: Non-cancellable
+              - list [ref=f4e1528]:
+                - button "02:10 PM VETTRI 3D" [ref=f4e1529]:
+                  - generic [ref=f4e1530] [cursor=pointer]:
+                    - text: 02:10 PM
+                    - generic [ref=f4e1531]: VETTRI
+                  - generic [ref=f4e1533]: 3D
+                - button "06:35 PM VETTRI 3D" [ref=f4e1534]:
+                  - generic [ref=f4e1535] [cursor=pointer]:
+                    - text: 06:35 PM
+                    - generic [ref=f4e1536]: VETTRI
+                  - generic [ref=f4e1538]: 3D
+                - button "10:45 PM RAKESH VOLT LED" [ref=f4e1539]:
+                  - generic [ref=f4e1540] [cursor=pointer]:
+                    - text: 10:45 PM
+                    - generic [ref=f4e1541]: RAKESH VOLT LED
+            - listitem [ref=f4e1543]:
+              - generic [ref=f4e1544]:
+                - link [ref=f4e1545] [cursor=pointer]:
+                  - /url: /movies/varadaraja-cinemas-4k-rgb-laser-dolby-atmos-chennai-CD1037507
+                  - img "Varadaraja Cinemas 4K RGB Laser Dolby Atmos, Chennai" [ref=f4e1546]
+                - generic [ref=f4e1547]:
+                  - generic [ref=f4e1549]:
+                    - button "Like" [ref=f4e1551] [cursor=pointer]
+                    - link "Varadaraja Cinemas 4K RGB Laser Dolby Atmos, Chennai" [ref=f4e1552] [cursor=pointer]:
+                      - /url: /movies/varadaraja-cinemas-4k-rgb-laser-dolby-atmos-chennai-CD1037507
+                  - generic [ref=f4e1553]:
+                    - button "2.8 km away" [ref=f4e1554] [cursor=pointer]
+                    - generic [ref=f4e1556]: Non-cancellable
+              - list [ref=f4e1561]:
+                - button "06:30 PM AUDI 4" [ref=f4e1562]:
+                  - generic [ref=f4e1563] [cursor=pointer]:
+                    - text: 06:30 PM
+                    - generic [ref=f4e1564]: AUDI 4
+            - listitem [ref=f4e1566]:
+              - generic [ref=f4e1567]:
+                - link [ref=f4e1568] [cursor=pointer]:
+                  - /url: /movies/vidya-theatre-4k-dolby-atmos-tambaram-w-chennai-CD1037496
+                  - img "Vidya Theatre 4K Dolby Atmos, Tambaram (W), Chennai" [ref=f4e1569]
+                - generic [ref=f4e1570]:
+                  - generic [ref=f4e1572]:
+                    - button "Like" [ref=f4e1574] [cursor=pointer]
+                    - link "Vidya Theatre 4K Dolby Atmos, Tambaram (W), Chennai" [ref=f4e1575] [cursor=pointer]:
+                      - /url: /movies/vidya-theatre-4k-dolby-atmos-tambaram-w-chennai-CD1037496
+                  - generic [ref=f4e1576]:
+                    - button "4.1 km away" [ref=f4e1577] [cursor=pointer]
+                    - generic [ref=f4e1579]: Non-cancellable
+              - list [ref=f4e1584]:
+                - button "07:00 PM 3D" [ref=f4e1585]:
+                  - generic [ref=f4e1586] [cursor=pointer]: 07:00 PM
+                  - generic [ref=f4e1587]: 3D
+            - listitem [ref=f4e1588]:
+              - generic [ref=f4e1589]:
+                - link [ref=f4e1590] [cursor=pointer]:
+                  - /url: /movies/ganesh-cinemas-rgb-laser-christie-vive-audio-mannar-swamy-koil-street-chennai-CD4248
+                  - img "Ganesh Cinemas RGB Laser Christie Vive Audio, Mannar Swamy Koil Street, Chennai" [ref=f4e1591]
+                - generic [ref=f4e1592]:
+                  - generic [ref=f4e1594]:
+                    - button "Like" [ref=f4e1596] [cursor=pointer]
+                    - link "Ganesh Cinemas RGB Laser Christie Vive Audio, Mannar Swamy Koil Street, Chennai" [ref=f4e1597] [cursor=pointer]:
+                      - /url: /movies/ganesh-cinemas-rgb-laser-christie-vive-audio-mannar-swamy-koil-street-chennai-CD4248
+                  - generic [ref=f4e1598]:
+                    - button "2.8 km away" [ref=f4e1599] [cursor=pointer]
+                    - generic [ref=f4e1601]: Non-cancellable
+              - list [ref=f4e1606]:
+                - button "06:20 PM G1 SCREEN 3D" [ref=f4e1607]:
+                  - generic [ref=f4e1608] [cursor=pointer]:
+                    - text: 06:20 PM
+                    - generic [ref=f4e1609]: G1 SCREEN
+                  - generic [ref=f4e1611]: 3D
+            - listitem [ref=f4e1612]:
+              - generic [ref=f4e1613]:
+                - link [ref=f4e1614] [cursor=pointer]:
+                  - /url: /movies/seven-screen-s-cinemas-kilambakkam-chennai-CD1102122
+                  - img "Seven Screen's Cinemas, Kilambakkam, Chennai" [ref=f4e1615]
+                - generic [ref=f4e1616]:
+                  - generic [ref=f4e1618]:
+                    - button "Like" [ref=f4e1620] [cursor=pointer]
+                    - link "Seven Screen's Cinemas, Kilambakkam, Chennai" [ref=f4e1621] [cursor=pointer]:
+                      - /url: /movies/seven-screen-s-cinemas-kilambakkam-chennai-CD1102122
+                  - generic [ref=f4e1622]:
+                    - button "10.9 km away" [ref=f4e1623] [cursor=pointer]
+                    - generic [ref=f4e1625]: Non-cancellable
+              - list [ref=f4e1630]:
+                - button "01:35 PM ATMOS 3D" [ref=f4e1631]:
+                  - generic [ref=f4e1632] [cursor=pointer]:
+                    - text: 01:35 PM
+                    - generic [ref=f4e1633]: ATMOS
+                  - generic [ref=f4e1637]: 3D
+                - button "02:20 PM ATMOS 3D" [ref=f4e1638]:
+                  - generic [ref=f4e1639] [cursor=pointer]:
+                    - text: 02:20 PM
+                    - generic [ref=f4e1640]: ATMOS
+                  - generic [ref=f4e1644]: 3D
+                - button "06:15 PM ATMOS 3D" [ref=f4e1645]:
+                  - generic [ref=f4e1646] [cursor=pointer]:
+                    - text: 06:15 PM
+                    - generic [ref=f4e1647]: ATMOS
+                  - generic [ref=f4e1651]: 3D
+                - button "07:25 PM ATMOS 3D" [ref=f4e1652]:
+                  - generic [ref=f4e1653] [cursor=pointer]:
+                    - text: 07:25 PM
+                    - generic [ref=f4e1654]: ATMOS
+                  - generic [ref=f4e1658]: 3D
+                - button "10:20 PM ATMOS 3D" [ref=f4e1659]:
+                  - generic [ref=f4e1660] [cursor=pointer]:
+                    - text: 10:20 PM
+                    - generic [ref=f4e1661]: ATMOS
+                  - generic [ref=f4e1665]: 3D
+                - button "11:30 PM ATMOS 3D" [ref=f4e1666]:
+                  - generic [ref=f4e1667] [cursor=pointer]:
+                    - text: 11:30 PM
+                    - generic [ref=f4e1668]: ATMOS
+                  - generic [ref=f4e1672]: 3D
+            - listitem [ref=f4e1673]:
+              - generic [ref=f4e1674]:
+                - link [ref=f4e1675] [cursor=pointer]:
+                  - /url: /movies/ags-cinemas-maduravoyal-chennai-CD10186
+                  - img "AGS Cinemas, Maduravoyal, Chennai" [ref=f4e1676]
+                - generic [ref=f4e1677]:
+                  - generic [ref=f4e1679]:
+                    - button "Like" [ref=f4e1681] [cursor=pointer]
+                    - link "AGS Cinemas, Maduravoyal, Chennai" [ref=f4e1682] [cursor=pointer]:
+                      - /url: /movies/ags-cinemas-maduravoyal-chennai-CD10186
+                  - generic [ref=f4e1683]:
+                    - button "11.9 km away" [ref=f4e1684] [cursor=pointer]
+                    - generic [ref=f4e1686]: Non-cancellable
+              - list [ref=f4e1691]:
+                - button "04:05 PM ATMOS 4K DOLBY 3D" [ref=f4e1692]:
+                  - generic [ref=f4e1693] [cursor=pointer]:
+                    - text: 04:05 PM
+                    - generic [ref=f4e1694]: ATMOS 4K DOLBY
+                  - generic [ref=f4e1696]: 3D
+                - button "10:50 PM ATMOS 4K DOLBY 3D" [ref=f4e1697]:
+                  - generic [ref=f4e1698] [cursor=pointer]:
+                    - text: 10:50 PM
+                    - generic [ref=f4e1699]: ATMOS 4K DOLBY
+                  - generic [ref=f4e1701]: 3D
+            - listitem [ref=f4e1702]:
+              - generic [ref=f4e1703]:
+                - link [ref=f4e1704] [cursor=pointer]:
+                  - /url: /movies/cinepolis-bsr-mall-omr-thoraipakkam-chennai-CD9505
+                  - img "Cinepolis BSR Mall OMR, Thoraipakkam, Chennai" [ref=f4e1705]
+                - generic [ref=f4e1706]:
+                  - generic [ref=f4e1708]:
+                    - button "Like" [ref=f4e1710] [cursor=pointer]
+                    - link "Cinepolis BSR Mall OMR, Thoraipakkam, Chennai" [ref=f4e1711] [cursor=pointer]:
+                      - /url: /movies/cinepolis-bsr-mall-omr-thoraipakkam-chennai-CD9505
+                  - generic [ref=f4e1712]:
+                    - button "12.4 km away" [ref=f4e1713] [cursor=pointer]
+                    - generic [ref=f4e1715]: Non-cancellable
+              - list [ref=f4e1720]:
+                - button "01:50 PM" [ref=f4e1721]
+                - button "03:25 PM 3D" [ref=f4e1723]:
+                  - generic [ref=f4e1724] [cursor=pointer]: 03:25 PM
+                  - generic [ref=f4e1725]: 3D
+                - button "06:05 PM 3D" [ref=f4e1726]:
+                  - generic [ref=f4e1727] [cursor=pointer]: 06:05 PM
+                  - generic [ref=f4e1728]: 3D
+                - button "09:55 PM 3D" [ref=f4e1729]:
+                  - generic [ref=f4e1730] [cursor=pointer]: 09:55 PM
+                  - generic [ref=f4e1731]: 3D
+            - listitem [ref=f4e1732]:
+              - generic [ref=f4e1733]:
+                - link [ref=f4e1734] [cursor=pointer]:
+                  - /url: /movies/pvr-grand-galada-mall-pallavaram-chennai-CD1022276
+                  - img "PVR Grand Galada Mall, Pallavaram, Chennai" [ref=f4e1735]
+                - generic [ref=f4e1736]:
+                  - generic [ref=f4e1738]:
+                    - button "Like" [ref=f4e1740] [cursor=pointer]
+                    - link "PVR Grand Galada Mall, Pallavaram, Chennai" [ref=f4e1741] [cursor=pointer]:
+                      - /url: /movies/pvr-grand-galada-mall-pallavaram-chennai-CD1022276
+                  - generic [ref=f4e1742]:
+                    - button "4.4 km away" [ref=f4e1743] [cursor=pointer]
+                    - generic [ref=f4e1745]: Allows cancellation
+              - list [ref=f4e1750]:
+                - button "02:30 PM 3D" [ref=f4e1751]:
+                  - generic [ref=f4e1752] [cursor=pointer]: 02:30 PM
+                  - generic [ref=f4e1753]: 3D
+                - button "06:40 PM 3D" [ref=f4e1754]:
+                  - generic [ref=f4e1755] [cursor=pointer]: 06:40 PM
+                  - generic [ref=f4e1756]: 3D
+                - button "11:10 PM 3D" [ref=f4e1757]:
+                  - generic [ref=f4e1758] [cursor=pointer]: 11:10 PM
+                  - generic [ref=f4e1759]: 3D
+            - listitem [ref=f4e1760]:
+              - generic [ref=f4e1761]:
+                - link [ref=f4e1762] [cursor=pointer]:
+                  - /url: /movies/pvr-aerohub-chennai-audi-3-all-new-3d-projection-CD1022289
+                  - img "PVR Aerohub, Chennai (Audi 3-All New 3D Projection)" [ref=f4e1763]
+                - generic [ref=f4e1764]:
+                  - generic [ref=f4e1766]:
+                    - button "Like" [ref=f4e1768] [cursor=pointer]
+                    - link "PVR Aerohub, Chennai (Audi 3-All New 3D Projection)" [ref=f4e1769] [cursor=pointer]:
+                      - /url: /movies/pvr-aerohub-chennai-audi-3-all-new-3d-projection-CD1022289
+                  - generic [ref=f4e1770]:
+                    - button "4.9 km away" [ref=f4e1771] [cursor=pointer]
+                    - generic [ref=f4e1773]: Allows cancellation
+              - list [ref=f4e1778]:
+                - button "02:25 PM 3D" [ref=f4e1779]:
+                  - generic [ref=f4e1780] [cursor=pointer]: 02:25 PM
+                  - generic [ref=f4e1781]: 3D
+                - button "06:15 PM 3D" [ref=f4e1782]:
+                  - generic [ref=f4e1783] [cursor=pointer]: 06:15 PM
+                  - generic [ref=f4e1784]: 3D
+            - listitem [ref=f4e1785]:
+              - generic [ref=f4e1786]:
+                - link [ref=f4e1787] [cursor=pointer]:
+                  - /url: /movies/pvr-grand-mall-velachery-chennai-CD1022271
+                  - img "PVR Grand Mall, Velachery, Chennai" [ref=f4e1788]
+                - generic [ref=f4e1789]:
+                  - generic [ref=f4e1791]:
+                    - button "Like" [ref=f4e1793] [cursor=pointer]
+                    - link "PVR Grand Mall, Velachery, Chennai" [ref=f4e1794] [cursor=pointer]:
+                      - /url: /movies/pvr-grand-mall-velachery-chennai-CD1022271
+                  - generic [ref=f4e1795]:
+                    - button "10.3 km away" [ref=f4e1796] [cursor=pointer]
+                    - generic [ref=f4e1798]: Allows cancellation
+              - list [ref=f4e1803]:
+                - button "03:20 PM 3D" [ref=f4e1804]:
+                  - generic [ref=f4e1805] [cursor=pointer]: 03:20 PM
+                  - generic [ref=f4e1806]: 3D
+                - button "06:55 PM 3D" [ref=f4e1807]:
+                  - generic [ref=f4e1808] [cursor=pointer]: 06:55 PM
+                  - generic [ref=f4e1809]: 3D
+                - button "10:35 PM 3D" [ref=f4e1810]:
+                  - generic [ref=f4e1811] [cursor=pointer]: 10:35 PM
+                  - generic [ref=f4e1812]: 3D
+            - listitem [ref=f4e1813]:
+              - generic [ref=f4e1814]:
+                - link [ref=f4e1815] [cursor=pointer]:
+                  - /url: /movies/inox-phoenix-market-city-formerly-jazz-cinemas-velachery-chennai-CD1020779
+                  - img "INOX Phoenix Market City (formerly Jazz Cinemas), Velachery, Chennai" [ref=f4e1816]
+                - generic [ref=f4e1817]:
+                  - generic [ref=f4e1819]:
+                    - button "Like" [ref=f4e1821] [cursor=pointer]
+                    - link "INOX Phoenix Market City (formerly Jazz Cinemas), Velachery, Chennai" [ref=f4e1822] [cursor=pointer]:
+                      - /url: /movies/inox-phoenix-market-city-formerly-jazz-cinemas-velachery-chennai-CD1020779
+                  - generic [ref=f4e1823]:
+                    - button "10.4 km away" [ref=f4e1824] [cursor=pointer]
+                    - generic [ref=f4e1826]: Allows cancellation
+              - list [ref=f4e1831]:
+                - button "12:35 PM IMAX IMAX 3D" [ref=f4e1832]:
+                  - generic [ref=f4e1833] [cursor=pointer]:
+                    - text: 12:35 PM
+                    - generic [ref=f4e1834]: IMAX
+                  - generic [ref=f4e1836]: IMAX 3D
+                - button "03:35 PM 3D" [ref=f4e1837]:
+                  - generic [ref=f4e1838] [cursor=pointer]: 03:35 PM
+                  - generic [ref=f4e1839]: 3D
+                - button "06:30 PM 3D" [ref=f4e1840]:
+                  - generic [ref=f4e1841] [cursor=pointer]: 06:30 PM
+                  - generic [ref=f4e1842]: 3D
+                - button "07:40 PM IMAX IMAX 3D" [ref=f4e1843]:
+                  - generic [ref=f4e1844] [cursor=pointer]:
+                    - text: 07:40 PM
+                    - generic [ref=f4e1845]: IMAX
+                  - generic [ref=f4e1847]: IMAX 3D
+                - button "10:50 PM 3D" [ref=f4e1848]:
+                  - generic [ref=f4e1849] [cursor=pointer]: 10:50 PM
+                  - generic [ref=f4e1850]: 3D
+            - listitem [ref=f4e1851]:
+              - generic [ref=f4e1852]:
+                - link [ref=f4e1853] [cursor=pointer]:
+                  - /url: /movies/miraj-cinemas-sekaran-mall-perrumbakkam-CD1030432
+                  - 'img "Miraj Cinemas : Sekaran Mall, Perrumbakkam" [ref=f4e1854]'
+                - generic [ref=f4e1855]:
+                  - generic [ref=f4e1857]:
+                    - button "Like" [ref=f4e1859] [cursor=pointer]
+                    - 'link "Miraj Cinemas : Sekaran Mall, Perrumbakkam" [ref=f4e1860] [cursor=pointer]':
+                      - /url: /movies/miraj-cinemas-sekaran-mall-perrumbakkam-CD1030432
+                  - generic [ref=f4e1861]:
+                    - button "10.6 km away" [ref=f4e1862] [cursor=pointer]
+                    - generic [ref=f4e1864]: Allows cancellation
+              - list [ref=f4e1869]:
+                - button "02:30 PM 3D" [ref=f4e1870]:
+                  - generic [ref=f4e1871] [cursor=pointer]: 02:30 PM
+                  - generic [ref=f4e1872]: 3D
+                - button "06:30 PM 3D" [ref=f4e1873]:
+                  - generic [ref=f4e1874] [cursor=pointer]: 06:30 PM
+                  - generic [ref=f4e1875]: 3D
+            - listitem [ref=f4e1876]:
+              - generic [ref=f4e1877]:
+                - link [ref=f4e1878] [cursor=pointer]:
+                  - /url: /movies/inox-national-virugambakkam-chennai-CD1020773
+                  - img "INOX National, Virugambakkam, Chennai" [ref=f4e1879]
+                - generic [ref=f4e1880]:
+                  - generic [ref=f4e1882]:
+                    - button "Like" [ref=f4e1884] [cursor=pointer]
+                    - link "INOX National, Virugambakkam, Chennai" [ref=f4e1885] [cursor=pointer]:
+                      - /url: /movies/inox-national-virugambakkam-chennai-CD1020773
+                  - generic [ref=f4e1886]:
+                    - button "11.9 km away" [ref=f4e1887] [cursor=pointer]
+                    - generic [ref=f4e1889]: Allows cancellation
+              - list [ref=f4e1894]:
+                - button "07:00 PM" [ref=f4e1895]
+            - listitem [ref=f4e1897]:
+              - generic [ref=f4e1898]:
+                - link [ref=f4e1899] [cursor=pointer]:
+                  - /url: /movies/pvr-palazzo-the-nexus-vijaya-mall-chennai-CD1022274
+                  - img "PVR Palazzo, The Nexus Vijaya Mall, Chennai" [ref=f4e1900]
+                - generic [ref=f4e1901]:
+                  - generic [ref=f4e1903]:
+                    - button "Like" [ref=f4e1905] [cursor=pointer]
+                    - link "PVR Palazzo, The Nexus Vijaya Mall, Chennai" [ref=f4e1906] [cursor=pointer]:
+                      - /url: /movies/pvr-palazzo-the-nexus-vijaya-mall-chennai-CD1022274
+                  - generic [ref=f4e1907]:
+                    - button "13.5 km away" [ref=f4e1908] [cursor=pointer]
+                    - generic [ref=f4e1910]: Allows cancellation
+              - list [ref=f4e1915]:
+                - button "03:40 PM IMAX IMAX 3D" [ref=f4e1916]:
+                  - generic [ref=f4e1917] [cursor=pointer]:
+                    - text: 03:40 PM
+                    - generic [ref=f4e1918]: IMAX
+                  - generic [ref=f4e1920]: IMAX 3D
+                - button "07:00 PM 3D" [ref=f4e1921]:
+                  - generic [ref=f4e1922] [cursor=pointer]: 07:00 PM
+                  - generic [ref=f4e1923]: 3D
+                - button "11:30 PM IMAX IMAX 3D" [ref=f4e1924]:
+                  - generic [ref=f4e1925] [cursor=pointer]:
+                    - text: 11:30 PM
+                    - generic [ref=f4e1926]: IMAX
+                  - generic [ref=f4e1928]: IMAX 3D
+            - listitem [ref=f4e1929]:
+              - generic [ref=f4e1930]:
+                - link [ref=f4e1931] [cursor=pointer]:
+                  - /url: /movies/sangam-cinemas-4k-rgb-laser-dolby-atmos-64ch-couple-sofa-kilpauk-chennai-CD1037033
+                  - img "Sangam Cinemas (4K RGB Laser Dolby Atmos 64CH | Couple Sofa), Kilpauk, Chennai" [ref=f4e1932]
+                - generic [ref=f4e1933]:
+                  - generic [ref=f4e1935]:
+                    - button "Like" [ref=f4e1937] [cursor=pointer]
+                    - link "Sangam Cinemas (4K RGB Laser Dolby Atmos 64CH | Couple Sofa), Kilpauk, Chennai" [ref=f4e1938] [cursor=pointer]:
+                      - /url: /movies/sangam-cinemas-4k-rgb-laser-dolby-atmos-64ch-couple-sofa-kilpauk-chennai-CD1037033
+                  - generic [ref=f4e1939]:
+                    - button "18.8 km away" [ref=f4e1940] [cursor=pointer]
+                    - generic [ref=f4e1942]: Non-cancellable
+              - list [ref=f4e1947]:
+                - button "06:30 PM D-LOUNGE 4K 3D" [ref=f4e1948]:
+                  - generic [ref=f4e1949] [cursor=pointer]:
+                    - text: 06:30 PM
+                    - generic [ref=f4e1950]: D-LOUNGE 4K
+                  - generic [ref=f4e1952]: 3D
+                - button "10:30 PM PADMAM 4K 3D" [ref=f4e1953]:
+                  - generic [ref=f4e1954] [cursor=pointer]:
+                    - text: 10:30 PM
+                    - generic [ref=f4e1955]: PADMAM 4K
+                  - generic [ref=f4e1957]: 3D
+            - listitem [ref=f4e1958]:
+              - generic [ref=f4e1959]:
+                - link [ref=f4e1960] [cursor=pointer]:
+                  - /url: /movies/ega-cinemas-rgb-laser-dolby-audio-couple-sofa-kilpauk-chennai-CD1042615
+                  - img "EGA Cinemas (RGB LASER | Dolby Audio | Couple Sofa), Kilpauk, Chennai" [ref=f4e1961]
+                - generic [ref=f4e1962]:
+                  - generic [ref=f4e1964]:
+                    - button "Like" [ref=f4e1966] [cursor=pointer]
+                    - link "EGA Cinemas (RGB LASER | Dolby Audio | Couple Sofa), Kilpauk, Chennai" [ref=f4e1967] [cursor=pointer]:
+                      - /url: /movies/ega-cinemas-rgb-laser-dolby-audio-couple-sofa-kilpauk-chennai-CD1042615
+                  - generic [ref=f4e1968]:
+                    - button "18.0 km away" [ref=f4e1969] [cursor=pointer]
+                    - generic [ref=f4e1971]: Non-cancellable
+              - list [ref=f4e1976]:
+                - button "10:35 PM ANU EGA 3D" [ref=f4e1977]:
+                  - generic [ref=f4e1978] [cursor=pointer]:
+                    - text: 10:35 PM
+                    - generic [ref=f4e1979]: ANU EGA
+                  - generic [ref=f4e1981]: 3D
+            - listitem [ref=f4e1982]:
+              - generic [ref=f4e1983]:
+                - link [ref=f4e1984] [cursor=pointer]:
+                  - /url: /movies/rakki-rgb-laser-4k-ambattur-CD1042635
+                  - img "Rakki RGB Laser 4K- Ambattur" [ref=f4e1985]
+                - generic [ref=f4e1986]:
+                  - generic [ref=f4e1988]:
+                    - button "Like" [ref=f4e1990] [cursor=pointer]
+                    - link "Rakki RGB Laser 4K- Ambattur" [ref=f4e1991] [cursor=pointer]:
+                      - /url: /movies/rakki-rgb-laser-4k-ambattur-CD1042635
+                  - generic [ref=f4e1992]:
+                    - button "18.3 km away" [ref=f4e1993] [cursor=pointer]
+                    - generic [ref=f4e1995]: Non-cancellable
+              - list [ref=f4e2000]:
+                - button "02:40 PM CINIRAKKI 3D" [ref=f4e2001]:
+                  - generic [ref=f4e2002] [cursor=pointer]:
+                    - text: 02:40 PM
+                    - generic [ref=f4e2003]: CINIRAKKI
+                  - generic [ref=f4e2005]: 3D
+                - button "06:45 PM RAKKI 4K 3D" [ref=f4e2006]:
+                  - generic [ref=f4e2007] [cursor=pointer]:
+                    - text: 06:45 PM
+                    - generic [ref=f4e2008]: RAKKI 4K
+                  - generic [ref=f4e2010]: 3D
+                - button "10:40 PM CINIRAKKI 3D" [ref=f4e2011]:
+                  - generic [ref=f4e2012] [cursor=pointer]:
+                    - text: 10:40 PM
+                    - generic [ref=f4e2013]: CINIRAKKI
+                  - generic [ref=f4e2015]: 3D
+            - listitem [ref=f4e2016]:
+              - generic [ref=f4e2017]:
+                - link [ref=f4e2018] [cursor=pointer]:
+                  - /url: /movies/murugan-cinemas-plf-4k-ambattur-chennai-CD1042465
+                  - img "Murugan Cinemas PLF 4K, Ambattur, Chennai" [ref=f4e2019]
+                - generic [ref=f4e2020]:
+                  - generic [ref=f4e2022]:
+                    - button "Like" [ref=f4e2024] [cursor=pointer]
+                    - link "Murugan Cinemas PLF 4K, Ambattur, Chennai" [ref=f4e2025] [cursor=pointer]:
+                      - /url: /movies/murugan-cinemas-plf-4k-ambattur-chennai-CD1042465
+                  - generic [ref=f4e2026]:
+                    - button "17.4 km away" [ref=f4e2027] [cursor=pointer]
+                    - generic [ref=f4e2029]: Non-cancellable
+              - list [ref=f4e2034]:
+                - button "03:00 PM THIRUMURUGAN 3D" [ref=f4e2035]:
+                  - generic [ref=f4e2036] [cursor=pointer]:
+                    - text: 03:00 PM
+                    - generic [ref=f4e2037]: THIRUMURUGAN
+                  - generic [ref=f4e2039]: 3D
+                - button "06:45 PM THIRUMURUGAN 3D" [ref=f4e2040]:
+                  - generic [ref=f4e2041] [cursor=pointer]:
+                    - text: 06:45 PM
+                    - generic [ref=f4e2042]: THIRUMURUGAN
+                  - generic [ref=f4e2044]: 3D
+                - button "10:30 PM THIRUMURUGAN 3D" [ref=f4e2045]:
+                  - generic [ref=f4e2046] [cursor=pointer]:
+                    - text: 10:30 PM
+                    - generic [ref=f4e2047]: THIRUMURUGAN
+                  - generic [ref=f4e2049]: 3D
+            - listitem [ref=f4e2050]:
+              - generic [ref=f4e2051]:
+                - link [ref=f4e2052] [cursor=pointer]:
+                  - /url: /movies/sri-ganga-cinemas-4k-rgb-laser-kolathur-chennai-CD1037511
+                  - img "Sri Ganga Cinemas 4K RGB Laser, Kolathur, Chennai" [ref=f4e2053]
+                - generic [ref=f4e2054]:
+                  - generic [ref=f4e2056]:
+                    - button "Like" [ref=f4e2058] [cursor=pointer]
+                    - link "Sri Ganga Cinemas 4K RGB Laser, Kolathur, Chennai" [ref=f4e2059] [cursor=pointer]:
+                      - /url: /movies/sri-ganga-cinemas-4k-rgb-laser-kolathur-chennai-CD1037511
+                  - generic [ref=f4e2060]:
+                    - button "20.9 km away" [ref=f4e2061] [cursor=pointer]
+                    - generic [ref=f4e2063]: Non-cancellable
+              - list [ref=f4e2068]:
+                - button "03:15 PM YAMUNA 3D" [ref=f4e2069]:
+                  - generic [ref=f4e2070] [cursor=pointer]:
+                    - text: 03:15 PM
+                    - generic [ref=f4e2071]: YAMUNA
+                  - generic [ref=f4e2073]: 3D
+            - listitem [ref=f4e2074]:
+              - generic [ref=f4e2075]:
+                - link [ref=f4e2076] [cursor=pointer]:
+                  - /url: /movies/mvr-cinemas-dolby-7-1-dolby-atmos-4k-rgb-laser-guduvanchery-CD1101384
+                  - img "MVR Cinemas Dolby 7.1 & Dolby Atmos, 4K RGB Laser, Guduvanchery" [ref=f4e2077]
+                - generic [ref=f4e2078]:
+                  - generic [ref=f4e2080]:
+                    - button "Like" [ref=f4e2082] [cursor=pointer]
+                    - link "MVR Cinemas Dolby 7.1 & Dolby Atmos, 4K RGB Laser, Guduvanchery" [ref=f4e2083] [cursor=pointer]:
+                      - /url: /movies/mvr-cinemas-dolby-7-1-dolby-atmos-4k-rgb-laser-guduvanchery-CD1101384
+                  - generic [ref=f4e2084]:
+                    - button "15.8 km away" [ref=f4e2085] [cursor=pointer]
+                    - generic [ref=f4e2087]: Non-cancellable
+              - list [ref=f4e2092]:
+                - button "06:00 PM SCREEN 2 DOLBY 7.1.1 3D" [ref=f4e2093]:
+                  - generic [ref=f4e2094] [cursor=pointer]:
+                    - text: 06:00 PM
+                    - generic [ref=f4e2095]: SCREEN 2 DOLBY 7.1.1
+                  - generic [ref=f4e2097]: 3D
+            - listitem [ref=f4e2098]:
+              - generic [ref=f4e2099]:
+                - link [ref=f4e2100] [cursor=pointer]:
+                  - /url: /movies/ags-cinemas-villivakkam-chennai-CD10184
+                  - img "AGS Cinemas, Villivakkam, Chennai" [ref=f4e2101]
+                - generic [ref=f4e2102]:
+                  - generic [ref=f4e2104]:
+                    - button "Like" [ref=f4e2106] [cursor=pointer]
+                    - link "AGS Cinemas, Villivakkam, Chennai" [ref=f4e2107] [cursor=pointer]:
+                      - /url: /movies/ags-cinemas-villivakkam-chennai-CD10184
+                  - generic [ref=f4e2108]:
+                    - button "18.4 km away" [ref=f4e2109] [cursor=pointer]
+                    - generic [ref=f4e2111]: Non-cancellable
+              - list [ref=f4e2116]:
+                - button "04:45 PM 4K DOLBY 7.1 3D" [ref=f4e2117]:
+                  - generic [ref=f4e2118] [cursor=pointer]:
+                    - text: 04:45 PM
+                    - generic [ref=f4e2119]: 4K DOLBY 7.1
+                  - generic [ref=f4e2121]: 3D
+                - button "11:45 PM 4K DOLBY 7.1 3D" [ref=f4e2122]:
+                  - generic [ref=f4e2123] [cursor=pointer]:
+                    - text: 11:45 PM
+                    - generic [ref=f4e2124]: 4K DOLBY 7.1
+                  - generic [ref=f4e2126]: 3D
+            - listitem [ref=f4e2127]:
+              - generic [ref=f4e2128]:
+                - link [ref=f4e2129] [cursor=pointer]:
+                  - /url: /movies/ags-cinemas-omr-navlur-chennai-CD10185
+                  - img "AGS Cinemas OMR, Navlur, Chennai" [ref=f4e2130]
+                - generic [ref=f4e2131]:
+                  - generic [ref=f4e2133]:
+                    - button "Like" [ref=f4e2135] [cursor=pointer]
+                    - link "AGS Cinemas OMR, Navlur, Chennai" [ref=f4e2136] [cursor=pointer]:
+                      - /url: /movies/ags-cinemas-omr-navlur-chennai-CD10185
+                  - generic [ref=f4e2137]:
+                    - button "16.3 km away" [ref=f4e2138] [cursor=pointer]
+                    - generic [ref=f4e2140]: Non-cancellable
+              - list [ref=f4e2145]:
+                - button "12:55 PM 4K DOLBY 7.1 3D" [ref=f4e2146]:
+                  - generic [ref=f4e2147] [cursor=pointer]:
+                    - text: 12:55 PM
+                    - generic [ref=f4e2148]: 4K DOLBY 7.1
+                  - generic [ref=f4e2150]: 3D
+                - button "07:55 PM 4K DOLBY 7.1 3D" [ref=f4e2151]:
+                  - generic [ref=f4e2152] [cursor=pointer]:
+                    - text: 07:55 PM
+                    - generic [ref=f4e2153]: 4K DOLBY 7.1
+                  - generic [ref=f4e2155]: 3D
+            - listitem [ref=f4e2156]:
+              - generic [ref=f4e2157]:
+                - link [ref=f4e2158] [cursor=pointer]:
+                  - /url: /movies/ags-cinemas-t-nagar-chennai-CD10183
+                  - img "AGS Cinemas, T. Nagar, Chennai" [ref=f4e2159]
+                - generic [ref=f4e2160]:
+                  - generic [ref=f4e2162]:
+                    - button "Like" [ref=f4e2164] [cursor=pointer]
+                    - link "AGS Cinemas, T. Nagar, Chennai" [ref=f4e2165] [cursor=pointer]:
+                      - /url: /movies/ags-cinemas-t-nagar-chennai-CD10183
+                  - generic [ref=f4e2166]:
+                    - button "16.1 km away" [ref=f4e2167] [cursor=pointer]
+                    - generic [ref=f4e2169]: Non-cancellable
+              - list [ref=f4e2174]:
+                - button "04:10 PM 4K DOLBY 7.1 3D" [ref=f4e2175]:
+                  - generic [ref=f4e2176] [cursor=pointer]:
+                    - text: 04:10 PM
+                    - generic [ref=f4e2177]: 4K DOLBY 7.1
+                  - generic [ref=f4e2179]: 3D
+                - button "11:30 PM 4K DOLBY 7.1 3D" [ref=f4e2180]:
+                  - generic [ref=f4e2181] [cursor=pointer]:
+                    - text: 11:30 PM
+                    - generic [ref=f4e2182]: 4K DOLBY 7.1
+                  - generic [ref=f4e2184]: 3D
+            - listitem [ref=f4e2185]:
+              - generic [ref=f4e2186]:
+                - link [ref=f4e2187] [cursor=pointer]:
+                  - /url: /movies/pvr-vr-mall-anna-nagar-chennai-CD1022304
+                  - img "PVR VR Mall, Anna Nagar, Chennai" [ref=f4e2188]
+                - generic [ref=f4e2189]:
+                  - generic [ref=f4e2191]:
+                    - button "Like" [ref=f4e2193] [cursor=pointer]
+                    - link "PVR VR Mall, Anna Nagar, Chennai" [ref=f4e2194] [cursor=pointer]:
+                      - /url: /movies/pvr-vr-mall-anna-nagar-chennai-CD1022304
+                  - generic [ref=f4e2195]:
+                    - button "15.4 km away" [ref=f4e2196] [cursor=pointer]
+                    - generic [ref=f4e2198]: Allows cancellation
+              - list [ref=f4e2203]:
+                - button "03:35 PM PXL 3D" [ref=f4e2204]:
+                  - generic [ref=f4e2205] [cursor=pointer]:
+                    - text: 03:35 PM
+                    - generic [ref=f4e2206]: PXL
+                  - generic [ref=f4e2208]: 3D
+                - button "06:30 PM 3D" [ref=f4e2209]:
+                  - generic [ref=f4e2210] [cursor=pointer]: 06:30 PM
+                  - generic [ref=f4e2211]: 3D
+                - button "10:40 PM 3D" [ref=f4e2212]:
+                  - generic [ref=f4e2213] [cursor=pointer]: 10:40 PM
+                  - generic [ref=f4e2214]: 3D
+            - listitem [ref=f4e2215]:
+              - generic [ref=f4e2216]:
+                - link [ref=f4e2217] [cursor=pointer]:
+                  - /url: /movies/pvr-ampa-skywalk-mall-aminjikarai-chennai-CD1022258
+                  - img "PVR Ampa Skywalk Mall, Aminjikarai, Chennai" [ref=f4e2218]
+                - generic [ref=f4e2219]:
+                  - generic [ref=f4e2221]:
+                    - button "Like" [ref=f4e2223] [cursor=pointer]
+                    - link "PVR Ampa Skywalk Mall, Aminjikarai, Chennai" [ref=f4e2224] [cursor=pointer]:
+                      - /url: /movies/pvr-ampa-skywalk-mall-aminjikarai-chennai-CD1022258
+                  - generic [ref=f4e2225]:
+                    - button "16.3 km away" [ref=f4e2226] [cursor=pointer]
+                    - generic [ref=f4e2228]: Allows cancellation
+              - list [ref=f4e2233]:
+                - button "01:45 PM 3D" [ref=f4e2234]:
+                  - generic [ref=f4e2235] [cursor=pointer]: 01:45 PM
+                  - generic [ref=f4e2236]: 3D
+                - button "07:10 PM 3D" [ref=f4e2237]:
+                  - generic [ref=f4e2238] [cursor=pointer]: 07:10 PM
+                  - generic [ref=f4e2239]: 3D
+                - button "09:50 PM 3D" [ref=f4e2240]:
+                  - generic [ref=f4e2241] [cursor=pointer]: 09:50 PM
+                  - generic [ref=f4e2242]: 3D
+            - listitem [ref=f4e2243]:
+              - generic [ref=f4e2244]:
+                - link [ref=f4e2245] [cursor=pointer]:
+                  - /url: /movies/pvr-heritage-rsl-ecr-chennai-CD1022292
+                  - img "PVR Heritage RSL, ECR, Chennai" [ref=f4e2246]
+                - generic [ref=f4e2247]:
+                  - generic [ref=f4e2249]:
+                    - button "Like" [ref=f4e2251] [cursor=pointer]
+                    - link "PVR Heritage RSL, ECR, Chennai" [ref=f4e2252] [cursor=pointer]:
+                      - /url: /movies/pvr-heritage-rsl-ecr-chennai-CD1022292
+                  - generic [ref=f4e2253]:
+                    - button "16.6 km away" [ref=f4e2254] [cursor=pointer]
+                    - generic [ref=f4e2256]: Allows cancellation
+              - list [ref=f4e2261]:
+                - button "01:45 PM 3D" [ref=f4e2262]:
+                  - generic [ref=f4e2263] [cursor=pointer]: 01:45 PM
+                  - generic [ref=f4e2264]: 3D
+                - button "02:25 PM 3D" [ref=f4e2265]:
+                  - generic [ref=f4e2266] [cursor=pointer]: 02:25 PM
+                  - generic [ref=f4e2267]: 3D
+                - button "05:50 PM 3D" [ref=f4e2268]:
+                  - generic [ref=f4e2269] [cursor=pointer]: 05:50 PM
+                  - generic [ref=f4e2270]: 3D
+                - button "06:30 PM 3D" [ref=f4e2271]:
+                  - generic [ref=f4e2272] [cursor=pointer]: 06:30 PM
+                  - generic [ref=f4e2273]: 3D
+                - button "09:55 PM 3D" [ref=f4e2274]:
+                  - generic [ref=f4e2275] [cursor=pointer]: 09:55 PM
+                  - generic [ref=f4e2276]: 3D
+                - button "10:35 PM 3D" [ref=f4e2277]:
+                  - generic [ref=f4e2278] [cursor=pointer]: 10:35 PM
+                  - generic [ref=f4e2279]: 3D
+            - listitem [ref=f4e2280]:
+              - generic [ref=f4e2281]:
+                - link [ref=f4e2282] [cursor=pointer]:
+                  - /url: /movies/inox-the-marina-mall-omr-egatoor-chennai-CD1020778
+                  - img "INOX The Marina Mall OMR, Egatoor, Chennai" [ref=f4e2283]
+                - generic [ref=f4e2284]:
+                  - generic [ref=f4e2286]:
+                    - button "Like" [ref=f4e2288] [cursor=pointer]
+                    - link "INOX The Marina Mall OMR, Egatoor, Chennai" [ref=f4e2289] [cursor=pointer]:
+                      - /url: /movies/inox-the-marina-mall-omr-egatoor-chennai-CD1020778
+                  - generic [ref=f4e2290]:
+                    - button "17.8 km away" [ref=f4e2291] [cursor=pointer]
+                    - generic [ref=f4e2293]: Allows cancellation
+              - list [ref=f4e2298]:
+                - button "02:45 PM BIGPIX 3D" [ref=f4e2299]:
+                  - generic [ref=f4e2300] [cursor=pointer]:
+                    - text: 02:45 PM
+                    - generic [ref=f4e2301]: BIGPIX
+                  - generic [ref=f4e2303]: 3D
+                - button "06:40 PM 3D" [ref=f4e2304]:
+                  - generic [ref=f4e2305] [cursor=pointer]: 06:40 PM
+                  - generic [ref=f4e2306]: 3D
+                - button "11:30 PM 3D" [ref=f4e2307]:
+                  - generic [ref=f4e2308] [cursor=pointer]: 11:30 PM
+                  - generic [ref=f4e2309]: 3D
+            - listitem [ref=f4e2310]:
+              - generic [ref=f4e2311]:
+                - link [ref=f4e2312] [cursor=pointer]:
+                  - /url: /movies/pvr-sathyam-royapettah-chennai-CD1022244
+                  - img "PVR Sathyam, Royapettah, Chennai" [ref=f4e2313]
+                - generic [ref=f4e2314]:
+                  - generic [ref=f4e2316]:
+                    - button "Like" [ref=f4e2318] [cursor=pointer]
+                    - link "PVR Sathyam, Royapettah, Chennai" [ref=f4e2319] [cursor=pointer]:
+                      - /url: /movies/pvr-sathyam-royapettah-chennai-CD1022244
+                  - generic [ref=f4e2320]:
+                    - button "17.8 km away" [ref=f4e2321] [cursor=pointer]
+                    - generic [ref=f4e2323]: Allows cancellation
+              - list [ref=f4e2328]:
+                - button "02:55 PM 3D" [ref=f4e2329]:
+                  - generic [ref=f4e2330] [cursor=pointer]: 02:55 PM
+                  - generic [ref=f4e2331]: 3D
+                - button "07:20 PM 3D" [ref=f4e2332]:
+                  - generic [ref=f4e2333] [cursor=pointer]: 07:20 PM
+                  - generic [ref=f4e2334]: 3D
+                - button "10:35 PM 3D" [ref=f4e2335]:
+                  - generic [ref=f4e2336] [cursor=pointer]: 10:35 PM
+                  - generic [ref=f4e2337]: 3D
+            - listitem [ref=f4e2338]:
+              - generic [ref=f4e2339]:
+                - link [ref=f4e2340] [cursor=pointer]:
+                  - /url: /movies/inox-chennai-citi-centre-mylapore-chennai-CD1020774
+                  - img "INOX Chennai Citi Centre, Mylapore, Chennai" [ref=f4e2341]
+                - generic [ref=f4e2342]:
+                  - generic [ref=f4e2344]:
+                    - button "Like" [ref=f4e2346] [cursor=pointer]
+                    - link "INOX Chennai Citi Centre, Mylapore, Chennai" [ref=f4e2347] [cursor=pointer]:
+                      - /url: /movies/inox-chennai-citi-centre-mylapore-chennai-CD1020774
+                  - generic [ref=f4e2348]:
+                    - button "18.5 km away" [ref=f4e2349] [cursor=pointer]
+                    - generic [ref=f4e2351]: Allows cancellation
+              - list [ref=f4e2356]:
+                - button "03:00 PM 3D" [ref=f4e2357]:
+                  - generic [ref=f4e2358] [cursor=pointer]: 03:00 PM
+                  - generic [ref=f4e2359]: 3D
+                - button "06:20 PM 3D" [ref=f4e2360]:
+                  - generic [ref=f4e2361] [cursor=pointer]: 06:20 PM
+                  - generic [ref=f4e2362]: 3D
+                - button "10:35 PM 3D" [ref=f4e2363]:
+                  - generic [ref=f4e2364] [cursor=pointer]: 10:35 PM
+                  - generic [ref=f4e2365]: 3D
+            - listitem [ref=f4e2366]:
+              - generic [ref=f4e2367]:
+                - link [ref=f4e2368] [cursor=pointer]:
+                  - /url: /movies/hdfc-millennia-pvr-escape-express-avenue-mall-chennai-CD1022257
+                  - img "HDFC Millennia PVR Escape-Express Avenue Mall, Chennai" [ref=f4e2369]
+                - generic [ref=f4e2370]:
+                  - generic [ref=f4e2372]:
+                    - button "Like" [ref=f4e2374] [cursor=pointer]
+                    - link "HDFC Millennia PVR Escape-Express Avenue Mall, Chennai" [ref=f4e2375] [cursor=pointer]:
+                      - /url: /movies/hdfc-millennia-pvr-escape-express-avenue-mall-chennai-CD1022257
+                  - generic [ref=f4e2376]:
+                    - button "18.5 km away" [ref=f4e2377] [cursor=pointer]
+                    - generic [ref=f4e2379]: Allows cancellation
+              - list [ref=f4e2384]:
+                - button "02:35 PM 3D" [ref=f4e2385]:
+                  - generic [ref=f4e2386] [cursor=pointer]: 02:35 PM
+                  - generic [ref=f4e2387]: 3D
+                - button "06:40 PM 3D" [ref=f4e2388]:
+                  - generic [ref=f4e2389] [cursor=pointer]: 06:40 PM
+                  - generic [ref=f4e2390]: 3D
+                - button "11:00 PM 3D" [ref=f4e2391]:
+                  - generic [ref=f4e2392] [cursor=pointer]: 11:00 PM
+                  - generic [ref=f4e2393]: 3D
+            - listitem [ref=f4e2394]:
+              - generic [ref=f4e2395]:
+                - link [ref=f4e2396] [cursor=pointer]:
+                  - /url: /movies/pvr-perambur-spectrum-mall-perambur-chennai-CD1022266
+                  - img "PVR Perambur Spectrum Mall, Perambur, Chennai" [ref=f4e2397]
+                - generic [ref=f4e2398]:
+                  - generic [ref=f4e2400]:
+                    - button "Like" [ref=f4e2402] [cursor=pointer]
+                    - link "PVR Perambur Spectrum Mall, Perambur, Chennai" [ref=f4e2403] [cursor=pointer]:
+                      - /url: /movies/pvr-perambur-spectrum-mall-perambur-chennai-CD1022266
+                  - generic [ref=f4e2404]:
+                    - button "20.7 km away" [ref=f4e2405] [cursor=pointer]
+                    - generic [ref=f4e2407]: Allows cancellation
+              - list [ref=f4e2412]:
+                - button "02:45 PM 3D" [ref=f4e2413]:
+                  - generic [ref=f4e2414] [cursor=pointer]: 02:45 PM
+                  - generic [ref=f4e2415]: 3D
+                - button "06:45 PM 3D" [ref=f4e2416]:
+                  - generic [ref=f4e2417] [cursor=pointer]: 06:45 PM
+                  - generic [ref=f4e2418]: 3D
+                - button "09:55 PM 3D" [ref=f4e2419]:
+                  - generic [ref=f4e2420] [cursor=pointer]: 09:55 PM
+                  - generic [ref=f4e2421]: 3D
+            - listitem [ref=f4e2422]:
+              - generic [ref=f4e2423]:
+                - link [ref=f4e2424] [cursor=pointer]:
+                  - /url: /movies/santhalinga-cinemas-multiplex-dolby-atmos-4k-laser-oragadam-CD1102078
+                  - img "Santhalinga Cinemas Multiplex Dolby Atmos 4K Laser, Oragadam" [ref=f4e2425]
+                - generic [ref=f4e2426]:
+                  - generic [ref=f4e2428]:
+                    - button "Like" [ref=f4e2430] [cursor=pointer]
+                    - link "Santhalinga Cinemas Multiplex Dolby Atmos 4K Laser, Oragadam" [ref=f4e2431] [cursor=pointer]:
+                      - /url: /movies/santhalinga-cinemas-multiplex-dolby-atmos-4k-laser-oragadam-CD1102078
+                  - generic [ref=f4e2432]:
+                    - button "23.1 km away" [ref=f4e2433] [cursor=pointer]
+                    - generic [ref=f4e2435]: Non-cancellable
+              - list [ref=f4e2440]:
+                - button "02:00 PM SCREEN 3 DOLBY 7.1 3D" [ref=f4e2441]:
+                  - generic [ref=f4e2442] [cursor=pointer]:
+                    - text: 02:00 PM
+                    - generic [ref=f4e2443]: SCREEN 3 DOLBY 7.1
+                  - generic [ref=f4e2445]: 3D
+                - button "06:00 PM SCREEN 3 DOLBY 7.1 3D" [ref=f4e2446]:
+                  - generic [ref=f4e2447] [cursor=pointer]:
+                    - text: 06:00 PM
+                    - generic [ref=f4e2448]: SCREEN 3 DOLBY 7.1
+                  - generic [ref=f4e2450]: 3D
+                - button "09:15 PM SCREEN 2 DOLBY 7.1" [ref=f4e2451]:
+                  - generic [ref=f4e2452] [cursor=pointer]:
+                    - text: 09:15 PM
+                    - generic [ref=f4e2453]: SCREEN 2 DOLBY 7.1
+            - listitem [ref=f4e2455]:
+              - generic [ref=f4e2456]:
+                - link [ref=f4e2457] [cursor=pointer]:
+                  - /url: /movies/mk-cinemas-multiplex-sriperumbudur-digital-laser-dolby-atmos-barco-projectors-CD1102406
+                  - img "MK Cinemas Multiplex, Sriperumbudur (Digital Laser | Dolby Atmos | Barco Projectors)" [ref=f4e2458]
+                - generic [ref=f4e2459]:
+                  - generic [ref=f4e2461]:
+                    - button "Like" [ref=f4e2463] [cursor=pointer]
+                    - link "MK Cinemas Multiplex, Sriperumbudur (Digital Laser | Dolby Atmos | Barco Projectors)" [ref=f4e2464] [cursor=pointer]:
+                      - /url: /movies/mk-cinemas-multiplex-sriperumbudur-digital-laser-dolby-atmos-barco-projectors-CD1102406
+                  - generic [ref=f4e2465]:
+                    - button "24.0 km away" [ref=f4e2466] [cursor=pointer]
+                    - generic [ref=f4e2468]: Non-cancellable
+              - list [ref=f4e2473]:
+                - button "06:45 PM" [ref=f4e2474]
+                - button "10:30 PM" [ref=f4e2476]
+            - listitem [ref=f4e2478]:
+              - generic [ref=f4e2479]:
+                - link [ref=f4e2480] [cursor=pointer]:
+                  - /url: /movies/pvr-skls-galaxy-mall-red-hills-chennai-CD1020784
+                  - img "PVR SKLS Galaxy Mall, Red Hills, Chennai" [ref=f4e2481]
+                - generic [ref=f4e2482]:
+                  - generic [ref=f4e2484]:
+                    - button "Like" [ref=f4e2486] [cursor=pointer]
+                    - link "PVR SKLS Galaxy Mall, Red Hills, Chennai" [ref=f4e2487] [cursor=pointer]:
+                      - /url: /movies/pvr-skls-galaxy-mall-red-hills-chennai-CD1020784
+                  - generic [ref=f4e2488]:
+                    - button "26.6 km away" [ref=f4e2489] [cursor=pointer]
+                    - generic [ref=f4e2491]: Allows cancellation
+              - list [ref=f4e2496]:
+                - button "02:35 PM 3D" [ref=f4e2497]:
+                  - generic [ref=f4e2498] [cursor=pointer]: 02:35 PM
+                  - generic [ref=f4e2499]: 3D
+                - button "06:40 PM 3D" [ref=f4e2500]:
+                  - generic [ref=f4e2501] [cursor=pointer]: 06:40 PM
+                  - generic [ref=f4e2502]: 3D
+                - button "10:45 PM 3D" [ref=f4e2503]:
+                  - generic [ref=f4e2504] [cursor=pointer]: 10:45 PM
+                  - generic [ref=f4e2505]: 3D
+            - listitem [ref=f4e2506]:
+              - generic [ref=f4e2507]:
+                - link [ref=f4e2508] [cursor=pointer]:
+                  - /url: /movies/srk-cinemas-4k-laser-triplebeam-3d-chengalpattu-CD1102366
+                  - img "SRK Cinemas 4K Laser Triplebeam 3D, Chengalpattu" [ref=f4e2509]
+                - generic [ref=f4e2510]:
+                  - generic [ref=f4e2512]:
+                    - button "Like" [ref=f4e2514] [cursor=pointer]
+                    - link "SRK Cinemas 4K Laser Triplebeam 3D, Chengalpattu" [ref=f4e2515] [cursor=pointer]:
+                      - /url: /movies/srk-cinemas-4k-laser-triplebeam-3d-chengalpattu-CD1102366
+                  - generic [ref=f4e2516]:
+                    - button "33.6 km away" [ref=f4e2517] [cursor=pointer]
+                    - generic [ref=f4e2519]: Non-cancellable
+              - list [ref=f4e2524]:
+                - button "02:45 PM SCREEN-2 3D" [ref=f4e2525]:
+                  - generic [ref=f4e2526] [cursor=pointer]:
+                    - text: 02:45 PM
+                    - generic [ref=f4e2527]: SCREEN-2
+                  - generic [ref=f4e2529]: 3D
+                - button "06:15 PM SCREEN-2 3D" [ref=f4e2530]:
+                  - generic [ref=f4e2531] [cursor=pointer]:
+                    - text: 06:15 PM
+                    - generic [ref=f4e2532]: SCREEN-2
+                  - generic [ref=f4e2534]: 3D
+                - button "10:00 PM SCREEN-2 3D" [ref=f4e2535]:
+                  - generic [ref=f4e2536] [cursor=pointer]:
+                    - text: 10:00 PM
+                    - generic [ref=f4e2537]: SCREEN-2
+                  - generic [ref=f4e2539]: 3D
+    - generic [ref=f4e1208]:
+      - region "Frequently Asked Questions" [ref=f4e1210]:
+        - generic [ref=f4e1216] [cursor=pointer]:
+          - generic [ref=f4e1217]:
+            - heading [level=3] [ref=f4e1218]:
+              - button "Where can I watch Ramayana in Chennai?" [expanded] [ref=f4e1219]
+            - region "Where can I watch Ramayana in Chennai?" [ref=f4e1224]:
+              - generic [ref=f4e1225]: Ramayana is screening at Kamala Cinemas 4K RGB Laser Dolby, Vadapalani, Chennai, Vettri Theatres RGB Laser, Chrompet, Chennai, Varadaraja Cinemas 4K RGB Laser Dolby Atmos, Chennai and more cinemas in Chennai.
+          - generic [ref=f4e1228]:
+            - heading [level=3] [ref=f4e1229]:
+              - button "When was Ramayana released?" [ref=f4e1230]
+            - generic: Ramayana was released on 5 November 2026.
+          - generic [ref=f4e1237]:
+            - heading [level=3] [ref=f4e1238]:
+              - button "What is the runtime of Ramayana?" [ref=f4e1239]
+            - generic: Ramayana has a runtime of 3h 15m.
+          - generic [ref=f4e1246]:
+            - heading [level=3] [ref=f4e1247]:
+              - button "What languages is Ramayana available in?" [ref=f4e1248]
+            - generic: Ramayana is available in Hindi, Tamil, Telugu, Kannada, Malayalam, English.
+          - generic [ref=f4e1255]:
+            - heading [level=3] [ref=f4e1256]:
+              - button "What is the censor rating of Ramayana?" [ref=f4e1257]
+            - generic: Ramayana has a censor rating of U.
+          - generic [ref=f4e1264]:
+            - heading [level=3] [ref=f4e1265]:
+              - button "Who directed Ramayana?" [ref=f4e1266]
+            - generic: Ramayana is directed by Nitesh Tiwari.
+          - generic [ref=f4e1273]:
+            - heading [level=3] [ref=f4e1274]:
+              - button "Movies Now Showing in Chennai in Chennai – Latest Releases & Showtimes" [ref=f4e1275]
+            - paragraph [ref=f4e1281]:
+              - text: Book tickets for the latest movies now showing in Chennai in Chennai theatres — Bollywood blockbusters, Hollywood releases, and regional hits. Get real-time showtimes, instant seat selection, and the best deals at PVR, INOX, Cinepolis & more on District.
+              - link [ref=f4e1282]:
+                - /url: https://www.district.in/movies/o-m-operation-mole-movie-tickets-in-chennai-MV225928
+                - text: "O.M: Operation Mole in Chennai"
+              - text: ","
+              - link [ref=f4e1283]:
+                - /url: https://www.district.in/movies/ramayana-movie-tickets-in-chennai-MV176276
+                - text: Ramayana in Chennai
+              - text: ","
+              - link [ref=f4e1284]:
+                - /url: https://www.district.in/movies/scene-movie-tickets-in-chennai-MV233181
+                - text: Scene in Chennai
+              - text: ","
+              - link [ref=f4e1285]:
+                - /url: https://www.district.in/movies/appakutty-movie-tickets-in-chennai-MV234558
+                - text: Appakutty in Chennai
+              - text: ","
+              - link [ref=f4e1286]:
+                - /url: https://www.district.in/movies/avengers-doomsday-movie-tickets-in-chennai-MV176735
+                - text: "Avengers: Doomsday in Chennai"
+              - text: ","
+              - link [ref=f4e1287]:
+                - /url: https://www.district.in/movies/sathyavan-savithiri-movie-tickets-in-chennai-MV221047
+                - text: Sathyavan Savithiri in Chennai
+              - text: ","
+              - link [ref=f4e1288]:
+                - /url: https://www.district.in/movies/aot-movie-tickets-in-chennai-MV239967
+                - text: AOT in Chennai
+              - text: ","
+              - link [ref=f4e1289]:
+                - /url: https://www.district.in/movies/john-doe-movie-tickets-in-chennai-MV237453
+                - text: John Doe in Chennai
+              - text: ","
+              - link [ref=f4e1290]:
+                - /url: https://www.district.in/movies/aakasamlo-oka-tara-movie-tickets-in-chennai-MV203295
+                - text: Aakasamlo Oka Tara in Chennai
+              - text: ","
+              - link [ref=f4e1291]:
+                - /url: https://www.district.in/movies/godzilla-minus-zero-movie-tickets-in-chennai-MV219297
+                - text: Godzilla Minus Zero in Chennai
+              - text: ","
+              - link [ref=f4e1292]:
+                - /url: https://www.district.in/movies/ene-repeat-movie-tickets-in-chennai-MV227790
+                - text: ENE Repeat in Chennai
+              - text: ","
+              - link [ref=f4e1293]:
+                - /url: https://www.district.in/movies/jailer-2-movie-tickets-in-chennai-MV187766
+                - text: Jailer 2 in Chennai
+              - text: ","
+              - link [ref=f4e1294]:
+                - /url: https://www.district.in/movies/dune-part-three-movie-tickets-in-chennai-MV207332
+                - text: "Dune: Part Three in Chennai"
+              - text: ","
+              - link [ref=f4e1295]:
+                - /url: https://www.district.in/movies/the-hunger-games-sunrise-on-the-reaping-movie-tickets-in-chennai-MV174475
+                - text: "The Hunger Games: Sunrise on the Reaping in Chennai"
+              - text: ","
+              - link [ref=f4e1296]:
+                - /url: https://www.district.in/movies/bachelor-party-d-eux-movie-tickets-in-chennai-MV233661
+                - text: Bachelor Party D'eux in Chennai
+              - text: ","
+              - link [ref=f4e1297]:
+                - /url: https://www.district.in/movies/how-to-rob-a-bank-movie-tickets-in-chennai-MV220828
+                - text: How to Rob a Bank in Chennai
+              - text: ","
+              - link [ref=f4e1298]:
+                - /url: https://www.district.in/movies/mookuthi-amman-2-movie-tickets-in-chennai-MV176127
+                - text: Mookuthi Amman 2 in Chennai
+              - text: ","
+              - link [ref=f4e1299]:
+                - /url: https://www.district.in/movies/bouma-movie-tickets-in-chennai-MV237043
+                - text: Bouma in Chennai
+              - text: ","
+              - link [ref=f4e1300]:
+                - /url: https://www.district.in/movies/nanhey-dil-movie-tickets-in-chennai-MV239209
+                - text: Nanhey Dil in Chennai
+              - text: ","
+              - link [ref=f4e1301]:
+                - /url: https://www.district.in/movies/wildwood-movie-tickets-in-chennai-MV225188
+                - text: Wildwood in Chennai
+          - generic [ref=f4e1303]:
+            - heading [level=3] [ref=f4e1304]:
+              - button "Upcoming Movie Releases in Chennai in Chennai – New Films Coming Soon to Theatres" [ref=f4e1305]
+            - paragraph [ref=f4e1311]:
+              - text: Plan ahead for the most awaited Bollywood, Hollywood, and regional releases in Chennai in Chennai. Browse upcoming movies, watch trailers, check release dates, and book your seats the moment advance booking opens on District.
+              - link [ref=f4e1312]:
+                - /url: https://www.district.in/movies/lilo-scratch-movie-tickets-in-chennai-MV231108
+                - text: Lilo & Scratch in Chennai
+              - text: ","
+              - link [ref=f4e1313]:
+                - /url: https://www.district.in/movies/minnum-oar-iravu-movie-tickets-in-chennai-MV239787
+                - text: Minnum Oar Iravu in Chennai
+              - text: ","
+              - link [ref=f4e1314]:
+                - /url: https://www.district.in/movies/mysaa-movie-tickets-in-chennai-MV201023
+                - text: Mysaa in Chennai
+              - text: ","
+              - link [ref=f4e1315]:
+                - /url: https://www.district.in/movies/focker-in-law-movie-tickets-in-chennai-MV209243
+                - text: Focker In-Law in Chennai
+              - text: ","
+              - link [ref=f4e1316]:
+                - /url: https://www.district.in/movies/cosmic-samson-movie-tickets-in-chennai-MV231860
+                - text: Cosmic Samson in Chennai
+              - text: ","
+              - link [ref=f4e1317]:
+                - /url: https://www.district.in/movies/haindava-movie-tickets-in-chennai-MV187693
+                - text: Haindava in Chennai
+              - text: ","
+              - link [ref=f4e1318]:
+                - /url: https://www.district.in/movies/king-of-salangpur-movie-tickets-in-chennai-MV232791
+                - text: King of Salangpur in Chennai
+              - text: ","
+              - link [ref=f4e1319]:
+                - /url: https://www.district.in/movies/sanjog-movie-tickets-in-chennai-MV236994
+                - text: Sanjog in Chennai
+              - text: ","
+              - link [ref=f4e1320]:
+                - /url: https://www.district.in/movies/you-can-see-everything-movie-tickets-in-chennai-MV239208
+                - text: You Can See Everything in Chennai
+              - text: ","
+              - link [ref=f4e1321]:
+                - /url: https://www.district.in/movies/gana-dhav-re-movie-tickets-in-chennai-MV239240
+                - text: Gana Dhav Re in Chennai
+              - text: ","
+              - link [ref=f4e1322]:
+                - /url: https://www.district.in/movies/prempaatta-movie-tickets-in-chennai-MV233253
+                - text: Prempaatta in Chennai
+              - text: ","
+              - link [ref=f4e1323]:
+                - /url: https://www.district.in/movies/marriage-story-movie-tickets-in-chennai-MV239419
+                - text: Marriage Story in Chennai
+              - text: ","
+              - link [ref=f4e1324]:
+                - /url: https://www.district.in/movies/lakshmi-puthra-movie-tickets-in-chennai-MV240156
+                - text: Lakshmi Puthra in Chennai
+              - text: ","
+              - link [ref=f4e1325]:
+                - /url: https://www.district.in/movies/tibro-movie-tickets-in-chennai-MV240162
+                - text: Tibro in Chennai
+              - text: ","
+              - link [ref=f4e1326]:
+                - /url: https://www.district.in/movies/pei-pidichirukku-movie-tickets-in-chennai-MV240204
+                - text: Pei Pidichirukku in Chennai
+              - text: ","
+              - link [ref=f4e1327]:
+                - /url: https://www.district.in/movies/mannavan-movie-tickets-in-chennai-MV236504
+                - text: Mannavan in Chennai
+              - text: ","
+              - link [ref=f4e1328]:
+                - /url: https://www.district.in/movies/gunmaaster-g9-movie-tickets-in-chennai-MV201788
+                - text: Gunmaaster G9 in Chennai
+              - text: ","
+              - link [ref=f4e1329]:
+                - /url: https://www.district.in/movies/laagi-chhoote-na-movie-tickets-in-chennai-MV236787
+                - text: Laagi Chhoote Na in Chennai
+              - text: ","
+              - link [ref=f4e1330]:
+                - /url: https://www.district.in/movies/rajanivaasa-movie-tickets-in-chennai-MV239037
+                - text: Rajanivaasa in Chennai
+              - text: ","
+              - link [ref=f4e1331]:
+                - /url: https://www.district.in/movies/josephine-movie-tickets-in-chennai-MV239041
+                - text: Josephine in Chennai
+          - generic [ref=f4e1333]:
+            - heading [level=3] [ref=f4e1334]:
+              - button "Movies in Chennai in Chennai by Genre – Action, Comedy, Romance, Thriller & More" [ref=f4e1335]
+            - paragraph [ref=f4e1341]:
+              - text: Discover movies in Chennai in Chennai by your favourite genre — action, comedy, romance, thriller, horror, drama, sci-fi, and family films. Browse genre-wise listings of Bollywood, Hollywood, and regional releases, and book the perfect movie night on District.
+              - link [ref=f4e1342]:
+                - /url: https://www.district.in/movies/action-movies-in-chennai
+                - text: Action
+              - text: ","
+              - link [ref=f4e1343]:
+                - /url: https://www.district.in/movies/adventure-movies-in-chennai
+                - text: Adventure
+              - text: ","
+              - link [ref=f4e1344]:
+                - /url: https://www.district.in/movies/comedy-movies-in-chennai
+                - text: Comedy
+              - text: ","
+              - link [ref=f4e1345]:
+                - /url: https://www.district.in/movies/drama-movies-in-chennai
+                - text: Drama
+              - text: ","
+              - link [ref=f4e1346]:
+                - /url: https://www.district.in/movies/horror-movies-in-chennai
+                - text: Horror
+              - text: ","
+              - link [ref=f4e1347]:
+                - /url: https://www.district.in/movies/science-fiction-movies-in-chennai
+                - text: Science Fiction
+              - text: ","
+              - link [ref=f4e1348]:
+                - /url: https://www.district.in/movies/fantasy-movies-in-chennai
+                - text: Fantasy
+              - text: ","
+              - link [ref=f4e1349]:
+                - /url: https://www.district.in/movies/romance-movies-in-chennai
+                - text: Romance
+              - text: ","
+              - link [ref=f4e1350]:
+                - /url: https://www.district.in/movies/thriller-movies-in-chennai
+                - text: Thriller
+              - text: ","
+              - link [ref=f4e1351]:
+                - /url: https://www.district.in/movies/animation-movies-in-chennai
+                - text: Animation
+          - generic [ref=f4e1353]:
+            - heading [level=3] [ref=f4e1354]:
+              - button "Movies in Chennai in Chennai by Language – Hindi, English, Marathi, Tamil & Telugu" [ref=f4e1355]
+            - paragraph [ref=f4e1361]:
+              - text: Prefer watching movies in your language? Find the latest Hindi, English, Marathi, Tamil, Telugu, Bengali, Kannada, Malayalam, and Punjabi films playing in Chennai in Chennai theatres right now. Check showtimes and book tickets instantly on District.
+              - link [ref=f4e1362]:
+                - /url: https://www.district.in/movies/tamil-movies-tickets-in-chennai
+                - text: Tamil
+              - text: ","
+              - link [ref=f4e1363]:
+                - /url: https://www.district.in/movies/telugu-movies-tickets-in-chennai
+                - text: Telugu
+              - text: ","
+              - link [ref=f4e1364]:
+                - /url: https://www.district.in/movies/hindi-movies-tickets-in-chennai
+                - text: Hindi
+              - text: ","
+              - link [ref=f4e1365]:
+                - /url: https://www.district.in/movies/english-movies-tickets-in-chennai
+                - text: English
+              - text: ","
+              - link [ref=f4e1366]:
+                - /url: https://www.district.in/movies/japanese-movies-tickets-in-chennai
+                - text: Japanese
+              - text: ","
+              - link [ref=f4e1367]:
+                - /url: https://www.district.in/movies/malayalam-movies-tickets-in-chennai
+                - text: Malayalam
+          - generic [ref=f4e1369]:
+            - heading [level=3] [ref=f4e1370]:
+              - button "Top Cinemas in Chennai in Chennai – Best Movie Theatres & Multiplexes Near You" [ref=f4e1371]
+            - paragraph [ref=f4e1377]:
+              - text: Find the best cinemas across Chennai in Chennai — from premium experiences like IMAX, ONYX, Insignia, 4DX, and Dolby Atmos to neighbourhood multiplexes and single screens. Pick your favourite theatre and book movie tickets in seconds on District.
+              - link [ref=f4e1378]:
+                - /url: https://www.district.in/movies/sk-cinema-4k-3d-a-c-dolby-7-1-alandur-chennai-CD1037227
+                - text: SK Cinema 4K 3D A/C Dolby 7.1, Alandur, Chennai
+              - text: ","
+              - link [ref=f4e1379]:
+                - /url: https://www.district.in/movies/sk-cinema-4k-3d-a-c-dolby-7-1-alandur-chennai-CD1053618
+                - text: SK Cinema 4K 3D A/C Dolby 7.1, Alandur, Chennai
+              - text: ","
+              - link [ref=f4e1380]:
+                - /url: https://www.district.in/movies/murugan-cinemas-plf-4k-ambattur-chennai-CD1042465
+                - text: Murugan Cinemas PLF 4K, Ambattur, Chennai
+              - text: ","
+              - link [ref=f4e1381]:
+                - /url: https://www.district.in/movies/rakki-rgb-laser-4k-ambattur-CD1042635
+                - text: Rakki RGB Laser 4K- Ambattur
+              - text: ","
+              - link [ref=f4e1382]:
+                - /url: https://www.district.in/movies/ega-cinemas-rgb-laser-dolby-audio-couple-sofa-kilpauk-chennai-CD1042615
+                - text: EGA Cinemas (RGB LASER | Dolby Audio | Couple Sofa), Kilpauk, Chennai
+              - text: ","
+              - link [ref=f4e1383]:
+                - /url: https://www.district.in/movies/santhalinga-cinemas-multiplex-dolby-atmos-4k-laser-oragadam-CD1102078
+                - text: Santhalinga Cinemas Multiplex Dolby Atmos 4K Laser, Oragadam
+              - text: ","
+              - link [ref=f4e1384]:
+                - /url: https://www.district.in/movies/pvr-grand-mall-velachery-chennai-CD1022271
+                - text: PVR Grand Mall, Velachery, Chennai
+              - text: ","
+              - link [ref=f4e1385]:
+                - /url: https://www.district.in/movies/miraj-cinemas-sekaran-mall-perrumbakkam-CD1030432
+                - text: "Miraj Cinemas : Sekaran Mall, Perrumbakkam"
+              - text: ","
+              - link [ref=f4e1386]:
+                - /url: https://www.district.in/movies/pvr-perambur-spectrum-mall-perambur-chennai-CD1022266
+                - text: PVR Perambur Spectrum Mall, Perambur, Chennai
+              - text: ","
+              - link [ref=f4e1387]:
+                - /url: https://www.district.in/movies/seven-screen-s-cinemas-kilambakkam-chennai-CD1102122
+                - text: Seven Screen's Cinemas, Kilambakkam, Chennai
+              - text: ","
+              - link [ref=f4e1388]:
+                - /url: https://www.district.in/movies/sree-lakshmi-cinemas-a-c-2k-dolby-atmos-thiruninravur-chennai-CD43338
+                - text: Sree Lakshmi Cinemas A/C 2K Dolby Atmos, Thiruninravur, Chennai
+              - text: ","
+              - link [ref=f4e1389]:
+                - /url: https://www.district.in/movies/pvr-grand-galada-mall-pallavaram-chennai-CD1022276
+                - text: PVR Grand Galada Mall, Pallavaram, Chennai
+              - text: ","
+              - link [ref=f4e1390]:
+                - /url: https://www.district.in/movies/pvr-ampa-skywalk-mall-aminjikarai-chennai-CD1022258
+                - text: PVR Ampa Skywalk Mall, Aminjikarai, Chennai
+              - text: ","
+              - link [ref=f4e1391]:
+                - /url: https://www.district.in/movies/pvr-palazzo-the-nexus-vijaya-mall-chennai-CD1022274
+                - text: PVR Palazzo, The Nexus Vijaya Mall, Chennai
+              - text: ","
+              - link [ref=f4e1392]:
+                - /url: https://www.district.in/movies/moviemax-pr-mall-wall-tax-road-chennai-CD1102281
+                - text: MovieMax PR Mall, Wall Tax Road, Chennai
+              - text: ","
+              - link [ref=f4e1393]:
+                - /url: https://www.district.in/movies/mk-cinemas-multiplex-sriperumbudur-digital-laser-dolby-atmos-barco-projectors-CD1102406
+                - text: MK Cinemas Multiplex, Sriperumbudur (Digital Laser | Dolby Atmos | Barco Projectors)
+              - text: ","
+              - link [ref=f4e1394]:
+                - /url: https://www.district.in/movies/casino-cinemas-pure-rgb-laser-dolby-atmos-couple-seats-mount-road-chennai-CD1036962
+                - text: Casino Cinemas (Pure RGB Laser |Dolby ATMOS |Couple Seats) Mount Road, Chennai
+              - text: ","
+              - link [ref=f4e1395]:
+                - /url: https://www.district.in/movies/jothi-theatre-a-c-4k-st-thomas-mount-CD1102588
+                - text: Jothi Theatre A/C 4K, St. Thomas Mount
+              - text: ","
+              - link [ref=f4e1396]:
+                - /url: https://www.district.in/movies/vettri-theatres-rgb-laser-chrompet-chennai-CD4891
+                - text: Vettri Theatres RGB Laser, Chrompet, Chennai
+              - text: ","
+              - link [ref=f4e1397]:
+                - /url: https://www.district.in/movies/inox-national-virugambakkam-chennai-CD1020773
+                - text: INOX National, Virugambakkam, Chennai
+      - generic [ref=f4e1398]:
+        - generic [ref=f4e1399]:
+          - link [ref=f4e1402] [cursor=pointer]:
+            - /url: /
+            - img "app-store" [ref=f4e1403]
+          - generic [ref=f4e1404]:
+            - link "Terms & Conditions" [ref=f4e1405] [cursor=pointer]:
+              - /url: /policies/terms-of-service
+            - link "Privacy Policy" [ref=f4e1407] [cursor=pointer]:
+              - /url: /policies/privacy
+            - link "Contact Us" [ref=f4e1409] [cursor=pointer]:
+              - /url: /contact
+            - link "List your events" [ref=f4e1411] [cursor=pointer]:
+              - /url: /events/list-your-event
+          - generic [ref=f4e1414]:
+            - img "Download the app" [ref=f4e1415]
+            - paragraph [ref=f4e1416]: Scan to download the app
+        - generic [ref=f4e1417]:
+          - generic [ref=f4e1418]: By accessing this page, you confirm that you have read, understood, and agreed to our Terms of Service, Cookie Policy, Privacy Policy, and Content Guidelines. All rights reserved.
+          - generic [ref=f4e1419]:
+            - link [ref=f4e1420] [cursor=pointer]:
+              - /url: https://www.facebook.com/districtupdates
+              - img "Facebook Logo" [ref=f4e1421]
+            - link [ref=f4e1422] [cursor=pointer]:
+              - /url: https://www.instagram.com/districtupdates/
+              - img "Instagram Logo" [ref=f4e1423]
+            - link [ref=f4e1424] [cursor=pointer]:
+              - /url: https://x.com/district_india
+              - img "Twitter Logo" [ref=f4e1425]
+            - link [ref=f4e1426] [cursor=pointer]:
+              - /url: https://www.youtube.com/@district.culture
+              - img "YouTube Logo" [ref=f4e1427]
+  - alert [ref=f4e1453]: Book Ramayana Tickets in Chennai - Showtimes - District
