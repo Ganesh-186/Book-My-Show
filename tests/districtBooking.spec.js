@@ -1,52 +1,9 @@
 import { expect, test } from '@playwright/test';
 import fs from 'node:fs';
 import path from 'node:path';
+import { logPaymentDom } from '../utils/logPaymentDom.js';
 
 const districtStatePath = path.resolve('playwright/.auth/district.json');
-
-async function logPaymentDom(page, label) {
-    const dom = await page.locator('#pay').evaluate((root) => {
-        const lines = [];
-
-        const visit = (element, depth) => {
-            if (lines.length >= 250) {
-                return;
-            }
-
-            const indent = '  '.repeat(depth);
-            const attributes = Array.from(element.attributes)
-                .filter((attribute) => attribute.value.length < 300)
-                .map((attribute) => `${attribute.name}="${attribute.value}"`)
-                .join(' ');
-            const text = Array.from(element.childNodes)
-                .filter((node) => node.nodeType === Node.TEXT_NODE)
-                .map((node) => node.textContent.trim())
-                .filter(Boolean)
-                .join(' ')
-                .slice(0, 180);
-
-            lines.push(
-                `${indent}<${element.tagName.toLowerCase()}${attributes ? ` ${attributes}` : ''}>${text ? ` ${text}` : ''}`,
-            );
-
-            for (const child of element.children) {
-                visit(child, depth + 1);
-            }
-
-            if (element.shadowRoot) {
-                lines.push(`${indent}  #shadow-root`);
-                for (const child of element.shadowRoot.children) {
-                    visit(child, depth + 2);
-                }
-            }
-        };
-
-        visit(root, 0);
-        return lines.join('\n');
-    });
-
-    console.log(`\n--- Payment DOM ${label} ---\n${dom}\n--- End payment DOM ---`);
-}
 
 test('Book one Ramayana ticket in Chennai through the payment page', async ({ browser }) => {
     test.setTimeout(120_000);
@@ -77,7 +34,10 @@ test('Book one Ramayana ticket in Chennai through the payment page', async ({ br
                 && url.pathname === '/gw/consumer/profile/billing/details'
                 && response.ok();
         }, { timeout: 30_000 });
-        await page.getByRole('link', { name: /Ramayana U \| Tamil and 2 more/ }).click();
+
+        await page
+            .getByRole('link', { name: /Ramayana U \| Tamil and 2 more/ })
+            .click();
         await districtProfileReady;
         await page.getByRole('button', { name: 'Book Tickets', exact: true }).click();
         await expect(page).toHaveURL(/\/movies\/.*-in-chennai-/, { timeout: 30_000 });
@@ -86,8 +46,7 @@ test('Book one Ramayana ticket in Chennai through the payment page', async ({ br
         await proceedButton.click();
 
         const showtime = page.getByRole('button', {
-            name: '10:25 PM PADMAM 4K 3D',
-            exact: true,
+            name: /10:35 PM.*ANU EGA/i,
         });
         await expect(showtime).toBeVisible({ timeout: 30_000 });
         await showtime.click();
@@ -121,8 +80,66 @@ test('Book one Ramayana ticket in Chennai through the payment page', async ({ br
         const paymentCheckout = page.locator('payment-checkout');
         await expect(paymentCheckout).toBeVisible();
         await logPaymentDom(page, 'before Pay Now');
-        await paymentCheckout.click();
-        await logPaymentDom(page, 'after first payment-checkout click');
+
+        const getPayNowPoint = () => paymentCheckout.evaluate((checkout) => {
+            const label = Array.from(checkout.shadowRoot?.querySelectorAll('span') ?? [])
+                .find((span) => span.textContent.trim() === 'Pay now');
+            if (!label) {
+                return null;
+            }
+
+            const bounds = label.getBoundingClientRect();
+            const style = window.getComputedStyle(label);
+            if (bounds.width === 0 || bounds.height === 0
+                || style.display === 'none' || style.visibility !== 'visible') {
+                return null;
+            }
+
+            return {
+                x: bounds.left + bounds.width / 2,
+                y: bounds.top + bounds.height / 2,
+            };
+        });
+        await expect.poll(getPayNowPoint, { timeout: 30_000 }).not.toBeNull();
+        const isPaymentDialogVisible = () => paymentCheckout.evaluate((checkout) => {
+            const dialog = checkout.shadowRoot?.querySelector('[role="dialog"]');
+            if (!dialog) {
+                return false;
+            }
+            const bounds = dialog.getBoundingClientRect();
+            const style = window.getComputedStyle(dialog);
+            return bounds.width > 0 && bounds.height > 0
+                && style.display !== 'none' && style.visibility === 'visible';
+        });
+        const waitForPaymentDialog = async (timeoutMs) => {
+            const deadline = Date.now() + timeoutMs;
+            while (Date.now() < deadline) {
+                if (await isPaymentDialogVisible()) {
+                    return true;
+                }
+                await page.waitForTimeout(250);
+            }
+            return isPaymentDialogVisible();
+        };
+
+        const maxPayNowAttempts = 3;
+        let paymentDialogOpened = await isPaymentDialogVisible();
+        for (let attempt = 1; attempt <= maxPayNowAttempts && !paymentDialogOpened; attempt += 1) {
+            const payNowPoint = await getPayNowPoint();
+            if (!payNowPoint) {
+                paymentDialogOpened = await waitForPaymentDialog(5_000);
+                break;
+            }
+
+            console.log(`Pay Now click attempt ${attempt}/${maxPayNowAttempts}`);
+            await page.mouse.click(payNowPoint.x, payNowPoint.y);
+            paymentDialogOpened = await waitForPaymentDialog(5_000);
+        }
+        if (!paymentDialogOpened) {
+            throw new Error(`Payment dialog did not open after ${maxPayNowAttempts} Pay Now click attempts.`);
+        }
+
+        await logPaymentDom(page, 'after Pay Now click');
         console.log('Pages:', context.pages().map((openPage) => openPage.url()));
         console.log('Frames:', page.frames().map((frame) => frame.url()));
 
