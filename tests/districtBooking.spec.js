@@ -26,7 +26,7 @@ test('Book one Ramayana ticket in Chennai through the payment page', async ({ br
         await homePage.selectRamayanaMovie();
         await movieDetailsPage.clickBookTickets();
         await movieDetailsPage.proceed();
-        await showtimePage.selectAnuEga1035PmShowtime();
+        await showtimePage.selectFirstAvailableShowtime();
         await seatLayoutPage.closeInitialOverlay();
         await seatLayoutPage.selectFirstAvailableSeat();
         await seatLayoutPage.proceedWithSeatSelection();
@@ -38,9 +38,9 @@ test('Book one Ramayana ticket in Chennai through the payment page', async ({ br
         await paymentPage.inspectOpenPagesAndFrames(context);
         await paymentPage.selectScanQrToPay();
         await paymentPage.selectUpiQrCode();
-    } 
-    
-    finally { 
-        await context.close(); 
+    }
+
+    finally {
+        await context.close();
     }
 });
