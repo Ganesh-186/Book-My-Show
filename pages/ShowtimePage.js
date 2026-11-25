@@ -37,7 +37,7 @@ export class ShowtimePage extends BasePage {
 
         await firstShowtime.click();
 
-        await expect(this.page).toHaveURL(/\\/movies\\/seat-layout\\//, {
+        await expect(this.page).toHaveURL(/\/movies\/seat-layout\//, {
             timeout: 30_000,
         });
     }
