@@ -1,9 +1,13 @@
-1 Re Usable methods and Pages Implmentations p1 - Ganesh
-2 Available seats click in Priority WIse threatree p3
-3 Dooms Day Scenerio - Random CHeck in all theatre and click Availbale Seats - p1
+1 Re Usable methods and Pages Implmentations p1 - Ganesh - Done.
 
-3 Dooms Day Scenerio - Random CHeck in all theatre and click Best Seats - p2
+2 Available seats click in Priority WIse threatree p3.
 
-4 Explicit Locators Improvization ( THeatres, MOvies, Seats) - p1
+3 Dooms Day Scenerio - Random CHeck in all theatre and click Availbale Seats - p1.
 
-5 Seats improvization Locators p1  - Santhosh.
+4 Dooms Day Scenerio - Random CHeck in all theatre and click Best Seats - p2.
+
+5 Explicit Locators Improvization ( THeatres, MOvies, Seats) - p1 _ Pending.
+
+6 Seats improvization Locators p1  - Santhosh.
+
+7 Explicit Seat Selecton Using COnfiguration Configure NUmber OF Seats - Ganesh.
