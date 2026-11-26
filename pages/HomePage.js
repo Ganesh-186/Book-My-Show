@@ -11,7 +11,7 @@ export class HomePage extends BasePage {
             const url = new URL(response.url());
             return url.hostname.endsWith('district.in') && url.pathname === '/gw/consumer/profile/billing/details' && response.ok();
         }, { timeout: 30_000 });
-        await this.page.getByRole('link', { name: /Ramayana U \| Tamil and 2 more/ }).click();
+        await this.page.getByRole('link', { name: /Ramayana.*U \| Tamil/ }).click();
         await profileReady;
     }
 
