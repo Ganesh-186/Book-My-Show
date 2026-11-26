@@ -31,11 +31,11 @@ test('Find the best available seat at a theatre within 15 km of Porur and reach 
     const orderReviewPage = new OrderReviewPage(activePage);
     const paymentPage = new PaymentPage(activePage);
 
-    // District may open a fresh tab while moving between booking steps.
+    // District can replace the current tab during booking transitions.
     context.on('page', (newPage) => {
         if (!newPage.isClosed()) {
             activePage = newPage;
-            console.log('District opened a new booking tab:', newPage.url());
+            console.log('District opened a booking tab:', newPage.url());
         }
     });
 
@@ -47,6 +47,7 @@ test('Find the best available seat at a theatre within 15 km of Porur and reach 
         }
 
         const latestPage = livePages[livePages.length - 1];
+
         if (latestPage !== activePage) {
             activePage = latestPage;
             await activePage.waitForLoadState('domcontentloaded').catch(() => {});
@@ -59,6 +60,25 @@ test('Find the best available seat at a theatre within 15 km of Porur and reach 
         paymentPage.paymentCheckout = activePage.locator('payment-checkout');
 
         return activePage;
+    };
+
+    const skipSnackPrompt = async () => {
+        await syncActivePage();
+        const pageBeforeSkip = activePage;
+
+        try {
+            await orderReviewPage.skipSnackSelectionIfVisible();
+        } catch (error) {
+            await syncActivePage();
+
+            if (activePage === pageBeforeSkip) {
+                throw error;
+            }
+
+            console.log('Snack skip caused a booking-page transition.');
+        }
+
+        await syncActivePage();
     };
 
     try {
@@ -77,14 +97,13 @@ test('Find the best available seat at a theatre within 15 km of Porur and reach 
         );
 
         await seatLayoutPage.closeInitialOverlay();
+
         const selectedSeat = await seatLayoutPage.selectBestAvailableSeat();
         console.log(`Selected best-position seat: ${selectedSeat}`);
 
         await syncActivePage();
 
-        // Clicking Proceed can lead to a snack/add-on step. If District opens
-        // that step in a new tab, continue with the latest live page instead
-        // of trying to use the page that District has closed.
+        // Proceed from the seat map. District may show its snack prompt here.
         try {
             await seatLayoutPage.proceedWithSeatSelection();
         } catch (error) {
@@ -94,14 +113,11 @@ test('Find the best available seat at a theatre within 15 km of Porur and reach 
                 throw error;
             }
 
-            console.log('Seat Proceed caused a booking-page transition:', activePage.url());
+            console.log('Proceed moved the booking to:', activePage.url());
         }
 
-        await syncActivePage();
-
-        // Handle a snack prompt if it appears before seat confirmation.
-        await orderReviewPage.skipSnackSelectionIfVisible();
-        await syncActivePage();
+        // Skip snacks if the prompt is shown between seat selection and confirmation.
+        await skipSnackPrompt();
 
         const confirmButton = activePage.getByRole('button', {
             name: 'Confirm and proceed',
@@ -109,20 +125,43 @@ test('Find the best available seat at a theatre within 15 km of Porur and reach 
         });
 
         if (await confirmButton.isVisible().catch(() => false)) {
-            await seatLayoutPage.confirmSeatsAndProceed();
+            const pageBeforeConfirmation = activePage;
+
+            try {
+                await seatLayoutPage.confirmSeatsAndProceed();
+            } catch (error) {
+                await syncActivePage();
+
+                if (activePage === pageBeforeConfirmation) {
+                    throw error;
+                }
+
+                console.log('Seat confirmation moved the booking to:', activePage.url());
+            }
         }
 
         await syncActivePage();
 
-        // Skip the optional snack/add-on prompt after seat confirmation,
-        // then continue to the order-review/payment page.
-        await orderReviewPage.skipAdditionalOptions();
-        await syncActivePage();
+        // Keep the original post-confirmation Skip action for any remaining add-ons.
+        const additionalOptionsSkip = activePage.getByRole('button', {
+            name: 'Skip',
+            exact: true,
+        });
+
+        if (await additionalOptionsSkip.isVisible().catch(() => false)) {
+            await orderReviewPage.skipAdditionalOptions();
+            await syncActivePage();
+        } else {
+            await expect(activePage).toHaveURL(
+                /\/movies\/(order-review|payment|checkout)\//,
+                { timeout: 30_000 },
+            );
+        }
 
         await paymentPage.expectCheckoutVisible();
         await paymentPage.logDom('Porur flow - before Pay Now');
 
-        // Same QR-payment steps as the existing working booking flow.
+        // Continue exactly as the existing working QR payment flow.
         await paymentPage.clickPayNow();
         await paymentPage.inspectOpenPagesAndFrames(context);
         await paymentPage.selectScanQrToPay();
