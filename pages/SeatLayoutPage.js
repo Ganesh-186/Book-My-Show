@@ -37,7 +37,7 @@ export class SeatLayoutPage extends BasePage {
                     || '';
 
                 return {
-                    index,
+                    locatorIndex: index,
                     label: label.trim(),
                     x: rect.left + rect.width / 2,
                     y: rect.top + rect.height / 2,
@@ -90,7 +90,7 @@ export class SeatLayoutPage extends BasePage {
         rankedSeats.sort((a, b) => a.score - b.score);
 
         const bestSeat = rankedSeats[0];
-        const seatLocator = availableSeats.nth(bestSeat.index);
+        const seatLocator = availableSeats.nth(bestSeat.locatorIndex);
 
         console.log(`Best-position available seat: ${bestSeat.label || 'seat at calculated centre position'}`);
 
