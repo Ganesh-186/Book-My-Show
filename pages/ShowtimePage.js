@@ -44,6 +44,13 @@ export class ShowtimePage extends BasePage {
 
     async selectNearestAvailableShowtimeWithinRadius(maxDistanceKm = 15) {
         const showtimePattern = /^\s*\d{1,2}:\d{2}\s*(?:AM|PM)\b/i;
+
+        // Wait for the theatre/showtime listing before reading its cards.
+        await expect(
+            this.page.getByRole('button', { name: showtimePattern }).first(),
+            'District has not displayed any showtimes.',
+        ).toBeVisible({ timeout: 30_000 });
+
         const theatreCards = this.page.getByRole('listitem');
         const theatreCount = await theatreCards.count();
         const eligibleTheatres = [];
@@ -74,8 +81,9 @@ export class ShowtimePage extends BasePage {
             }
 
             let firstEnabledShowtime = null;
+            const showtimeCount = await showtimeButtons.count();
 
-            for (let showIndex = 0; showIndex < await showtimeButtons.count(); showIndex += 1) {
+            for (let showIndex = 0; showIndex < showtimeCount; showIndex += 1) {
                 const candidate = showtimeButtons.nth(showIndex);
 
                 if (await candidate.isVisible() && await candidate.isEnabled()) {
@@ -93,7 +101,6 @@ export class ShowtimePage extends BasePage {
                 || 'Theatre name unavailable';
 
             eligibleTheatres.push({
-                cardIndex: index,
                 distanceKm,
                 theatreName,
                 showtime: firstEnabledShowtime,
