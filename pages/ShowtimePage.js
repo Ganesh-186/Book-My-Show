@@ -1,130 +1,162 @@
 import { expect } from '@playwright/test';
 import { BasePage } from './BasePage.js';
 
+const SHOWTIME_PATTERN = /^\s*\d{1,2}:\d{2}\s*(?:AM|PM)\b/i;
+
+function parseTimeToMinutes(value) {
+    const match = value.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+    if (!match) return null;
+
+    let hour = Number(match[1]);
+    const minute = Number(match[2]);
+    const meridiem = match[3].toUpperCase();
+
+    if (hour < 1 || hour > 12 || minute < 0 || minute > 59) return null;
+    if (meridiem === 'AM') hour = hour === 12 ? 0 : hour;
+    else hour = hour === 12 ? 12 : hour + 12;
+
+    return hour * 60 + minute;
+}
+
+function parseDistanceKm(text) {
+    const kmMatch = text.match(/\b(\d+(?:\.\d+)?)\s*km\s+away\b/i);
+    if (kmMatch) return Number(kmMatch[1]);
+
+    const metreMatch = text.match(/\b(\d+(?:\.\d+)?)\s*m\s+away\b/i);
+    if (metreMatch) return Number(metreMatch[1]) / 1000;
+
+    return null;
+}
+
+function getTimeWindowMinutes(timeWindow) {
+    if (!timeWindow) return null;
+
+    const start = parseTimeToMinutes(timeWindow.start || '');
+    const end = parseTimeToMinutes(timeWindow.end || '');
+
+    if (start === null || end === null || end < start) {
+        throw new Error('Invalid showtimeWindow. Use values such as 06:00 AM and 09:00 AM.');
+    }
+
+    return { start, end };
+}
+
 export class ShowtimePage extends BasePage {
+    // Keep the earlier working selection behaviour: inspect global role-based
+    // showtime buttons in DOM order and click the first visible, enabled one.
+    // District renders theatre cards in order, so this selects the first coming
+    // theatre with an available showtime without a brittle nested CSS filter.
     async selectFirstAvailableShowtime() {
-        // District renders each theatre as a list item with its showtime buttons inside it.
-        // Match only visible, enabled buttons whose labels begin with a time such as "07:50 PM".
-        const showtimePattern = /^\s*\d{1,2}:\d{2}\s*(?:AM|PM)\b/i;
-
-        const theatresWithAvailableShows = this.page
-            .getByRole('listitem')
-            .filter({
-                has: this.page
-                    .locator('button:visible:enabled')
-                    .filter({ hasText: showtimePattern }),
-            });
-
-        const firstTheatre = theatresWithAvailableShows.first();
+        const showtimes = this.page.getByRole('button', {
+            name: SHOWTIME_PATTERN,
+        });
 
         await expect(
-            firstTheatre,
-            'No theatre with an available showtime was found.',
+            showtimes.first(),
+            'District has not displayed any showtime buttons.',
         ).toBeVisible({ timeout: 30_000 });
 
-        const firstShowtime = firstTheatre
-            .locator('button:visible:enabled')
-            .filter({ hasText: showtimePattern })
-            .first();
+        const count = await showtimes.count();
+        let firstAvailable = null;
 
-        await expect(
-            firstShowtime,
-            'The first available theatre did not expose a selectable showtime.',
-        ).toBeVisible({ timeout: 30_000 });
+        for (let index = 0; index < count; index += 1) {
+            const candidate = showtimes.nth(index);
+            if (await candidate.isVisible() && await candidate.isEnabled()) {
+                firstAvailable = candidate;
+                break;
+            }
+        }
 
-        const selectedShowtime = (await firstShowtime.innerText()).trim();
-        console.log(`Selecting the first available theatre showtime: ${selectedShowtime}`);
+        if (!firstAvailable) {
+            throw new Error('No visible, enabled showtime is available.');
+        }
 
-        await firstShowtime.click();
+        const selectedShowtime = (await firstAvailable.innerText()).trim();
+        console.log('Selecting the first available theatre showtime: ' + selectedShowtime);
 
+        await this.clickReady(firstAvailable, 'first available showtime');
         await expect(this.page).toHaveURL(/\/movies\/seat-layout\//, {
             timeout: 30_000,
         });
     }
 
-    async selectNearestAvailableShowtimeWithinRadius(maxDistanceKm = 15) {
-        const showtimePattern = /^\s*\d{1,2}:\d{2}\s*(?:AM|PM)\b/i;
+    // Data-driven selection: among theatres with a visible, enabled showtime
+    // in the configured time range, select the nearest theatre within radius.
+    async selectNearestAvailableShowtimeWithinRadius(maxDistanceKm = 15, timeWindow = null) {
+        if (!Number.isFinite(maxDistanceKm) || maxDistanceKm <= 0) {
+            throw new Error('maxDistanceKm must be a positive number.');
+        }
 
-        // Wait for the theatre/showtime listing before reading its cards.
+        const allowedTime = getTimeWindowMinutes(timeWindow);
+        const theatreCards = this.page.getByRole('listitem');
+
         await expect(
-            this.page.getByRole('button', { name: showtimePattern }).first(),
+            this.page.getByRole('button', { name: SHOWTIME_PATTERN }).first(),
             'District has not displayed any showtimes.',
         ).toBeVisible({ timeout: 30_000 });
 
-        const theatreCards = this.page.getByRole('listitem');
         const theatreCount = await theatreCards.count();
         const eligibleTheatres = [];
 
         for (let index = 0; index < theatreCount; index += 1) {
             const card = theatreCards.nth(index);
-            const showtimeButtons = card.getByRole('button', {
-                name: showtimePattern,
+            const distanceKm = parseDistanceKm(await card.innerText());
+
+            if (distanceKm === null || distanceKm > maxDistanceKm) continue;
+
+            const cardShowtimes = card.getByRole('button', {
+                name: SHOWTIME_PATTERN,
             });
-
-            if (await showtimeButtons.count() === 0) {
-                continue;
-            }
-
-            const cardText = await card.innerText();
-            const kmMatch = cardText.match(/\b(\d+(?:\.\d+)?)\s*km\s+away\b/i);
-            const metreMatch = cardText.match(/\b(\d+)\s*m\s+away\b/i);
-
-            // Only use theatres for which District displays a measurable distance.
-            const distanceKm = kmMatch
-                ? Number(kmMatch[1])
-                : metreMatch
-                    ? Number(metreMatch[1]) / 1000
-                    : null;
-
-            if (distanceKm === null || distanceKm > maxDistanceKm) {
-                continue;
-            }
-
-            let firstEnabledShowtime = null;
-            const showtimeCount = await showtimeButtons.count();
+            const showtimeCount = await cardShowtimes.count();
+            const availableInWindow = [];
 
             for (let showIndex = 0; showIndex < showtimeCount; showIndex += 1) {
-                const candidate = showtimeButtons.nth(showIndex);
+                const candidate = cardShowtimes.nth(showIndex);
+                if (!(await candidate.isVisible()) || !(await candidate.isEnabled())) continue;
 
-                if (await candidate.isVisible() && await candidate.isEnabled()) {
-                    firstEnabledShowtime = candidate;
-                    break;
+                const label = (await candidate.innerText()).trim();
+                const minutes = parseTimeToMinutes(label);
+                if (minutes === null) continue;
+
+                if (allowedTime && (minutes < allowedTime.start || minutes > allowedTime.end)) {
+                    continue;
                 }
+
+                availableInWindow.push({ locator: candidate, label, minutes });
             }
 
-            if (!firstEnabledShowtime) {
-                continue;
-            }
+            if (availableInWindow.length === 0) continue;
+            availableInWindow.sort((a, b) => a.minutes - b.minutes);
 
-            const links = await card.getByRole('link').allInnerTexts();
-            const theatreName = links.map((name) => name.trim()).find(Boolean)
+            const linkNames = await card.getByRole('link').allInnerTexts();
+            const theatreName = linkNames.map((name) => name.trim()).find(Boolean)
                 || 'Theatre name unavailable';
 
             eligibleTheatres.push({
                 distanceKm,
                 theatreName,
-                showtime: firstEnabledShowtime,
+                showtime: availableInWindow[0],
             });
         }
 
         eligibleTheatres.sort((a, b) => a.distanceKm - b.distanceKm);
 
         if (eligibleTheatres.length === 0) {
+            const windowText = timeWindow
+                ? ' between ' + timeWindow.start + ' and ' + timeWindow.end
+                : '';
             throw new Error(
-                `District did not show any theatre with an enabled showtime within ${maxDistanceKm} km of the selected location. Check that Porur is selected and showtimes are loaded.`,
+                'No theatre with an enabled showtime' + windowText
+                + ' was found within ' + maxDistanceKm
+                + ' km. Check selected location, movie date and District availability.',
             );
         }
 
         const nearest = eligibleTheatres[0];
-        const selectedShowtime = (await nearest.showtime.innerText()).trim();
+        console.log('Nearest eligible theatre: ' + nearest.theatreName + ' (' + nearest.distanceKm + ' km)');
+        console.log('Selecting showtime: ' + nearest.showtime.label);
 
-        console.log(
-            `Nearest eligible theatre: ${nearest.theatreName} (${nearest.distanceKm} km)`,
-        );
-        console.log(`Selecting showtime: ${selectedShowtime}`);
-
-        await nearest.showtime.click();
-
+        await this.clickReady(nearest.showtime.locator, 'nearest eligible theatre showtime');
         await expect(this.page).toHaveURL(/\/movies\/seat-layout\//, {
             timeout: 30_000,
         });
@@ -132,7 +164,7 @@ export class ShowtimePage extends BasePage {
         return {
             theatreName: nearest.theatreName,
             distanceKm: nearest.distanceKm,
-            showtime: selectedShowtime,
+            showtime: nearest.showtime.label,
         };
     }
 }
