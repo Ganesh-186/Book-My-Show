@@ -28,9 +28,9 @@ export class OrderReviewPage extends BasePage {
         );
     }
 
-    // Data-driven flow: skip at most one currently displayed optional prompt
-    // per call. The caller invokes this again after the next state is confirmed,
-    // avoiding repeated clicks on a slow or stale Skip control.
+    // Click at most one currently displayed optional prompt per call. Capture
+    // the actual button node before clicking: a newly rendered second Skip
+    // button cannot be mistaken for the old one remaining visible.
     async skipOptionalPromptIfVisible({ timeoutMs = 4_000 } = {}) {
         const skipButton = this.page.getByRole('button', {
             name: /^Skip$/i,
@@ -41,29 +41,35 @@ export class OrderReviewPage extends BasePage {
             timeout: timeoutMs,
         }).then(() => true).catch(() => false);
 
-        if (!appeared) {
-            return false;
-        }
+        if (!appeared) return false;
 
         await expect(skipButton).toBeEnabled({ timeout: 5_000 });
         const previousUrl = this.page.url();
+        const clickedButton = await skipButton.elementHandle();
 
         await this.clickReady(skipButton, 'visible optional prompt Skip button');
 
-        // Confirm that this click advanced or dismissed the prompt before
-        // allowing another Skip click.
-        const advanced = await Promise.race([
-            skipButton.waitFor({ state: 'hidden', timeout: 15_000 })
-                .then(() => true).catch(() => false),
-            this.page.waitForURL((url) => url.toString() !== previousUrl, {
-                timeout: 15_000,
-            }).then(() => true).catch(() => false),
-        ]);
+        const oldButtonHidden = clickedButton
+            ? expect.poll(
+                () => clickedButton.isVisible().catch(() => false),
+                {
+                    timeout: 15_000,
+                    message: 'District did not dismiss the Skip button after the click.',
+                },
+            ).toBe(false).then(() => true).catch(() => false)
+            : Promise.resolve(false);
+
+        const urlChanged = this.page.waitForURL(
+            (url) => url.toString() !== previousUrl,
+            { timeout: 15_000 },
+        ).then(() => true).catch(() => false);
+
+        const advanced = await Promise.race([oldButtonHidden, urlChanged]);
 
         if (!advanced && !this.page.isClosed()) {
             throw new Error(
                 'District did not dismiss the optional prompt after clicking Skip. '
-                + 'Check the current prompt before retrying to avoid a duplicate click.',
+                + 'The test stopped instead of clicking again and risking a duplicate action.',
             );
         }
 
