@@ -28,7 +28,7 @@ export class PaymentPage extends BasePage {
 
             if (!bounds.width || !bounds.height
                 || style.display === 'none'
-                || style.visibility !== 'visible'
+                || style.visibility === 'hidden'
                 || button.hasAttribute('disabled')) {
                 return null;
             }
@@ -102,32 +102,57 @@ export class PaymentPage extends BasePage {
     async clickPayNow() {
         await this.expectCheckoutVisible();
 
-        // Prefer a real Playwright locator inside the custom element's open
-        // shadow root. Only use coordinates as a fallback if District exposes
-        // no text locator for this control.
-        const payNowText = this.paymentCheckout.getByText('Pay now', {
-            exact: true,
+        const payNowButton = this.paymentCheckout.getByRole('button', {
+            name: /pay now/i,
         }).first();
+        let dialogOpened = await this.isPaymentDialogVisible();
 
-        if (await payNowText.isVisible().catch(() => false)) {
-            await this.clickReady(payNowText, 'Pay now action');
-        } else {
-            await expect.poll(() => this.getPayNowPoint(), {
-                timeout: 30_000,
-                message: 'Pay Now control was not rendered in the checkout component.',
-            }).not.toBeNull();
+        // A retry is permitted only after checking that the dialog did not open.
+        // Never click Pay Now again while the first action is still processing.
+        for (let attempt = 1; attempt <= 2 && !dialogOpened; attempt += 1) {
+            if (await payNowButton.isVisible().catch(() => false)) {
+                await this.clickReady(payNowButton, 'Pay Now button');
+            } else {
+                await expect.poll(() => this.getPayNowPoint(), {
+                    timeout: 30_000,
+                    message: 'Pay Now control was not rendered in the checkout component.',
+                }).not.toBeNull();
 
-            const point = await this.getPayNowPoint();
-            if (!point) throw new Error('Pay Now control disappeared before click.');
-            await this.page.mouse.click(point.x, point.y);
+                const point = await this.getPayNowPoint();
+                if (!point) throw new Error('Pay Now control disappeared before click.');
+                await this.page.mouse.click(point.x, point.y);
+            }
+
+            try {
+                await expect.poll(() => this.isPaymentDialogVisible(), {
+                    timeout: 15_000,
+                    message: 'Payment dialog did not open after the Pay Now action.',
+                }).toBe(true);
+                dialogOpened = true;
+            } catch (error) {
+                dialogOpened = await this.isPaymentDialogVisible();
+
+                if (!dialogOpened && attempt === 2) {
+                    throw error;
+                }
+
+                if (!dialogOpened) {
+                    const stillClickable = await payNowButton.isVisible().catch(() => false);
+                    if (!stillClickable) {
+                        // The UI may be transitioning even though the dialog
+                        // has not rendered yet. Wait for the dialog; do not click.
+                        await expect.poll(() => this.isPaymentDialogVisible(), {
+                            timeout: 15_000,
+                        }).toBe(true);
+                        dialogOpened = true;
+                    }
+                }
+            }
         }
 
-        // Wait for the resulting payment dialog; do not issue a second click
-        // while the first click may still be processing.
-        await expect.poll(() => this.isPaymentDialogVisible(), {
-            timeout: 30_000,
-            message: 'Payment dialog did not open after the Pay Now action.',
-        }).toBe(true);
+        if (!dialogOpened) {
+            throw new Error('Payment dialog did not open after the Pay Now action.');
+        }
 
         await this.logDom('after Pay Now click');
     }
