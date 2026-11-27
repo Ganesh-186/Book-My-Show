@@ -27,35 +27,23 @@ export class HomePage extends BasePage {
         await profileReady;
     }
 
-    // Search visible movie links using the movie name from test data.
+    // Search by the movie name supplied in test data. Locator filtering
+    // auto-waits for dynamically rendered movie cards.
     async selectMovieByName(movieName) {
         if (!movieName || !movieName.trim()) {
             throw new Error('movieName must be provided in booking test data.');
         }
 
-        const movieLinks = this.page.getByRole('link');
-        const linkCount = await movieLinks.count();
-        const requestedName = movieName.trim().toLocaleLowerCase();
-        let matchingLink = null;
+        const movieLink = this.page.getByRole('link')
+            .filter({ hasText: movieName.trim() })
+            .first();
 
-        for (let index = 0; index < linkCount; index += 1) {
-            const candidate = movieLinks.nth(index);
-            if (!(await candidate.isVisible().catch(() => false))) continue;
+        await expect(
+            movieLink,
+            'District did not display a movie link containing "' + movieName + '".',
+        ).toBeVisible({ timeout: 30_000 });
 
-            const label = (await candidate.innerText().catch(() => '')).trim();
-            if (label.toLocaleLowerCase().includes(requestedName)) {
-                matchingLink = candidate;
-                break;
-            }
-        }
-
-        if (!matchingLink) {
-            throw new Error(
-                'District did not display a visible movie link containing "' + movieName + '".',
-            );
-        }
-
-        await this.clickReady(matchingLink, 'movie link "' + movieName + '"');
+        await this.clickReady(movieLink, 'movie link "' + movieName + '"');
         await expect(this.page).toHaveURL(/\/movies\//, { timeout: 30_000 });
         console.log('Selected movie from test data: ' + movieName);
     }
@@ -84,24 +72,14 @@ export class HomePage extends BasePage {
         });
         await searchLocation.fill(locationName);
 
-        const optionButtons = locationDialog.getByRole('button');
-        const optionCount = await optionButtons.count();
-        const requestedLocation = locationName.toLocaleLowerCase();
-        let locationOption = null;
+        const locationOption = locationDialog.getByRole('button')
+            .filter({ hasText: locationName.trim() })
+            .first();
 
-        for (let index = 0; index < optionCount; index += 1) {
-            const candidate = optionButtons.nth(index);
-            if (!(await candidate.isVisible().catch(() => false))) continue;
-            const label = (await candidate.innerText().catch(() => '')).trim();
-            if (label.toLocaleLowerCase().includes(requestedLocation)) {
-                locationOption = candidate;
-                break;
-            }
-        }
-
-        if (!locationOption) {
-            throw new Error('Location suggestion "' + locationName + '" was not found.');
-        }
+        await expect(
+            locationOption,
+            'Location suggestion "' + locationName + '" was not found.',
+        ).toBeVisible({ timeout: 15_000 });
 
         await this.clickReady(locationOption, 'location suggestion "' + locationName + '"');
         await expect(locationButton).toContainText(locationName, { timeout: 15_000 });
