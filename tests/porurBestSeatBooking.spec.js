@@ -142,16 +142,13 @@ test('Find the best available seat at a theatre within 15 km of Porur and reach 
 
         await syncActivePage();
 
-        // Keep the original post-confirmation Skip action for any remaining add-ons.
-        const additionalOptionsSkip = activePage.getByRole('button', {
-            name: 'Skip',
-            exact: true,
+        // District can render the final add-on prompt after the page transition.
+        const skippedAdditionalOptions = await orderReviewPage.skipOptionalPromptIfVisible({
+            timeoutMs: 10_000,
         });
+        await syncActivePage();
 
-        if (await additionalOptionsSkip.isVisible().catch(() => false)) {
-            await orderReviewPage.skipAdditionalOptions();
-            await syncActivePage();
-        } else {
+        if (!skippedAdditionalOptions) {
             await expect(activePage).toHaveURL(
                 /\/movies\/(order-review|payment|checkout)\//,
                 { timeout: 30_000 },
@@ -166,6 +163,7 @@ test('Find the best available seat at a theatre within 15 km of Porur and reach 
         await paymentPage.inspectOpenPagesAndFrames(context);
         await paymentPage.selectScanQrToPay();
         await paymentPage.selectUpiQrCode();
+        await activePage.waitForTimeout(10_000);
 
         console.log(
             'Porur best-seat flow reached the UPI QR payment screen. Payment was not completed.',

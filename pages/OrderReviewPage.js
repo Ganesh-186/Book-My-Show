@@ -6,9 +6,12 @@ export class OrderReviewPage extends BasePage {
     async skipSnackSelectionIfVisible() {
         const skipButton = this.page.getByRole('button', {
             name: /^Skip$/i,
-        }).last();
+        }).filter({ visible: true }).last();
 
-        const visible = await skipButton.isVisible().catch(() => false);
+        const visible = await skipButton.waitFor({
+            state: 'visible',
+            timeout: 10_000,
+        }).then(() => true).catch(() => false);
         if (!visible) {
             console.log('No optional snack-selection Skip button is visible.');
             return false;
@@ -34,7 +37,7 @@ export class OrderReviewPage extends BasePage {
     async skipOptionalPromptIfVisible({ timeoutMs = 4_000 } = {}) {
         const skipButton = this.page.getByRole('button', {
             name: /^Skip$/i,
-        }).last();
+        }).filter({ visible: true }).last();
 
         const appeared = await skipButton.waitFor({
             state: 'visible',

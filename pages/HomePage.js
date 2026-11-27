@@ -20,9 +20,7 @@ export class HomePage extends BasePage {
                 && response.ok();
         }, { timeout: 30_000 });
 
-        const movieLink = this.page.getByRole('link', {
-            name: /Ramayana U \| Tamil and 2 more/,
-        });
+        const movieLink = this.page.getByRole('link', { name: /Ramayana.*U \| Tamil/ });
         await this.clickReady(movieLink, 'Ramayana movie link');
         await profileReady;
     }

@@ -20,9 +20,9 @@ export const bookingScenarios = [
     {
         scenarioName: 'Porur morning show',
         locationName: textFromEnv('DISTRICT_LOCATION', 'Porur'),
-        movieName: textFromEnv('DISTRICT_MOVIE_NAME', 'Ramayana'),
+        movieName: textFromEnv('DISTRICT_MOVIE_NAME', 'OM'),
         radiusKm: numberFromEnv('DISTRICT_RADIUS_KM', 15),
-        ticketCount: numberFromEnv('DISTRICT_TICKET_COUNT', 2),
+        ticketCount: numberFromEnv('DISTRICT_TICKET_COUNT', 4),
         showtimeWindow: {
             start: textFromEnv('DISTRICT_TIME_FROM', '06:00 AM'),
             end: textFromEnv('DISTRICT_TIME_TO', '09:00 AM'),
